@@ -172,13 +172,13 @@ export const scheduleByWeek = [
   [
     {
       date: "2024-02-19",
-      type: "lesson",
-      code: "cpnt-201",
+      type: "holiday",
+      code: "Family Day - No Classes",
     },
     {
       date: "2024-02-20",
       type: "lesson",
-      code: "cpnt-262",
+      code: "cpnt-201",
     },
     {
       date: "2024-02-21",
@@ -332,8 +332,8 @@ export const scheduleByWeek = [
     },
     {
       date: "2024-03-29",
-      type: "lesson",
-      code: "cpnt-200",
+      type: "holiday",
+      code: "Good Friday - No Classes",
     },
   ],
   // Week 13
