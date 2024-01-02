@@ -2,35 +2,36 @@ export const scheduleByWeek = [
   // Week 1
   [
     {
-      date: "2024-01-04",
-      type: "holiday",
-      label: "Labour Day",
-    },
-    {
-      date: "2024-01-05",
-      type: "lesson",
-      code: "dsgn-270",
-    },
-    {
-      date: "2024-01-06",
-      type: "lesson",
-      code: "dsgn-270",
-    },
-    {
-      date: "2024-01-07",
-      type: "lesson",
-      code: "cpnt-201",
-    },
-    {
       date: "2024-01-08",
       type: "lesson",
+      label: "dsgn-270",
+    },
+    {
+      date: "2024-01-09",
+      type: "lesson",
+      code: "dsgn-270",
+    },
+    {
+      date: "2024-01-10",
+      type: "lesson",
       code: "cpnt-201",
+    },
+    {
+      date: "2024-01-11",
+      type: "lesson",
+      code: "cpnt-201",
+    },
+    // TODO: Do we want to tweak the schedule so we start monday with a 260?
+    {
+      date: "2024-01-12",
+      type: "lesson",
+      code: "cpnt-260",
     },
   ],
   // Week 2
   [
     {
-      date: "2024-01-11",
+      date: "2024-01-15",
       type: "lesson",
       code: "cpnt-260",
     },
