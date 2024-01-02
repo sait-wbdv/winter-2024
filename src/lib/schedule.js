@@ -21,7 +21,6 @@ export const scheduleByWeek = [
       type: "lesson",
       code: "cpnt-201",
     },
-    // TODO: Do we want to tweak the schedule so we start monday with a 260?
     {
       date: "2024-01-12",
       type: "lesson",
@@ -351,7 +350,7 @@ export const scheduleByWeek = [
     {
       date: "2024-04-03",
       type: "lesson",
-      code: "cpnt-265",
+      code: "cpnt-200",
     },
     {
       date: "2024-04-04",
@@ -412,10 +411,10 @@ export const scheduleByWeek = [
     {
       date: "2024-04-18",
       type: "lesson",
-      label: "No Classes",
+      label: "cpnt-265",
     },
     {
-      date: "2024-04-15",
+      date: "2024-04-19",
       type: "holiday",
       label: "No Classes",
     },
