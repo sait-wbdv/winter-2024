@@ -19,7 +19,7 @@
     <Accordion rounded="rounded-md" spacing="space-y-3">
       <!-- TODO: figure out a less hacky way to auto-open current week -->
       <!-- 'index + 36' will need to be updated for fall/winter semesters -->
-      <AccordionItem open={weekOfYear() == index}>
+      <AccordionItem open={weekOfYear() == index + 36}>
         <svelte:fragment slot="summary">
           <h2 class="h3" id="week-{index + 1}">Week {index + 1}</h2>
         </svelte:fragment>
@@ -54,7 +54,7 @@
               </div>
               <article class="{day.code} unpublished pl-2">
                 <p>
-                  {day.code.toUpperCase().replace("-", " ")} - Day {day.day}
+                  <!-- {day.code.toUpperCase().replace("-", " ")} - Day {day.day} -->
                 </p>
                 <h3 class="text-slate-500 h4">To be Announced</h3>
               </article>
