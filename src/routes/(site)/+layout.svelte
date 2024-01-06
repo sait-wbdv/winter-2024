@@ -46,7 +46,7 @@
           <img src="/images/sait-logo.png" alt="SAIT Logo" class="w-8 md:w-12" />
           <div>
             <span class="block">Web Developer Fast Track</span>
-            <span class="hidden lg:block"> Fall 2023 </span>
+            <span class="hidden lg:block"> Winter 2024 </span>
           </div>
         </a>
       </svelte:fragment>

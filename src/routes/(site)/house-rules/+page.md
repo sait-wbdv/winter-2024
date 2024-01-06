@@ -7,7 +7,7 @@ import { siteTitle } from '$lib/config'
 
 # House Rules
 ## Daily Schedule
-1. Class begins **8am** sharp in Zoom for all courses, except:
+1. Class begins **8:30am** sharp in Zoom for all courses, except:
 		- CPNT 264: Career and Consulting Essentials
 				- Dasa will email you with details
 		- CPLN 240: Guest Speaker Day
@@ -21,13 +21,13 @@ import { siteTitle } from '$lib/config'
 ## One-on-ones with Instructors
 Contact an Instructor anytime (response time usually within a day) if you have a private **non-coding** concern or question.
 
-### Tony Grimes
-- Slack DM (preferred method of contact)
-- Email: [tony.grimes@sait.ca](mailto:tony.grimes@sait.ca)
-
 ### Ashlyn Knox
 - Slack DM (preferred method of contact)
 - Email: [ashlyn.knox@sait.ca](mailto:ashlyn.knox@sait.ca)
+
+### Temitope Elodimuor
+- Slack DM (preferred method of contact)
+- Email: [temitope.elodimuor@sait.ca](mailto:temitope.elodimuor@sait.ca)
 
 ---
 
@@ -38,5 +38,5 @@ For **coding help**, it's encouraged you (in this order):
 		- ask a question in Zoom!
 		- Come to the Instructor's breakout room during Lab Time.
 3. Outside of class time: 
-		- Post a question in the `#winter-2023` or `general` channel on Slack;
+		- Post a question in the `#winter-2024` or `general` channel on Slack;
 4. Last resort: you can DM your instructor for coding help outside of class time but don't expect a response until next class.
