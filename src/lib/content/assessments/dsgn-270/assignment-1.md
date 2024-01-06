@@ -1,12 +1,10 @@
 ---
 title: Assignment 1 - Design Moodboard
 excerpt: Create a moodboard to brainstorm and gather design ideas for a website/app. This moodboard will demonstrate brand identity and user interface inspiration featuring colors, typography, and examples from inspirational websites.
-points: 15
+points: 20
 type: assignment
-status: published
+status: announced
 ---
-
-<h2 id="due-date">Due September 11 2023 @ 11:59PM</h2>
 
 <h2>Scenario</h2>
 
