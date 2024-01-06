@@ -2,55 +2,55 @@ export const scheduleByWeek = [
   // Week 1
   [
     {
-      date: "2023-09-04",
-      type: "holiday",
-      label: "Labour Day",
-    },
-    {
-      date: "2023-09-05",
+      date: "2024-01-08",
       type: "lesson",
       code: "dsgn-270",
     },
     {
-      date: "2023-09-06",
+      date: "2024-01-09",
       type: "lesson",
       code: "dsgn-270",
     },
     {
-      date: "2023-09-07",
+      date: "2024-01-10",
       type: "lesson",
       code: "cpnt-201",
     },
     {
-      date: "2023-09-08",
+      date: "2024-01-11",
       type: "lesson",
       code: "cpnt-201",
+    },
+    {
+      date: "2024-01-12",
+      type: "lesson",
+      code: "dsgn-270",
     },
   ],
   // Week 2
   [
     {
-      date: "2023-09-11",
+      date: "2024-01-15",
       type: "lesson",
       code: "cpnt-260",
     },
     {
-      date: "2023-09-12",
+      date: "2024-01-16",
       type: "lesson",
       code: "cpnt-260",
     },
     {
-      date: "2023-09-13",
+      date: "2024-01-17",
       type: "lesson",
       code: "cpnt-260",
     },
     {
-      date: "2023-09-14",
+      date: "2024-01-18",
       type: "lesson",
       code: "cpnt-264",
     },
     {
-      date: "2023-09-15",
+      date: "2024-01-19",
       type: "lesson",
       code: "cpnt-260",
     },
@@ -58,27 +58,27 @@ export const scheduleByWeek = [
   // Week 3
   [
     {
-      date: "2023-09-18",
+      date: "2024-01-22",
       type: "lesson",
       code: "cpnt-260",
     },
     {
-      date: "2023-09-19",
+      date: "2024-01-23",
       type: "lesson",
       code: "dsgn-270",
     },
     {
-      date: "2023-09-20",
+      date: "2024-01-24",
       type: "lesson",
       code: "dsgn-270",
     },
     {
-      date: "2023-09-21",
+      date: "2024-01-25",
       type: "lesson",
       code: "cpnt-201",
     },
     {
-      date: "2023-09-22",
+      date: "2024-01-26",
       type: "lesson",
       code: "cpnt-201",
     },
@@ -86,55 +86,55 @@ export const scheduleByWeek = [
   // Week 4
   [
     {
-      date: "2023-09-25",
+      date: "2024-01-29",
       type: "lesson",
       code: "cpnt-260",
     },
     {
-      date: "2023-09-26",
+      date: "2024-01-30",
       type: "lesson",
       code: "cpnt-260",
     },
     {
-      date: "2023-09-27",
+      date: "2024-01-31",
       type: "lesson",
       code: "cpnt-260",
     },
     {
-      date: "2023-09-28",
+      date: "2024-02-01",
       type: "lesson",
       code: "cpnt-260",
     },
     {
-      date: "2023-09-29",
-      type: "holiday",
-      label: "Truth and Reconciliation Day",
+      date: "2024-02-02",
+      type: "lesson",
+      code: "cpnt-260",
     },
   ],
   // Week 5
   [
     {
-      date: "2023-10-02",
-      type: "lesson",
-      code: "cpnt-260",
-    },
-    {
-      date: "2023-10-03",
+      date: "2024-02-05",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-10-04",
+      date: "2024-02-06",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-10-05",
+      date: "2024-02-07",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-10-06",
+      date: "2024-02-08",
+      type: "lesson",
+      code: "cpnt-262",
+    },
+    {
+      date: "2024-02-09",
       type: "lesson",
       code: "cpnt-262",
     },
@@ -142,27 +142,27 @@ export const scheduleByWeek = [
   // Week 6
   [
     {
-      date: "2023-10-09",
-      type: "holiday",
-      label: "Thanksgiving",
+      date: "2024-02-12",
+      type: "lesson",
+      label: "cpnt-262",
     },
     {
-      date: "2023-10-10",
+      date: "2024-02-13",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-10-11",
+      date: "2024-02-14",
       type: "lesson",
       code: "dsgn-270",
     },
     {
-      date: "2023-10-12",
+      date: "2024-02-15",
       type: "lesson",
       code: "dsgn-270",
     },
     {
-      date: "2023-10-13",
+      date: "2024-02-16",
       type: "lesson",
       code: "cpnt-201",
     },
@@ -170,27 +170,27 @@ export const scheduleByWeek = [
   // Week 7
   [
     {
-      date: "2023-10-16",
+      date: "2024-02-19",
+      type: "holiday",
+      label: "Family Day - No Classes",
+    },
+    {
+      date: "2024-02-20",
       type: "lesson",
       code: "cpnt-201",
     },
     {
-      date: "2023-10-17",
+      date: "2024-02-21",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-10-18",
+      date: "2024-02-22",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-10-19",
-      type: "lesson",
-      code: "cpnt-262",
-    },
-    {
-      date: "2023-10-20",
+      date: "2024-02-23",
       type: "lesson",
       code: "cpnt-264",
     },
@@ -198,27 +198,27 @@ export const scheduleByWeek = [
   // Week 8
   [
     {
-      date: "2023-10-23",
+      date: "2024-02-26",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-10-24",
+      date: "2024-02-27",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-10-25",
+      date: "2024-02-28",
       type: "lesson",
       code: "dsgn-270",
     },
     {
-      date: "2023-10-26",
+      date: "2024-02-29",
       type: "lesson",
       code: "dsgn-270",
     },
     {
-      date: "2023-10-27",
+      date: "2024-03-01",
       type: "lesson",
       code: "cpnt-201",
     },
@@ -226,27 +226,27 @@ export const scheduleByWeek = [
   // Week 9
   [
     {
-      date: "2023-10-30",
+      date: "2024-03-04",
       type: "lesson",
       code: "cpnt-201",
     },
     {
-      date: "2023-10-31",
+      date: "2024-03-05",
       type: "lesson",
       code: "cpnt-264",
     },
     {
-      date: "2023-11-01",
+      date: "2024-03-06",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-11-02",
+      date: "2024-03-07",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-11-03",
+      date: "2024-03-08",
       type: "lesson",
       code: "cpnt-262",
     },
@@ -254,28 +254,27 @@ export const scheduleByWeek = [
   // Week 10
   [
     {
-      date: "2023-11-06",
+      date: "2024-03-11",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-11-07",
-      type: "lesson",
-      code: "cpnt-262",
-    },
-
-    {
-      date: "2023-11-08",
+      date: "2024-03-12",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-11-09",
+      date: "2024-03-13",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-11-10",
+      date: "2024-03-14",
+      type: "lesson",
+      code: "cpnt-262",
+    },
+    {
+      date: "2024-03-15",
       type: "lesson",
       code: "cpnt-262",
     },
@@ -283,27 +282,27 @@ export const scheduleByWeek = [
   // Week 11
   [
     {
-      date: "2023-11-13",
-      type: "holiday",
-      label: "Remembrance Day",
+      date: "2024-03-18",
+      type: "lesson",
+      label: "cpnt-262",
     },
     {
-      date: "2023-11-14",
+      date: "2024-03-19",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-11-15",
+      date: "2024-03-20",
       type: "lesson",
       code: "cpnt-262",
     },
     {
-      date: "2023-11-16",
+      date: "2024-03-21",
       type: "lesson",
       code: "cpnt-200",
     },
     {
-      date: "2023-11-17",
+      date: "2024-03-22",
       type: "lesson",
       code: "cpnt-200",
     },
@@ -311,55 +310,55 @@ export const scheduleByWeek = [
   // Week 12
   [
     {
-      date: "2023-11-20",
+      date: "2024-03-25",
       type: "lesson",
       code: "cpnt-200",
     },
     {
-      date: "2023-11-21",
+      date: "2024-03-26",
       type: "lesson",
       code: "cpnt-200",
     },
     {
-      date: "2023-11-22",
+      date: "2024-03-27",
       type: "lesson",
       code: "cpln-240",
     },
     {
-      date: "2023-11-23",
+      date: "2024-03-28",
       type: "lesson",
       code: "cpnt-264",
     },
     {
-      date: "2023-11-24",
-      type: "lesson",
-      code: "cpnt-200",
+      date: "2024-03-29",
+      type: "holiday",
+      label: "Good Friday - No Classes",
     },
   ],
   // Week 13
   [
     {
-      date: "2023-11-27",
+      date: "2024-04-01",
       type: "lesson",
       code: "cpnt-200",
     },
     {
-      date: "2023-11-28",
+      date: "2024-04-02",
       type: "lesson",
       code: "cpnt-200",
     },
     {
-      date: "2023-11-29",
+      date: "2024-04-03",
+      type: "lesson",
+      code: "cpnt-200",
+    },
+    {
+      date: "2024-04-04",
       type: "lesson",
       code: "cpnt-265",
     },
     {
-      date: "2023-11-30",
-      type: "lesson",
-      code: "cpnt-265",
-    },
-    {
-      date: "2023-12-01",
+      date: "2024-04-05",
       type: "lesson",
       code: "cpnt-265",
     },
@@ -367,27 +366,27 @@ export const scheduleByWeek = [
   // Week 14
   [
     {
-      date: "2023-12-04",
+      date: "2024-04-08",
       type: "lesson",
       code: "cpnt-265",
     },
     {
-      date: "2023-12-05",
+      date: "2024-04-09",
       type: "lesson",
       code: "cpnt-265",
     },
     {
-      date: "2023-12-06",
+      date: "2024-04-10",
       type: "lesson",
       code: "cpnt-265",
     },
     {
-      date: "2023-12-07",
+      date: "2024-04-11",
       type: "lesson",
       code: "cpnt-265",
     },
     {
-      date: "2023-12-08",
+      date: "2024-04-12",
       type: "lesson",
       code: "cpnt-265",
     },
@@ -395,27 +394,27 @@ export const scheduleByWeek = [
   // Week 15
   [
     {
-      date: "2023-12-11",
+      date: "2024-04-15",
       type: "lesson",
       code: "cpnt-265",
     },
     {
-      date: "2023-12-12",
+      date: "2024-04-16",
       type: "lesson",
       code: "cpnt-265",
     },
     {
-      date: "2023-12-13",
+      date: "2024-04-17",
       type: "lesson",
       code: "cpnt-265",
     },
     {
-      date: "2023-12-14",
-      type: "holiday",
-      label: "No Classes",
+      date: "2024-04-18",
+      type: "lesson",
+      code: "cpnt-265",
     },
     {
-      date: "2023-12-15",
+      date: "2024-04-19",
       type: "holiday",
       label: "No Classes",
     },

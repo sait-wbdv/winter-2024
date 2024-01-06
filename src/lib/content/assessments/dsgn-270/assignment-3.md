@@ -2,8 +2,8 @@
 title: Assignment 3 - Webpage Mockup
 excerpt: Create a high resolution mockup of a web page in Figma.
 type: assignment
-points: 25
-status: published
+points: 20
+status: announced
 ---
 
 <h2 id="scenario">Scenario</h2>
@@ -62,6 +62,5 @@ You can design for desktop or mobile. The design will be reviewed in Presentatio
 
 <h2 id="submission-instructions">Submission Instructions</h2>
 
-Submit a viewable link to the presentation version of your site and a viewable link to your design space in the submission text box.
-
-Export your mockup as a png and submit it to brightspace.
+- In the text box of your submission, add a viewable link to the presentation version of your site and a link to your design space (don't invite your instructor from figma, make sure that the link is set to view for anyone who has it)
+- Export and zip your mockup as an image file or pdf and attach the zip to your submission

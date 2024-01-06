@@ -2,22 +2,37 @@
 export const dsgn270DueDates = [
   {
     slug: "assignment-1",
-    due: "Monday September 11 @ 11:59PM",
-    status: "published",
+    due: "Jan 18, 2024",
+    status: "announced",
   },
   {
     slug: "assignment-2",
-    due: "Wednesday October 18 @ 11:59PM",
-    status: "published",
+    due: "Jan 31, 2024",
+    status: "announced",
   },
   {
     slug: "assignment-3",
-    due: "Sunday November 5 @ 11:59PM",
-    status: "published",
+    due: "March 7, 2024",
+    status: "announced",
   },
   {
-    slug: "graded-activities",
-    due: "Due @ 11:59PM on specific days",
-    status: "published",
+    slug: "sprint-activity-1",
+    due: "Jan 15, 2024",
+    status: "announced",
+  },
+  {
+    slug: "sprint-activity-2",
+    due: "Jan Feb 21, 2024",
+    status: "announced",
+  },
+  {
+    slug: "sprint-activity-3",
+    due: "Feb 22, 2024",
+    status: "announced",
+  },
+  {
+    slug: "sprint-activity-4",
+    due: "Mar 15, 2024",
+    status: "announced",
   },
 ];

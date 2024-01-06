@@ -3,10 +3,8 @@ title: Assignment 2 - Website Wireframes
 excerpt: Create a collection of low to medium resolution wireframes for a website. The website will require 4 distinct pages and demonstrate layout, visual hierarchy, and component skeletons.
 type: assignment
 points: 20
-status: published
+status: announced
 ---
-
-<h2 id="due-date">Due October 18 2023 @ 11:59PM</h2>
 
 <h2>Scenario</h2>
 
@@ -73,4 +71,8 @@ Your content should include:
 - Images and icons use standard and identifiable representation
 
 <h2 id="submission-instructions">Submission Instructions</h2>
-- Submit a zipped folder of each of your wireframes and along with the notes file in markdown, odt, or docx file format.
+
+Attach a zipped folder that contains the following:
+
+- design brief document
+- image files of your wireframes

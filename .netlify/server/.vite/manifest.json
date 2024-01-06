@@ -1,0 +1,1688 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "ProgressBar.css": {
+    "file": "_app/immutable/assets/ProgressBar.4f1e9ba5.css",
+    "src": "ProgressBar.css"
+  },
+  "_Achievement.js": {
+    "file": "chunks/Achievement.js",
+    "imports": [
+      "_index3.js"
+    ]
+  },
+  "_Homework.js": {
+    "file": "chunks/Homework.js",
+    "imports": [
+      "_index3.js"
+    ]
+  },
+  "_LessonPlan.js": {
+    "file": "chunks/LessonPlan.js",
+    "imports": [
+      "_index3.js"
+    ]
+  },
+  "_PageHeader.js": {
+    "file": "chunks/PageHeader.js",
+    "imports": [
+      "_index3.js"
+    ]
+  },
+  "_ProgressBar.svelte_svelte_type_style_lang.js": {
+    "css": [
+      "_app/immutable/assets/ProgressBar.4f1e9ba5.css"
+    ],
+    "file": "chunks/ProgressBar.svelte_svelte_type_style_lang.js",
+    "imports": [
+      "_index2.js",
+      "_index3.js"
+    ]
+  },
+  "_TableOfContents.js": {
+    "file": "chunks/TableOfContents.js",
+    "imports": [
+      "_index3.js"
+    ]
+  },
+  "_config.js": {
+    "file": "chunks/config.js"
+  },
+  "_dynamic-import-helper.js": {
+    "file": "chunks/dynamic-import-helper.js"
+  },
+  "_importAssessments.js": {
+    "dynamicImports": [
+      "src/lib/content/assessments/cpnt-200/activity-1.md",
+      "src/lib/content/assessments/cpnt-200/activity-2.md",
+      "src/lib/content/assessments/cpnt-200/activity-3.md",
+      "src/lib/content/assessments/cpnt-200/activity-4.md",
+      "src/lib/content/assessments/cpnt-200/final-project.md",
+      "src/lib/content/assessments/cpnt-201/assignment-1.md",
+      "src/lib/content/assessments/cpnt-201/assignment-2.md",
+      "src/lib/content/assessments/cpnt-201/assignment-3.md",
+      "src/lib/content/assessments/cpnt-201/assignment-4.md",
+      "src/lib/content/assessments/cpnt-260/assignment-1.md",
+      "src/lib/content/assessments/cpnt-260/assignment-2.md",
+      "src/lib/content/assessments/cpnt-260/assignment-3.md",
+      "src/lib/content/assessments/cpnt-260/assignment-4.md",
+      "src/lib/content/assessments/cpnt-260/final-project.md",
+      "src/lib/content/assessments/cpnt-262/activity-1.md",
+      "src/lib/content/assessments/cpnt-262/activity-2.md",
+      "src/lib/content/assessments/cpnt-262/activity-3.md",
+      "src/lib/content/assessments/cpnt-262/activity-4.md",
+      "src/lib/content/assessments/cpnt-262/activity-5.md",
+      "src/lib/content/assessments/cpnt-262/activity-6.md",
+      "src/lib/content/assessments/cpnt-262/assignment-1.md",
+      "src/lib/content/assessments/cpnt-262/assignment-2.md",
+      "src/lib/content/assessments/cpnt-262/assignment-3.md",
+      "src/lib/content/assessments/cpnt-265/achievements-1.md",
+      "src/lib/content/assessments/cpnt-265/achievements-2.md",
+      "src/lib/content/assessments/cpnt-265/final-project.md",
+      "src/lib/content/assessments/dsgn-270/assignment-1.md",
+      "src/lib/content/assessments/dsgn-270/assignment-2.md",
+      "src/lib/content/assessments/dsgn-270/assignment-3.md",
+      "src/lib/content/assessments/dsgn-270/graded-activities.md"
+    ],
+    "file": "chunks/importAssessments.js"
+  },
+  "_importLessons.js": {
+    "dynamicImports": [
+      "src/lib/content/courses/cpln-240.md",
+      "src/lib/content/courses/cpln-240/01-day-1.md",
+      "src/lib/content/courses/cpnt-200.md",
+      "src/lib/content/courses/cpnt-200/01-day-1.md",
+      "src/lib/content/courses/cpnt-200/02-day-2.md",
+      "src/lib/content/courses/cpnt-200/03-day-3.md",
+      "src/lib/content/courses/cpnt-200/04-day-4.md",
+      "src/lib/content/courses/cpnt-200/05-day-5.md",
+      "src/lib/content/courses/cpnt-200/06-day-6.md",
+      "src/lib/content/courses/cpnt-200/07-day-7.md",
+      "src/lib/content/courses/cpnt-201.md",
+      "src/lib/content/courses/cpnt-201/01-day-1.md",
+      "src/lib/content/courses/cpnt-201/02-day-2.md",
+      "src/lib/content/courses/cpnt-201/03-day-3.md",
+      "src/lib/content/courses/cpnt-201/04-day-4.md",
+      "src/lib/content/courses/cpnt-201/05-day-5.md",
+      "src/lib/content/courses/cpnt-201/06-day-6.md",
+      "src/lib/content/courses/cpnt-201/07-day-7.md",
+      "src/lib/content/courses/cpnt-201/08-day-8.md",
+      "src/lib/content/courses/cpnt-260.md",
+      "src/lib/content/courses/cpnt-260/01-day-1.md",
+      "src/lib/content/courses/cpnt-260/02-day-2.md",
+      "src/lib/content/courses/cpnt-260/03-day-3.md",
+      "src/lib/content/courses/cpnt-260/04-day-4.md",
+      "src/lib/content/courses/cpnt-260/05-day-5.md",
+      "src/lib/content/courses/cpnt-260/06-day-6.md",
+      "src/lib/content/courses/cpnt-260/07-day-7.md",
+      "src/lib/content/courses/cpnt-260/08-day-8.md",
+      "src/lib/content/courses/cpnt-260/09-day-9.md",
+      "src/lib/content/courses/cpnt-260/10-day-10.md",
+      "src/lib/content/courses/cpnt-262.md",
+      "src/lib/content/courses/cpnt-262/01-day-1.md",
+      "src/lib/content/courses/cpnt-262/02-day-2.md",
+      "src/lib/content/courses/cpnt-262/03-day-3.md",
+      "src/lib/content/courses/cpnt-262/04-day-4.md",
+      "src/lib/content/courses/cpnt-262/05-day-5.md",
+      "src/lib/content/courses/cpnt-262/06-day-6.md",
+      "src/lib/content/courses/cpnt-262/07-day-7.md",
+      "src/lib/content/courses/cpnt-262/08-day-8.md",
+      "src/lib/content/courses/cpnt-262/09-day-9.md",
+      "src/lib/content/courses/cpnt-262/10-day-10.md",
+      "src/lib/content/courses/cpnt-262/11-day-11.md",
+      "src/lib/content/courses/cpnt-262/12-day-12.md",
+      "src/lib/content/courses/cpnt-262/13-day-13.md",
+      "src/lib/content/courses/cpnt-262/14-day-14.md",
+      "src/lib/content/courses/cpnt-262/15-day-15.md",
+      "src/lib/content/courses/cpnt-262/16-day-16.md",
+      "src/lib/content/courses/cpnt-262/17-day-17.md",
+      "src/lib/content/courses/cpnt-262/18-day-18.md",
+      "src/lib/content/courses/cpnt-262/19-day-19.md",
+      "src/lib/content/courses/cpnt-262/20-day-20.md",
+      "src/lib/content/courses/cpnt-264.md",
+      "src/lib/content/courses/cpnt-264/01-day-1.md",
+      "src/lib/content/courses/cpnt-264/02-day-2.md",
+      "src/lib/content/courses/cpnt-264/03-day-3.md",
+      "src/lib/content/courses/cpnt-264/04-day-4.md",
+      "src/lib/content/courses/cpnt-265.md",
+      "src/lib/content/courses/cpnt-265/01-day-1.md",
+      "src/lib/content/courses/cpnt-265/02-day-2.md",
+      "src/lib/content/courses/cpnt-265/03-day-3.md",
+      "src/lib/content/courses/cpnt-265/04-day-4.md",
+      "src/lib/content/courses/cpnt-265/05-day-5.md",
+      "src/lib/content/courses/cpnt-265/06-day-6.md",
+      "src/lib/content/courses/cpnt-265/07-day-7.md",
+      "src/lib/content/courses/cpnt-265/08-day-8.md",
+      "src/lib/content/courses/cpnt-265/09-day-9.md",
+      "src/lib/content/courses/cpnt-265/10-day-10.md",
+      "src/lib/content/courses/cpnt-265/11-day-11.md",
+      "src/lib/content/courses/dsgn-270.md",
+      "src/lib/content/courses/dsgn-270/01-day-1.md",
+      "src/lib/content/courses/dsgn-270/02-day-2.md",
+      "src/lib/content/courses/dsgn-270/03-day-3.md",
+      "src/lib/content/courses/dsgn-270/04-day-4.md",
+      "src/lib/content/courses/dsgn-270/05-day-5.md",
+      "src/lib/content/courses/dsgn-270/06-day-6.md",
+      "src/lib/content/courses/dsgn-270/07-day-7.md",
+      "src/lib/content/courses/dsgn-270/08-day-8.md"
+    ],
+    "file": "chunks/importLessons.js"
+  },
+  "_index.js": {
+    "file": "chunks/index.js"
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js",
+    "imports": [
+      "_index3.js"
+    ]
+  },
+  "_index3.js": {
+    "file": "chunks/index3.js"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_index3.js"
+    ]
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "imports": [
+      "_index3.js"
+    ]
+  },
+  "_stores2.js": {
+    "dynamicImports": [
+      "src/lib/content/courses/cpln-240.md",
+      "src/lib/content/courses/cpnt-200.md",
+      "src/lib/content/courses/cpnt-201.md",
+      "src/lib/content/courses/cpnt-260.md",
+      "src/lib/content/courses/cpnt-262.md",
+      "src/lib/content/courses/cpnt-264.md",
+      "src/lib/content/courses/cpnt-265.md",
+      "src/lib/content/courses/dsgn-270.md"
+    ],
+    "file": "chunks/stores2.js",
+    "imports": [
+      "_index2.js",
+      "_importLessons.js"
+    ]
+  },
+  "app.css": {
+    "file": "_app/immutable/assets/app.f72accdd.css",
+    "src": "app.css"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "imports": [
+      "_index3.js",
+      "_stores.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
+    "file": "entries/fallbacks/layout.svelte.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_internal.js",
+      "_index.js",
+      "_index2.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/lib/content/assessments/cpnt-200/activity-1.md": {
+    "file": "chunks/activity-1.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-200/activity-1.md"
+  },
+  "src/lib/content/assessments/cpnt-200/activity-2.md": {
+    "file": "chunks/activity-2.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-200/activity-2.md"
+  },
+  "src/lib/content/assessments/cpnt-200/activity-3.md": {
+    "file": "chunks/activity-3.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-200/activity-3.md"
+  },
+  "src/lib/content/assessments/cpnt-200/activity-4.md": {
+    "file": "chunks/activity-4.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-200/activity-4.md"
+  },
+  "src/lib/content/assessments/cpnt-200/final-project.md": {
+    "file": "chunks/final-project.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-200/final-project.md"
+  },
+  "src/lib/content/assessments/cpnt-201/assignment-1.md": {
+    "file": "chunks/assignment-1.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-201/assignment-1.md"
+  },
+  "src/lib/content/assessments/cpnt-201/assignment-2.md": {
+    "file": "chunks/assignment-2.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-201/assignment-2.md"
+  },
+  "src/lib/content/assessments/cpnt-201/assignment-3.md": {
+    "file": "chunks/assignment-3.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-201/assignment-3.md"
+  },
+  "src/lib/content/assessments/cpnt-201/assignment-4.md": {
+    "file": "chunks/assignment-4.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-201/assignment-4.md"
+  },
+  "src/lib/content/assessments/cpnt-260/assignment-1.md": {
+    "file": "chunks/assignment-12.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-260/assignment-1.md"
+  },
+  "src/lib/content/assessments/cpnt-260/assignment-2.md": {
+    "file": "chunks/assignment-22.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-260/assignment-2.md"
+  },
+  "src/lib/content/assessments/cpnt-260/assignment-3.md": {
+    "file": "chunks/assignment-32.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-260/assignment-3.md"
+  },
+  "src/lib/content/assessments/cpnt-260/assignment-4.md": {
+    "file": "chunks/assignment-42.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-260/assignment-4.md"
+  },
+  "src/lib/content/assessments/cpnt-260/final-project.md": {
+    "file": "chunks/final-project2.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-260/final-project.md"
+  },
+  "src/lib/content/assessments/cpnt-262/activity-1.md": {
+    "file": "chunks/activity-12.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-262/activity-1.md"
+  },
+  "src/lib/content/assessments/cpnt-262/activity-2.md": {
+    "file": "chunks/activity-22.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-262/activity-2.md"
+  },
+  "src/lib/content/assessments/cpnt-262/activity-3.md": {
+    "file": "chunks/activity-32.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-262/activity-3.md"
+  },
+  "src/lib/content/assessments/cpnt-262/activity-4.md": {
+    "file": "chunks/activity-42.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-262/activity-4.md"
+  },
+  "src/lib/content/assessments/cpnt-262/activity-5.md": {
+    "file": "chunks/activity-5.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-262/activity-5.md"
+  },
+  "src/lib/content/assessments/cpnt-262/activity-6.md": {
+    "file": "chunks/activity-6.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-262/activity-6.md"
+  },
+  "src/lib/content/assessments/cpnt-262/assignment-1.md": {
+    "file": "chunks/assignment-13.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-262/assignment-1.md"
+  },
+  "src/lib/content/assessments/cpnt-262/assignment-2.md": {
+    "file": "chunks/assignment-23.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-262/assignment-2.md"
+  },
+  "src/lib/content/assessments/cpnt-262/assignment-3.md": {
+    "file": "chunks/assignment-33.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-262/assignment-3.md"
+  },
+  "src/lib/content/assessments/cpnt-265/achievements-1.md": {
+    "file": "chunks/achievements-1.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-265/achievements-1.md"
+  },
+  "src/lib/content/assessments/cpnt-265/achievements-2.md": {
+    "file": "chunks/achievements-2.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-265/achievements-2.md"
+  },
+  "src/lib/content/assessments/cpnt-265/final-project.md": {
+    "file": "chunks/final-project3.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/cpnt-265/final-project.md"
+  },
+  "src/lib/content/assessments/dsgn-270/assignment-1.md": {
+    "file": "chunks/assignment-14.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/dsgn-270/assignment-1.md"
+  },
+  "src/lib/content/assessments/dsgn-270/assignment-2.md": {
+    "file": "chunks/assignment-24.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/dsgn-270/assignment-2.md"
+  },
+  "src/lib/content/assessments/dsgn-270/assignment-3.md": {
+    "file": "chunks/assignment-34.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/dsgn-270/assignment-3.md"
+  },
+  "src/lib/content/assessments/dsgn-270/graded-activities.md": {
+    "file": "chunks/graded-activities.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/dsgn-270/graded-activities.md"
+  },
+  "src/lib/content/courses/cpln-240.md": {
+    "file": "chunks/cpln-240.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpln-240.md"
+  },
+  "src/lib/content/courses/cpln-240/01-day-1.md": {
+    "file": "chunks/01-day-1.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpln-240/01-day-1.md"
+  },
+  "src/lib/content/courses/cpnt-200.md": {
+    "file": "chunks/cpnt-200.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-200.md"
+  },
+  "src/lib/content/courses/cpnt-200/01-day-1.md": {
+    "file": "chunks/01-day-12.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-200/01-day-1.md"
+  },
+  "src/lib/content/courses/cpnt-200/02-day-2.md": {
+    "file": "chunks/02-day-2.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-200/02-day-2.md"
+  },
+  "src/lib/content/courses/cpnt-200/03-day-3.md": {
+    "file": "chunks/03-day-3.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-200/03-day-3.md"
+  },
+  "src/lib/content/courses/cpnt-200/04-day-4.md": {
+    "file": "chunks/04-day-4.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-200/04-day-4.md"
+  },
+  "src/lib/content/courses/cpnt-200/05-day-5.md": {
+    "file": "chunks/05-day-5.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-200/05-day-5.md"
+  },
+  "src/lib/content/courses/cpnt-200/06-day-6.md": {
+    "file": "chunks/06-day-6.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-200/06-day-6.md"
+  },
+  "src/lib/content/courses/cpnt-200/07-day-7.md": {
+    "file": "chunks/07-day-7.js",
+    "imports": [
+      "_index3.js",
+      "_LessonPlan.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-200/07-day-7.md"
+  },
+  "src/lib/content/courses/cpnt-201.md": {
+    "file": "chunks/cpnt-201.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-201.md"
+  },
+  "src/lib/content/courses/cpnt-201/01-day-1.md": {
+    "file": "chunks/01-day-13.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-201/01-day-1.md"
+  },
+  "src/lib/content/courses/cpnt-201/02-day-2.md": {
+    "file": "chunks/02-day-22.js",
+    "imports": [
+      "_index3.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-201/02-day-2.md"
+  },
+  "src/lib/content/courses/cpnt-201/03-day-3.md": {
+    "file": "chunks/03-day-32.js",
+    "imports": [
+      "_index3.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-201/03-day-3.md"
+  },
+  "src/lib/content/courses/cpnt-201/04-day-4.md": {
+    "file": "chunks/04-day-42.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-201/04-day-4.md"
+  },
+  "src/lib/content/courses/cpnt-201/05-day-5.md": {
+    "file": "chunks/05-day-52.js",
+    "imports": [
+      "_index3.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-201/05-day-5.md"
+  },
+  "src/lib/content/courses/cpnt-201/06-day-6.md": {
+    "file": "chunks/06-day-62.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-201/06-day-6.md"
+  },
+  "src/lib/content/courses/cpnt-201/07-day-7.md": {
+    "file": "chunks/07-day-72.js",
+    "imports": [
+      "_index3.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-201/07-day-7.md"
+  },
+  "src/lib/content/courses/cpnt-201/08-day-8.md": {
+    "file": "chunks/08-day-8.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-201/08-day-8.md"
+  },
+  "src/lib/content/courses/cpnt-260.md": {
+    "file": "chunks/cpnt-260.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-260.md"
+  },
+  "src/lib/content/courses/cpnt-260/01-day-1.md": {
+    "file": "chunks/01-day-14.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-260/01-day-1.md"
+  },
+  "src/lib/content/courses/cpnt-260/02-day-2.md": {
+    "file": "chunks/02-day-23.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-260/02-day-2.md"
+  },
+  "src/lib/content/courses/cpnt-260/03-day-3.md": {
+    "file": "chunks/03-day-33.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-260/03-day-3.md"
+  },
+  "src/lib/content/courses/cpnt-260/04-day-4.md": {
+    "file": "chunks/04-day-43.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-260/04-day-4.md"
+  },
+  "src/lib/content/courses/cpnt-260/05-day-5.md": {
+    "file": "chunks/05-day-53.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-260/05-day-5.md"
+  },
+  "src/lib/content/courses/cpnt-260/06-day-6.md": {
+    "file": "chunks/06-day-63.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-260/06-day-6.md"
+  },
+  "src/lib/content/courses/cpnt-260/07-day-7.md": {
+    "file": "chunks/07-day-73.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-260/07-day-7.md"
+  },
+  "src/lib/content/courses/cpnt-260/08-day-8.md": {
+    "file": "chunks/08-day-82.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-260/08-day-8.md"
+  },
+  "src/lib/content/courses/cpnt-260/09-day-9.md": {
+    "file": "chunks/09-day-9.js",
+    "imports": [
+      "_index3.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-260/09-day-9.md"
+  },
+  "src/lib/content/courses/cpnt-260/10-day-10.md": {
+    "file": "chunks/10-day-10.js",
+    "imports": [
+      "_index3.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-260/10-day-10.md"
+  },
+  "src/lib/content/courses/cpnt-262.md": {
+    "file": "chunks/cpnt-262.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262.md"
+  },
+  "src/lib/content/courses/cpnt-262/01-day-1.md": {
+    "file": "chunks/01-day-15.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/01-day-1.md"
+  },
+  "src/lib/content/courses/cpnt-262/02-day-2.md": {
+    "file": "chunks/02-day-24.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/02-day-2.md"
+  },
+  "src/lib/content/courses/cpnt-262/03-day-3.md": {
+    "file": "chunks/03-day-34.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/03-day-3.md"
+  },
+  "src/lib/content/courses/cpnt-262/04-day-4.md": {
+    "file": "chunks/04-day-44.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/04-day-4.md"
+  },
+  "src/lib/content/courses/cpnt-262/05-day-5.md": {
+    "file": "chunks/05-day-54.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/05-day-5.md"
+  },
+  "src/lib/content/courses/cpnt-262/06-day-6.md": {
+    "file": "chunks/06-day-64.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/06-day-6.md"
+  },
+  "src/lib/content/courses/cpnt-262/07-day-7.md": {
+    "file": "chunks/07-day-74.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/07-day-7.md"
+  },
+  "src/lib/content/courses/cpnt-262/08-day-8.md": {
+    "file": "chunks/08-day-83.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/08-day-8.md"
+  },
+  "src/lib/content/courses/cpnt-262/09-day-9.md": {
+    "file": "chunks/09-day-92.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/09-day-9.md"
+  },
+  "src/lib/content/courses/cpnt-262/10-day-10.md": {
+    "file": "chunks/10-day-102.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/10-day-10.md"
+  },
+  "src/lib/content/courses/cpnt-262/11-day-11.md": {
+    "file": "chunks/11-day-11.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/11-day-11.md"
+  },
+  "src/lib/content/courses/cpnt-262/12-day-12.md": {
+    "file": "chunks/12-day-12.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/12-day-12.md"
+  },
+  "src/lib/content/courses/cpnt-262/13-day-13.md": {
+    "file": "chunks/13-day-13.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/13-day-13.md"
+  },
+  "src/lib/content/courses/cpnt-262/14-day-14.md": {
+    "file": "chunks/14-day-14.js",
+    "imports": [
+      "_index3.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/14-day-14.md"
+  },
+  "src/lib/content/courses/cpnt-262/15-day-15.md": {
+    "file": "chunks/15-day-15.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/15-day-15.md"
+  },
+  "src/lib/content/courses/cpnt-262/16-day-16.md": {
+    "file": "chunks/16-day-16.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/16-day-16.md"
+  },
+  "src/lib/content/courses/cpnt-262/17-day-17.md": {
+    "file": "chunks/17-day-17.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/17-day-17.md"
+  },
+  "src/lib/content/courses/cpnt-262/18-day-18.md": {
+    "file": "chunks/18-day-18.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/18-day-18.md"
+  },
+  "src/lib/content/courses/cpnt-262/19-day-19.md": {
+    "file": "chunks/19-day-19.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/19-day-19.md"
+  },
+  "src/lib/content/courses/cpnt-262/20-day-20.md": {
+    "file": "chunks/20-day-20.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-262/20-day-20.md"
+  },
+  "src/lib/content/courses/cpnt-264.md": {
+    "file": "chunks/cpnt-264.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-264.md"
+  },
+  "src/lib/content/courses/cpnt-264/01-day-1.md": {
+    "file": "chunks/01-day-16.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-264/01-day-1.md"
+  },
+  "src/lib/content/courses/cpnt-264/02-day-2.md": {
+    "file": "chunks/02-day-25.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-264/02-day-2.md"
+  },
+  "src/lib/content/courses/cpnt-264/03-day-3.md": {
+    "file": "chunks/03-day-35.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-264/03-day-3.md"
+  },
+  "src/lib/content/courses/cpnt-264/04-day-4.md": {
+    "file": "chunks/04-day-45.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-264/04-day-4.md"
+  },
+  "src/lib/content/courses/cpnt-265.md": {
+    "file": "chunks/cpnt-265.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-265.md"
+  },
+  "src/lib/content/courses/cpnt-265/01-day-1.md": {
+    "file": "chunks/01-day-17.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-265/01-day-1.md"
+  },
+  "src/lib/content/courses/cpnt-265/02-day-2.md": {
+    "file": "chunks/02-day-26.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-265/02-day-2.md"
+  },
+  "src/lib/content/courses/cpnt-265/03-day-3.md": {
+    "file": "chunks/03-day-36.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-265/03-day-3.md"
+  },
+  "src/lib/content/courses/cpnt-265/04-day-4.md": {
+    "file": "chunks/04-day-46.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-265/04-day-4.md"
+  },
+  "src/lib/content/courses/cpnt-265/05-day-5.md": {
+    "file": "chunks/05-day-55.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-265/05-day-5.md"
+  },
+  "src/lib/content/courses/cpnt-265/06-day-6.md": {
+    "file": "chunks/06-day-65.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-265/06-day-6.md"
+  },
+  "src/lib/content/courses/cpnt-265/07-day-7.md": {
+    "file": "chunks/07-day-75.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-265/07-day-7.md"
+  },
+  "src/lib/content/courses/cpnt-265/08-day-8.md": {
+    "file": "chunks/08-day-84.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-265/08-day-8.md"
+  },
+  "src/lib/content/courses/cpnt-265/09-day-9.md": {
+    "file": "chunks/09-day-93.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-265/09-day-9.md"
+  },
+  "src/lib/content/courses/cpnt-265/10-day-10.md": {
+    "file": "chunks/10-day-103.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-265/10-day-10.md"
+  },
+  "src/lib/content/courses/cpnt-265/11-day-11.md": {
+    "file": "chunks/11-day-112.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/cpnt-265/11-day-11.md"
+  },
+  "src/lib/content/courses/dsgn-270.md": {
+    "file": "chunks/dsgn-270.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/dsgn-270.md"
+  },
+  "src/lib/content/courses/dsgn-270/01-day-1.md": {
+    "file": "chunks/01-day-18.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/dsgn-270/01-day-1.md"
+  },
+  "src/lib/content/courses/dsgn-270/02-day-2.md": {
+    "file": "chunks/02-day-27.js",
+    "imports": [
+      "_index3.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/dsgn-270/02-day-2.md"
+  },
+  "src/lib/content/courses/dsgn-270/03-day-3.md": {
+    "file": "chunks/03-day-37.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/dsgn-270/03-day-3.md"
+  },
+  "src/lib/content/courses/dsgn-270/04-day-4.md": {
+    "file": "chunks/04-day-47.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/dsgn-270/04-day-4.md"
+  },
+  "src/lib/content/courses/dsgn-270/05-day-5.md": {
+    "file": "chunks/05-day-56.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/dsgn-270/05-day-5.md"
+  },
+  "src/lib/content/courses/dsgn-270/06-day-6.md": {
+    "file": "chunks/06-day-66.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/dsgn-270/06-day-6.md"
+  },
+  "src/lib/content/courses/dsgn-270/07-day-7.md": {
+    "file": "chunks/07-day-76.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/dsgn-270/07-day-7.md"
+  },
+  "src/lib/content/courses/dsgn-270/08-day-8.md": {
+    "file": "chunks/08-day-85.js",
+    "imports": [
+      "_index3.js",
+      "_Homework.js",
+      "_LessonPlan.js",
+      "_Achievement.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/courses/dsgn-270/08-day-8.md"
+  },
+  "src/lib/content/posts/_template.md": {
+    "file": "chunks/_template.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/posts/_template.md"
+  },
+  "src/lib/content/posts/command-line-basics.md": {
+    "file": "chunks/command-line-basics.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/posts/command-line-basics.md"
+  },
+  "src/lib/content/posts/initial-software-setup.md": {
+    "file": "chunks/initial-software-setup.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/posts/initial-software-setup.md"
+  },
+  "src/lib/content/posts/naming-conventions-files-directories.md": {
+    "file": "chunks/naming-conventions-files-directories.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/posts/naming-conventions-files-directories.md"
+  },
+  "src/lib/content/posts/setting-up-your-workspace.md": {
+    "file": "chunks/setting-up-your-workspace.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/posts/setting-up-your-workspace.md"
+  },
+  "src/routes/(site)/+error.svelte": {
+    "file": "entries/pages/(site)/_error.svelte.js",
+    "imports": [
+      "_index3.js",
+      "_stores.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/+error.svelte"
+  },
+  "src/routes/(site)/+layout.css": {
+    "file": "_app/immutable/assets/_layout.d5e64b71.css",
+    "src": "src/routes/(site)/+layout.css"
+  },
+  "src/routes/(site)/+layout.js": {
+    "file": "entries/pages/(site)/_layout.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/+layout.js"
+  },
+  "src/routes/(site)/+layout.svelte": {
+    "css": [
+      "_app/immutable/assets/_layout.d5e64b71.css",
+      "_app/immutable/assets/app.f72accdd.css"
+    ],
+    "file": "entries/pages/(site)/_layout.svelte.js",
+    "imports": [
+      "_index3.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_index2.js",
+      "_config.js",
+      "_stores2.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/+layout.svelte"
+  },
+  "src/routes/(site)/+page.svelte": {
+    "file": "entries/pages/(site)/_page.svelte.js",
+    "imports": [
+      "_index3.js",
+      "_config.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_index2.js",
+      "_stores2.js",
+      "_PageHeader.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/+page.svelte"
+  },
+  "src/routes/(site)/courses/+layout.svelte": {
+    "file": "entries/pages/(site)/courses/_layout.svelte.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/courses/+layout.svelte"
+  },
+  "src/routes/(site)/courses/+page.svelte": {
+    "file": "entries/pages/(site)/courses/_page.svelte.js",
+    "imports": [
+      "_index3.js",
+      "_stores2.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/courses/+page.svelte"
+  },
+  "src/routes/(site)/courses/[code]/+page.server.js": {
+    "dynamicImports": [
+      "src/lib/content/courses/cpln-240.md",
+      "src/lib/content/courses/cpnt-200.md",
+      "src/lib/content/courses/cpnt-201.md",
+      "src/lib/content/courses/cpnt-260.md",
+      "src/lib/content/courses/cpnt-262.md",
+      "src/lib/content/courses/cpnt-264.md",
+      "src/lib/content/courses/cpnt-265.md",
+      "src/lib/content/courses/dsgn-270.md"
+    ],
+    "file": "entries/pages/(site)/courses/_code_/_page.server.js",
+    "imports": [
+      "_dynamic-import-helper.js",
+      "_index.js",
+      "_importAssessments.js",
+      "_stores2.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/courses/[code]/+page.server.js"
+  },
+  "src/routes/(site)/courses/[code]/+page.svelte": {
+    "file": "entries/pages/(site)/courses/_code_/_page.svelte.js",
+    "imports": [
+      "_index3.js",
+      "_stores.js",
+      "_stores2.js",
+      "_PageHeader.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/courses/[code]/+page.svelte"
+  },
+  "src/routes/(site)/courses/[code]/assessments/+page.server.js": {
+    "file": "entries/pages/(site)/courses/_code_/assessments/_page.server.js",
+    "imports": [
+      "_index.js",
+      "_importAssessments.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/courses/[code]/assessments/+page.server.js"
+  },
+  "src/routes/(site)/courses/[code]/assessments/+page.svelte": {
+    "file": "entries/pages/(site)/courses/_code_/assessments/_page.svelte.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/courses/[code]/assessments/+page.svelte"
+  },
+  "src/routes/(site)/courses/[code]/assessments/[slug]/+page.server.js": {
+    "dynamicImports": [
+      "src/lib/content/assessments/cpnt-200/activity-1.md",
+      "src/lib/content/assessments/cpnt-200/activity-2.md",
+      "src/lib/content/assessments/cpnt-200/activity-3.md",
+      "src/lib/content/assessments/cpnt-200/activity-4.md",
+      "src/lib/content/assessments/cpnt-200/final-project.md",
+      "src/lib/content/assessments/cpnt-201/assignment-1.md",
+      "src/lib/content/assessments/cpnt-201/assignment-2.md",
+      "src/lib/content/assessments/cpnt-201/assignment-3.md",
+      "src/lib/content/assessments/cpnt-201/assignment-4.md",
+      "src/lib/content/assessments/cpnt-260/assignment-1.md",
+      "src/lib/content/assessments/cpnt-260/assignment-2.md",
+      "src/lib/content/assessments/cpnt-260/assignment-3.md",
+      "src/lib/content/assessments/cpnt-260/assignment-4.md",
+      "src/lib/content/assessments/cpnt-260/final-project.md",
+      "src/lib/content/assessments/cpnt-262/activity-1.md",
+      "src/lib/content/assessments/cpnt-262/activity-2.md",
+      "src/lib/content/assessments/cpnt-262/activity-3.md",
+      "src/lib/content/assessments/cpnt-262/activity-4.md",
+      "src/lib/content/assessments/cpnt-262/activity-5.md",
+      "src/lib/content/assessments/cpnt-262/activity-6.md",
+      "src/lib/content/assessments/cpnt-262/assignment-1.md",
+      "src/lib/content/assessments/cpnt-262/assignment-2.md",
+      "src/lib/content/assessments/cpnt-262/assignment-3.md",
+      "src/lib/content/assessments/cpnt-265/achievements-1.md",
+      "src/lib/content/assessments/cpnt-265/achievements-2.md",
+      "src/lib/content/assessments/cpnt-265/final-project.md",
+      "src/lib/content/assessments/dsgn-270/assignment-1.md",
+      "src/lib/content/assessments/dsgn-270/assignment-2.md",
+      "src/lib/content/assessments/dsgn-270/assignment-3.md",
+      "src/lib/content/assessments/dsgn-270/graded-activities.md"
+    ],
+    "file": "entries/pages/(site)/courses/_code_/assessments/_slug_/_page.server.js",
+    "imports": [
+      "_dynamic-import-helper.js",
+      "_index.js",
+      "_importAssessments.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/courses/[code]/assessments/[slug]/+page.server.js"
+  },
+  "src/routes/(site)/courses/[code]/assessments/[slug]/+page.svelte": {
+    "file": "entries/pages/(site)/courses/_code_/assessments/_slug_/_page.svelte.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/courses/[code]/assessments/[slug]/+page.svelte"
+  },
+  "src/routes/(site)/courses/[code]/day-[day]/+page.server.js": {
+    "dynamicImports": [
+      "src/lib/content/courses/cpln-240/01-day-1.md",
+      "src/lib/content/courses/cpnt-200/01-day-1.md",
+      "src/lib/content/courses/cpnt-200/02-day-2.md",
+      "src/lib/content/courses/cpnt-200/03-day-3.md",
+      "src/lib/content/courses/cpnt-200/04-day-4.md",
+      "src/lib/content/courses/cpnt-200/05-day-5.md",
+      "src/lib/content/courses/cpnt-200/06-day-6.md",
+      "src/lib/content/courses/cpnt-200/07-day-7.md",
+      "src/lib/content/courses/cpnt-201/01-day-1.md",
+      "src/lib/content/courses/cpnt-201/02-day-2.md",
+      "src/lib/content/courses/cpnt-201/03-day-3.md",
+      "src/lib/content/courses/cpnt-201/04-day-4.md",
+      "src/lib/content/courses/cpnt-201/05-day-5.md",
+      "src/lib/content/courses/cpnt-201/06-day-6.md",
+      "src/lib/content/courses/cpnt-201/07-day-7.md",
+      "src/lib/content/courses/cpnt-201/08-day-8.md",
+      "src/lib/content/courses/cpnt-260/01-day-1.md",
+      "src/lib/content/courses/cpnt-260/02-day-2.md",
+      "src/lib/content/courses/cpnt-260/03-day-3.md",
+      "src/lib/content/courses/cpnt-260/04-day-4.md",
+      "src/lib/content/courses/cpnt-260/05-day-5.md",
+      "src/lib/content/courses/cpnt-260/06-day-6.md",
+      "src/lib/content/courses/cpnt-260/07-day-7.md",
+      "src/lib/content/courses/cpnt-260/08-day-8.md",
+      "src/lib/content/courses/cpnt-260/09-day-9.md",
+      "src/lib/content/courses/cpnt-260/10-day-10.md",
+      "src/lib/content/courses/cpnt-262/01-day-1.md",
+      "src/lib/content/courses/cpnt-262/02-day-2.md",
+      "src/lib/content/courses/cpnt-262/03-day-3.md",
+      "src/lib/content/courses/cpnt-262/04-day-4.md",
+      "src/lib/content/courses/cpnt-262/05-day-5.md",
+      "src/lib/content/courses/cpnt-262/06-day-6.md",
+      "src/lib/content/courses/cpnt-262/07-day-7.md",
+      "src/lib/content/courses/cpnt-262/08-day-8.md",
+      "src/lib/content/courses/cpnt-262/09-day-9.md",
+      "src/lib/content/courses/cpnt-262/10-day-10.md",
+      "src/lib/content/courses/cpnt-262/11-day-11.md",
+      "src/lib/content/courses/cpnt-262/12-day-12.md",
+      "src/lib/content/courses/cpnt-262/13-day-13.md",
+      "src/lib/content/courses/cpnt-262/14-day-14.md",
+      "src/lib/content/courses/cpnt-262/15-day-15.md",
+      "src/lib/content/courses/cpnt-262/16-day-16.md",
+      "src/lib/content/courses/cpnt-262/17-day-17.md",
+      "src/lib/content/courses/cpnt-262/18-day-18.md",
+      "src/lib/content/courses/cpnt-262/19-day-19.md",
+      "src/lib/content/courses/cpnt-262/20-day-20.md",
+      "src/lib/content/courses/cpnt-264/01-day-1.md",
+      "src/lib/content/courses/cpnt-264/02-day-2.md",
+      "src/lib/content/courses/cpnt-264/03-day-3.md",
+      "src/lib/content/courses/cpnt-264/04-day-4.md",
+      "src/lib/content/courses/cpnt-265/01-day-1.md",
+      "src/lib/content/courses/cpnt-265/02-day-2.md",
+      "src/lib/content/courses/cpnt-265/03-day-3.md",
+      "src/lib/content/courses/cpnt-265/04-day-4.md",
+      "src/lib/content/courses/cpnt-265/05-day-5.md",
+      "src/lib/content/courses/cpnt-265/06-day-6.md",
+      "src/lib/content/courses/cpnt-265/07-day-7.md",
+      "src/lib/content/courses/cpnt-265/08-day-8.md",
+      "src/lib/content/courses/cpnt-265/09-day-9.md",
+      "src/lib/content/courses/cpnt-265/10-day-10.md",
+      "src/lib/content/courses/cpnt-265/11-day-11.md",
+      "src/lib/content/courses/dsgn-270/01-day-1.md",
+      "src/lib/content/courses/dsgn-270/02-day-2.md",
+      "src/lib/content/courses/dsgn-270/03-day-3.md",
+      "src/lib/content/courses/dsgn-270/04-day-4.md",
+      "src/lib/content/courses/dsgn-270/05-day-5.md",
+      "src/lib/content/courses/dsgn-270/06-day-6.md",
+      "src/lib/content/courses/dsgn-270/07-day-7.md",
+      "src/lib/content/courses/dsgn-270/08-day-8.md"
+    ],
+    "file": "entries/pages/(site)/courses/_code_/day-_day_/_page.server.js",
+    "imports": [
+      "_dynamic-import-helper.js",
+      "_index.js",
+      "_importLessons.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/courses/[code]/day-[day]/+page.server.js"
+  },
+  "src/routes/(site)/courses/[code]/day-[day]/+page.svelte": {
+    "file": "entries/pages/(site)/courses/_code_/day-_day_/_page.svelte.js",
+    "imports": [
+      "_index3.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_TableOfContents.js",
+      "_stores.js",
+      "_stores2.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/courses/[code]/day-[day]/+page.svelte"
+  },
+  "src/routes/(site)/house-rules/+layout.svelte": {
+    "file": "entries/pages/(site)/house-rules/_layout.svelte.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/house-rules/+layout.svelte"
+  },
+  "src/routes/(site)/house-rules/+page.md": {
+    "file": "entries/pages/(site)/house-rules/_page.md.js",
+    "imports": [
+      "_index3.js",
+      "_config.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/house-rules/+page.md"
+  },
+  "src/routes/(site)/library/+layout.svelte": {
+    "file": "entries/pages/(site)/library/_layout.svelte.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/library/+layout.svelte"
+  },
+  "src/routes/(site)/library/+page.md": {
+    "file": "entries/pages/(site)/library/_page.md.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/library/+page.md"
+  },
+  "src/routes/(site)/posts/+page.svelte": {
+    "file": "entries/pages/(site)/posts/_page.svelte.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/posts/+page.svelte"
+  },
+  "src/routes/(site)/posts/[slug]/+page.server.ts": {
+    "dynamicImports": [
+      "src/lib/content/posts/_template.md",
+      "src/lib/content/posts/command-line-basics.md",
+      "src/lib/content/posts/initial-software-setup.md",
+      "src/lib/content/posts/naming-conventions-files-directories.md",
+      "src/lib/content/posts/setting-up-your-workspace.md",
+      "src/lib/content/posts/_template.md",
+      "src/lib/content/posts/command-line-basics.md",
+      "src/lib/content/posts/initial-software-setup.md",
+      "src/lib/content/posts/naming-conventions-files-directories.md",
+      "src/lib/content/posts/setting-up-your-workspace.md"
+    ],
+    "file": "entries/pages/(site)/posts/_slug_/_page.server.ts.js",
+    "imports": [
+      "_dynamic-import-helper.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/posts/[slug]/+page.server.ts"
+  },
+  "src/routes/(site)/posts/[slug]/+page.svelte": {
+    "file": "entries/pages/(site)/posts/_slug_/_page.svelte.js",
+    "imports": [
+      "_index3.js",
+      "_ProgressBar.svelte_svelte_type_style_lang.js",
+      "_TableOfContents.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/(site)/posts/[slug]/+page.svelte"
+  },
+  "src/routes/slides/+page.svelte": {
+    "file": "entries/pages/slides/_page.svelte.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/slides/+page.svelte"
+  },
+  "src/routes/slides/[category]/[slug]/+page.css": {
+    "file": "_app/immutable/assets/_page.6b960c4f.css",
+    "src": "src/routes/slides/[category]/[slug]/+page.css"
+  },
+  "src/routes/slides/[category]/[slug]/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.6b960c4f.css",
+      "_app/immutable/assets/app.f72accdd.css"
+    ],
+    "file": "entries/pages/slides/_category_/_slug_/_page.svelte.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/slides/[category]/[slug]/+page.svelte"
+  },
+  "src/routes/slides/[category]/[slug]/+page.ts": {
+    "file": "entries/pages/slides/_category_/_slug_/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/slides/[category]/[slug]/+page.ts"
+  }
+}
