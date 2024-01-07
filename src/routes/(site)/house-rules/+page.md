@@ -38,6 +38,6 @@ Contact an Instructor anytime (response time usually within a day) if you have a
 For **coding help**, it's encouraged you (in this order):
 
 1. Spend an honest amount of effort toward solving the problem yourself;
-2. During class time: - ask a question in Zoom! - Come to the Instructor's breakout room during Lab Time.
+2. During class time: Questions are always welcomed. Chances are your question will help others as well.
 3. Outside of class time: - Post a question in the `#winter-2024` or `general` channel on Slack;
 4. Last resort: you can DM your instructor for coding help outside of class time but don't expect a response until next class.
