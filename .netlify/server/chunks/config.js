@@ -1,5 +1,5 @@
 const siteTitle = "Web Developer Fast Track";
-const siteAuthor = "Tony Grimes and Ashlyn Knox";
+const siteAuthor = "Ashlyn Knox and Temitope Elodimuor";
 const navItems = [
   {
     title: "Courses",

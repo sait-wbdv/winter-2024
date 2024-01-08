@@ -6,10 +6,10 @@
  **/
 
 export const siteTitle = "Web Developer Fast Track";
-export const siteDescription = "Web Developer Fast Track program website for Fall 2023.";
-export const siteURL = "w23-sait-wbdv.netlify.app";
-export const siteLink = "https://w23-sait-wbdv.netlify.app/";
-export const siteAuthor = "Tony Grimes and Ashlyn Knox";
+export const siteDescription = "Web Developer Fast Track program website for Winter 2024.";
+export const siteURL = "sait-wbdv-w24.netlify.app";
+export const siteLink = "https://sait-wbdv-w24.netlify.app/";
+export const siteAuthor = "Ashlyn Knox and Temitope Elodimuor";
 
 // Controls how many posts are shown per page on the main blog index pages
 export const postsPerPage = 10;
