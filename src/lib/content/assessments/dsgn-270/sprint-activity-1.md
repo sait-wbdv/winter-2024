@@ -1,5 +1,5 @@
 ---
-title: Sprint Activity 1 - Visual Hierarchy Report
+title: Sprint Activity 1 - Visual Hierarchy Document
 excerpt:
 points: 10
 type: assignment
@@ -22,6 +22,7 @@ status: published
 - 5 points for applying 5 different principles of visual hierarchy
   - 0.5 point per principle
   - 0.5 point for bulleted description of how you used it (Note the heading at the bottom of the document)
+- Note: Quality should be at least as good as that of the actual wikipedia article
 
 ---
 
