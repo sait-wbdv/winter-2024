@@ -7,27 +7,27 @@ export const cpnt260DueDates = [
   },
   {
     slug: 'assignment-1',
-    due: 'Friday, September 15 @ 11:59pm',
-    status: 'published'
+    due: 'Friday, January 19 @ 11:59pm',
+    status: 'announced'
   },
   {
     slug: 'assignment-2',
-    due: 'Wednesday, September 20 @ 11:59pm',
-    status: 'published'
+    due: 'Wednesday, January 24 @ 11:59pm',
+    status: 'announced'
   },
   {
     slug: 'assignment-3',
-    due: 'Friday, September 29 @ 11:59pm',
-    status: 'published'
+    due: 'Friday, February 02 @ 11:59pm',
+    status: 'announced'
   },
   {
     slug: 'assignment-4',
-    due: 'Tuesday, October 3 @ 11:59pm',
-    status: 'published'
+    due: 'Tuesday, February 06 @ 11:59pm',
+    status: 'announced'
   },
   {
     slug: 'final-project',
-    due: 'Tuesday October 10 @ 11:59pm',
-    status: 'published'
+    due: 'Tuesday February 13 @ 11:59pm',
+    status: 'announced'
   }
 ]
