@@ -2,27 +2,27 @@
 export const cpnt201DueDates = [
   {
     slug: 'assignment-1',
-    due: 'Wednesday September 13 @ 11:59PM',
-    status: 'published'
+    due: 'Wednesday January 17 @ 11:59PM',
+    status: 'announced'
   },
   {
     slug: 'assignment-2',
-    due: 'Friday September 22 @ 11:59pm',
-    status: 'published'
+    due: 'Friday January 26 @ 11:59pm',
+    status: 'announced'
   },
   {
     slug: 'assignment-3',
-    due: 'Friday October 20 @ 11:59pm',
-    status: 'published'
+    due: 'Friday February 16 @ 11:59pm',
+    status: 'announced'
   },
   {
     slug: 'assignment-4',
-    due: 'Monday, November 6 @ 11:59pm',
-    status: 'published'
+    due: 'Monday, March 11 @ 11:59pm',
+    status: 'announced'
   },
   {
     slug: 'achievements',
     due: 'TBA',
-    status: 'draft'
+    status: 'announced'
   }
 ];
