@@ -3,46 +3,52 @@ title: Assignment 1 - Design Moodboard
 excerpt: Create a moodboard to brainstorm and gather design ideas for a website/app. This moodboard will demonstrate brand identity and user interface inspiration featuring colors, typography, and examples from inspirational websites.
 points: 20
 type: assignment
-status: announced
 ---
 
-<h2>Scenario</h2>
+Moodboards are a useful tool for figuring out the look, feel, and even functionality of a website or app (they are used in other fields of design as well). They are essentially collages, and like collages they can take on many forms and purposes.
 
-You are starting out a new web development project and need to do some initial planning on what the look and feel of the site is going to be. Your client (client could be yourself) was very vague with their description of the design of their site and they did not give you any specific colors, fonts, or ui ideas.
+Our primary use case for a moodboard is to brainstorm, ideate, and acquire early design research deliverables.
 
-Your job is to build a mood board based on a vague description (which you will define yourself). The mood board is used to gather examples and ideas organically. Add structure and group content with notes so that you or a hypothetical colleague could look at this later and understand it.
+<h2>Objective: Create a moodboard that outlines UI and design asset ideas for a website or app</h2>
 
-### Content To Gather on your Moodboard
+Find examples of important user interface elements on websites out in the wild. Become familiar with elements that you will likely be creating throughout the semester, discover your sense of web design style.
 
-- 2 Color palettes (3-5 colors per palette)
-  - include shades of white and black
-  - 1 primary, 1 secondary color
-- Typography (2-3 type faces per group)
-  - should be chosen by you
-- Screenshots of user interface (ui) elements on at least 2 websites
-  - headers and hero sections
-  - navigation
-  - lists
-  - cards
-  - call to action
+You will also be putting together collections of design assets that you will be using throughout the semester. For this assignment, put together 2 variations of color palettes as well as 2 groupings of type faces. They should be distinct and express different identities, moods, and emotions.
+
+### Applying Design Principles
+
+Along with gathering design assets and finding examples of UI elements, your moodboard must also embody principles of design effectively. Moodboards are used for both communication (with team/clients) and discovery(of what you're building).
+
+<h2>Content Requirements</h2>
+
+- 2 distinct color palettes
+  - each should have a: black (not #000000), white (not #ffffff), primary color, secondary color, (optional) tertiary
+  - **include** a note about what the identity/mood/emotion(s) you're trying to evoke and your reasoning for it
+- 2 distinct typeface sets
+  - heading font, paragraph font, (optional) brand font
+  - **include** a note about what the identity/mood/emotion(s) you're trying to evoke and your reasoning for it
+- UI element collages
+  - required: navigation bar (mobile and desktop), footer (mobile and desktop), header sections, 3 card layout
+  - your choice: any elements found on [ui patterns](https://ui-patterns.com/)
+  - **include** a note about what you liked about the design of the elements that you chosen (focus on the elements, not the content in the images)
 
 ### Resources
 
+- **primary field of research** Search the web. look at sites that you like
 - [UI Patterns](https://ui-patterns.com/): Examples and descriptions of specific ui elements
 - [Material Design Manual](https://material.io/): Google's Material Design Guide contains examples of UI elements that you can look for
 - [Google Fonts](https://fonts.google.com/)
 
 ## Instructions
 
-1. Create a mood board in Figjam and add the vague description to the top of the board in large text
-2. Set up areas in your moodboard for grouping the required content
-3. Add content to the moodboard
-   - See the **rubric** for how many variations are needed of each content type
-   - Images of websites should be clickable links so that you can navigate back to the original site when needed
-4. Add brief sticky notes to your moodboard as makes sense to you, there needs to be a minimum of 1 note per content type (8 sticky notes minimum)
-5. Export your mood board as a png or pdf
-   - make sure that the export file opens and is easy to read
-6. Follow Submission guidelines below
+1. Create a moodboard in figma
+2. In a "Leading Idea" section, describe the types of sites or topics of sites that these moodboards are inspiration for. Also describe (in point form) the moods and tones that you're going for
+3. Create a new section for each collection of content. label it appropriately
+4. Add and organize the content in a way that represents principles of design while staying true to the mood that you're aiming for
+5. Add notes (using sticky notes) to the board. Use a mix of positioning notes and adding comments to connect your motivations for your choices to your content.
+6. When you feel like you've gotten it ready, Export images of the moodboard collections (each collection should be a separate image file)
+7. Label your images appropriately
+8. Submit the images to D2L along with links to the design space (make sure that they are viewable)
 
 ---
 
@@ -53,24 +59,33 @@ This assignment will be marked out of 15 points. For full marks, your moodboard 
 ### Concept and Notes: 5 points
 
 - Leading idea and description is present and visible on the board
-- Leading idea is **not** written with any tech jargon, it **is** thematic or conceptual
-- There are a minimum of 8 notes
-- Notes describe how the content relates/connects to the leading idea/description
-- This can be written in a doc file or in a text box in a section of your moodboard (clearly labelled)
+- Notes are easily connected to the content they describe
+- Notes are not generic
+- Notes communicate your concept effectively
 
 ### Color and Typography: 5 points
 
-- 2 distinct color palettes
-  - 2 groups of colors with 3-5 colors each (including black and white)
-- 2 different groups of type faces
-  - each group needs 2-3 fonts with clear labelling on their use cases
+- 2 distinct color palette collections
+  - Colors work together well (if they don't there's a reason for it)
+  - Colors have sufficient contrast for web readability
+- 2 different collections of type faces
+  - Each group needs 2-3 fonts with clear labelling on their use cases
+  - Fonts express the personality described in the notes
+  - Fonts follow best practices to design for web
 
 ### Screenshots: 5 points
 
-- Screenshots depict distinct variations of the same UI element
-- Screenshots are specific and easy to understand
-- Screenshots link to original sources in moodboard
-- Screenshots capture relevant contexts of the UI element
+- Screenshots have enough context to be understandable
+- Screenshots capture the correct content
+- Screenshots are well organized
+- Screenshots are cropped effectively when necessary
+
+### UI Element Concepts: 5 points
+
+- UI element images depict a consistent style or capture a mood
+- Mood described in notes is effectively depicted
+- Elements don't sacrifice usability for aesthetic (or when they do it's a fair trade off)
+- Elements represent good use of design principles and are visually interesting/have character
 
 ---
 
@@ -78,7 +93,6 @@ This assignment will be marked out of 15 points. For full marks, your moodboard 
 
 In order to receive a grade, you must:
 
-1. Export your moodboard to a png or pdf
+1. Export your moodboards to a pngs
 2. Get a viewable link to your moodboard and paste the link in the text box of your submission (do not send an email invite)
-3. Zip the file of your moodboard
-4. Submit the file along with the viewable link to your active moodboard
+3. submit the images and add the link to the text box in your submission
