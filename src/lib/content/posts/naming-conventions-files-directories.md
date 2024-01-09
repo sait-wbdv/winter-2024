@@ -38,3 +38,16 @@ status: published
 
 <h2>Absolute and Relative File Paths</h2>
 
+- Absolute paths always include the domain name of the website, including http://www....
+- Relative paths only point to a file or a file path within a website.
+    - When a user clicks a relative link, the browser takes them to that location on the current site. For that reason, you can only use relative links when linking to pages or files within your site, and you must use absolute links if you're linking to a location on another website.
+
+- **Relative Paths - Examples**
+    - index.html
+    - /graphics/image.png
+    - /help/articles/how-do-i-set-up-a-webpage.html
+
+- **Absolute Paths - Examples**
+    - http://www.mysite.com
+    - http://www.mysite.com/graphics/image.png
+    - http://www.mysite.com/help/articles/how-do-i-set-up-a-webpage.html
