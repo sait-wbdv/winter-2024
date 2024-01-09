@@ -72,13 +72,13 @@ In this program, you will be creating a lot of "throw-away" code each day (exper
 
 ```html
 /sait-wbdv/in-class/
-  ├─ 2021-09-11-intro-to-html/
+  ├─ 2024-01-15-intro-to-html/
     ├─ hello-world/
     ├─ my-first-website/
     └─ etc/
-  ├─ 2021-09-12-typography/
-  ├─ 2021-09-13-colour/
-  └─ 2021-09-14-etc-etc/
+  ├─ 2024-01-16-typography/
+  ├─ 2024-01-17-colour/
+  └─ 2024-01-18-etc-etc/
 ```
 
 ---

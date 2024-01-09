@@ -7,16 +7,22 @@ status: published
 
 <h2>Code Editor: VS Code</h2>
 
-Most of your time in this program will be spent in your code editor. If you haven't installed one yet, VS Code is the current industry favourite:
+Most of your time in this program will be spent in your code editor. 
+
+Code editors or IDEs(Integrated Developer Environments) come with features like syntax highlighting, code completion, and extensions that enhance the development workflow.
+
+If you haven't installed one yet, VS Code is the current industry favourite. 
 
 - [Install VS Code](https://code.visualstudio.com/download)
 
-If you've been using one you like, stick with it! Your instructors will be using VS Code.
+If you've been using one you like, you can stick with it! Your instructors will be using VS Code.
 
 ### Configuration
 In the User Settings, make the following changes:
 - Set `Editor: Tab Size` to `2`
 - Set `Editor: Word Wrap` to `on`
+
+For more settings options, check out this link https://code.visualstudio.com/docs/getstarted/settings
 
 ### Recommended Extensions
 The following VS Code extensions will make you look cool in front of nerds:
@@ -24,6 +30,7 @@ The following VS Code extensions will make you look cool in front of nerds:
     - Allows you to open vanilla HTML websites in the browser using a local web server.
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 
 ---
 
@@ -40,7 +47,7 @@ The following VS Code extensions will make you look cool in front of nerds:
 GitHub is a private corporation (now owned by Microsoft) that has built a world-leading community around Git. All sample code and projects will be hosted on GH and this program website is hosted using Git.
 
 1. [Create a GitHub account](https://github.com/) if you haven't already. **Don't forget:** your GH username will be seen by potential employers.
-2. _Watch_ and/or _Star_ the [program repository](https://github.com/sait-wbdv/fall-2023).
+2. _Watch_ and/or _Star_ the [program repository](https://github.com/sait-wbdv/winter-2024).
 3. Sign up for GitHub Classroom to get your [Student Developer Pack](https://education.github.com/pack) (handy free stuff)!
 
 ---
@@ -52,7 +59,7 @@ Slack is the preferred messaging tool for this program and is a popular tool in 
 - Optional: [Install Slack](https://slack.com/intl/en-ca/downloads/) (web version available)
 - Tutorials: [Slack 101](https://slack.com/intl/en-ca/resources/slack-101)
 
-Note: The past cohorts of this program also have access to this Slack team but each cohort has a private channel. You're free to meet and interact with past students of this program. You may also use MS Teams if you'd like to avoid outside students (and your instructor(s)).
+Note: The past cohorts of this program also have access to this Slack team but each cohort has a private channel. You're free to meet and interact with past students of this program. You may also use MS Teams(channel name is WebDev Class-winter2024) if you'd like to avoid outside students (and your instructor(s)).
 
 ---
 

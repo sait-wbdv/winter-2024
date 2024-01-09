@@ -1,6 +1,6 @@
 ---
 title: Command Line Basics
-excerpt: Most of the command line tools you use as a developer (like [Git](https://gist.github.com/acidtone/5d45f96bc11fada75038e552f9ba1a5c), Node and npm) will **assume that you are in the root directory (i.e. top folder) of your project**. We will cover the three system commands that help up us navigate the file system.
+excerpt: Most of the command line tools you use as a developer (like Git, Node and npm) will **assume that you are in the root directory (i.e. top folder) of your project**. We will cover the main system commands that help up us navigate the file system.
 date: '2023-09-07'
 status: published
 ---
@@ -54,6 +54,14 @@ You can also combine multiple options with a single flag. To list extra informat
 ```
 $ ls -la
 ```
+---
+
+<h2>mkdir Creates new directory/folder</h2>
+
+```
+$ mkdir media
+```
+mkdir takes in a directory name as an argument, and then creates a new directory in the current working directory. Here we used mkdir to create a new directory named media/.
 
 ---
 
@@ -106,3 +114,7 @@ $ cd
 - Use the Up Arrow to browse through the history of last used commands.
     - Pro tip: type your command first and the Up Arrow will filter the history!
 
+### Extra Reading
+- https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line
+
+- https://www.codecademy.com/article/command-line-commands
