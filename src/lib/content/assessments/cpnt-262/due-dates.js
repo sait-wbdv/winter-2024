@@ -17,17 +17,12 @@ export const cpnt262DueDates = [
   },
   {
     slug: "activity-4",
-    due: "",
+    due: "Monday March 11, 2024",
     status: "announced",
   },
   {
     slug: "activity-5",
-    due: "",
-    status: "announced",
-  },
-  {
-    slug: "activity-6",
-    due: "",
+    due: "Wednesday March 20, 2024",
     status: "announced",
   },
   {
@@ -37,13 +32,12 @@ export const cpnt262DueDates = [
   },
   {
     slug: "assignment-2",
-    due: "",
-
+    due: "Friday March 15, 2024",
     status: "announced",
   },
   {
     slug: "assignment-3",
-    due: "",
+    due: "Sunday March 24, 2024",
     status: "announced",
   },
 ];
