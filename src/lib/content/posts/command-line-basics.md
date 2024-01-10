@@ -5,7 +5,32 @@ date: '2023-09-07'
 status: published
 ---
 
-**Notice**: The examples below start with a `$`. DO NOT include this when typing commands; it's there to represent the command prompt.
+<h2> Introduction to Command line - Important Concepts</h2>
+
+**Operating System**: supports the core functionality of a computer, peripherals and applications. Examples are Mac OS, Windows, Linux
+
+**Unix and Linux**:
+    - Unix is a type of OS
+    - Linux is an evolved GNU free version of Unix and runs on all Macos systems.
+
+**Application**: A program set to perform specific tasks. It usually runs within an operating system.
+
+**Shell**: A user interface for both OS and Applications. There are 2 types:
+    - GUI – Graphical user interfaces – allows apps to run using peripherals and a designed interface e.g apple macOS and photoshop.
+    - CLI – Command Line interface – text input/output interface/interloper for an OS or an application
+
+**Terminal**: The terminal is a text interface for executing text-based programs.
+
+**Command Line**: Is the literal line for entering CLI commands used to interact with the OS, apps or smaller script and tools.
+
+**Command line syntax**: each syntax broken down into: 
+    - Commands 
+    - Options
+    - Parameters
+
+---
+
+**Note**: The examples below start with a `$`. DO NOT include this when typing commands; it's there to represent the command prompt.
 
 ---
 
