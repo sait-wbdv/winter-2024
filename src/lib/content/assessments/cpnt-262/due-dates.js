@@ -2,48 +2,48 @@
 export const cpnt262DueDates = [
   {
     slug: "activity-1",
-    due: "",
+    due: "Thursday February 8, 2024",
     status: "published",
   },
   {
     slug: "activity-2",
-    due: "",
-    status: "published",
+    due: "Monday February 12, 2024",
+    status: "announced",
   },
   {
     slug: "activity-3",
-    due: "",
-    status: "published",
+    due: "Wednesday February 15 2024",
+    status: "announced",
   },
   {
     slug: "activity-4",
     due: "",
-    status: "published",
+    status: "announced",
   },
   {
     slug: "activity-5",
     due: "",
-    status: "published",
+    status: "announced",
   },
   {
     slug: "activity-6",
     due: "",
-    status: "published",
+    status: "announced",
   },
   {
     slug: "assignment-1",
-    due: "",
-    status: "published",
+    due: "Tuesday March 5, 2024",
+    status: "announced",
   },
   {
     slug: "assignment-2",
     due: "",
 
-    status: "published",
+    status: "announced",
   },
   {
     slug: "assignment-3",
     due: "",
-    status: "published",
+    status: "announced",
   },
 ];
