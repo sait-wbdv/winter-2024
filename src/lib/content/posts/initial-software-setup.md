@@ -1,7 +1,7 @@
 ---
 title: Initial Software Setup
 excerpt: You will be responsible for maintaining your development environment for each course in this program. The specific requirements will change from course to course but the following software will be required for the entire program.
-date: '2023-09-07'
+date: '2024-01-10'
 status: published
 ---
 

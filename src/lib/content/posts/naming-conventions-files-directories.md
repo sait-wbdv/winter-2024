@@ -1,7 +1,7 @@
 ---
 title: Files, directories and naming conventions
 excerpt: As you work on your craft as a programmer, you will be generating many files and directories for your projects. Naming and directory structure is one of the first steps to building professional websites and apps.
-date: '2023-09-01'
+date: '2024-01-10'
 status: published
 ---
 

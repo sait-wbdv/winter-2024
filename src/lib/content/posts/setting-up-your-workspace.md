@@ -1,7 +1,7 @@
 ---
 title: Setting Up Your Workspace
 excerpt: Web development (all software development, actually) requires you to work with a lot of files. In this program, we don't prescribe (i.e. tell you how to do it) how you should organize your files and projects but here we list some tips and best practices.
-date: '2023-09-07'
+date: '2024-01-10'
 status: published
 ---
 

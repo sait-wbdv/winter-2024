@@ -1,7 +1,7 @@
 ---
 title: Command Line Basics
 excerpt: Most of the command line tools you use as a developer (like Git, Node and npm) will **assume that you are in the root directory (i.e. top folder) of your project**. We will cover the main system commands that help up us navigate the file system.
-date: '2023-09-07'
+date: '2024-01-10'
 status: published
 ---
 
