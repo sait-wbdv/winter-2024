@@ -94,7 +94,9 @@ mkdir takes in a directory name as an argument, and then creates a new directory
 Use the `cd` command to switch to another directory. Assuming you are currently in your home folder, you can move to your downloads folder with:
 
 ```
-$ cd Downloads
+$ cd Downloads 
+
+testchange
 ```
 
 OR, move there from anywhere on the system with an absolute path (replace `username` with your login handle):
