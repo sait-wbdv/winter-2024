@@ -23,12 +23,12 @@ HTML defines the meaning and structure of web content.
 
 ```html
 <section class="intro">
-  <h1>About Tony</h1>
-  <p>Tony likes to play games! His faves:</p>
+  <h1>About Temi</h1>
+  <p>Temi loves to watch TV shows! Her most recent shows are:</p>
   <ul>
-    <li>Pinball</li>
-    <li>King of Tokyo</li>
-    <li>D&D</li>
+    <li>The Brothers Sun</li>
+    <li>Selling Sunset</li>
+    <li>The Fall of the House of Usher</li>
   </ul>
 </section>
 ```

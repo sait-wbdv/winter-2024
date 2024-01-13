@@ -116,7 +116,6 @@ Readable text is a balance of the following fundamental characteristics of typog
 
 ### `ch` (character)
 - Defined as the width of the glyph "`0`" of the current element's font face.
-- Tony loooooves setting setting text boxes in `ch` units.
 - Warning: the value of `ch` changes with different `font-family` declarations. Don't use `ch` if you need a consistent width.
 - See: [Length comparison: rem vs ch](https://codepen.io/browsertherapy/pen/RwRPrvm)
 

@@ -5,8 +5,15 @@
 ---
 
 ## What is CSS?
-CSS is a language for specifying how documents are presented to users — including fonts, colours and page layout.
 
+- CSS stands for Cascading Style Sheets, and that first word cascading is incredibly important to understand — the way that the cascade behaves is key to understanding CSS.
+
+- CSS is a language for specifying how documents are presented to users — including fonts, colours and page layout.
+
+---
+
+## How CSS Works
+![How CSS works](/images/slides/cpnt-260/css-flow.png)
 ---
 
 ## CSS syntax
