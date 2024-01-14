@@ -144,7 +144,7 @@ export const scheduleByWeek = [
     {
       date: "2024-02-12",
       type: "lesson",
-      label: "cpnt-262",
+      code: "cpnt-262",
     },
     {
       date: "2024-02-13",
@@ -284,7 +284,7 @@ export const scheduleByWeek = [
     {
       date: "2024-03-18",
       type: "lesson",
-      label: "cpnt-262",
+      code: "cpnt-262",
     },
     {
       date: "2024-03-19",
