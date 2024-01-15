@@ -28,14 +28,12 @@ The Hyper Text Transfer protocol is how a browser requests a web page from a ser
 
 ---
 
-![Illustration of the request/response cycle](/images/http/request-response-cycle.png)
-
-See: [HTML Tutorial for Beginners: HTML Crash Course](https://www.youtube.com/watch?v=qz0aGYrrlhU) by Mosh Hamedani
+![Illustration of the request/response cycle](/images/http/request-response-cycle-2.png)
 
 ---
 
 ## Example Request/Response
-See: [HTML Tutorial for Beginners: HTML Crash Course](https://www.youtube.com/watch?v=qz0aGYrrlhU)
+
 ---
 
 1. The browser makes a GET Request for a URL.
@@ -50,6 +48,8 @@ See: [HTML Tutorial for Beginners: HTML Crash Course](https://www.youtube.com/wa
 
 ![Illustration of the request/response cycle](/images/http/response.png)
 
+---
+
 4. The browser receives the Response and might: display a page/image/etc, load JSON data with Javascript, etc.
     
 ---
@@ -58,6 +58,9 @@ See: [HTML Tutorial for Beginners: HTML Crash Course](https://www.youtube.com/wa
 
 - Industry job descriptions are often based on whether you code for the browser or the server. Full stack developers code for both.
 
+---
+## Other Reading Materials
+- [Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 ---
 
 ## Anatomy of a URL
@@ -141,3 +144,4 @@ See: <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Wh
 - [How the Web Works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 - [What is a URL?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL)
 - [HTML Tutorial for Beginners: HTML Crash Course](https://www.youtube.com/watch?v=qz0aGYrrlhU) by Mosh Hamedani
+- [State the core components of an HTTP response ?](https://www.geeksforgeeks.org/state-the-core-components-of-an-http-response/)

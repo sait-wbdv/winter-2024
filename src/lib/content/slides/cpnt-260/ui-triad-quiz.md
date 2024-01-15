@@ -94,5 +94,9 @@ Which of the Browser Triad technologies is most associated with the following Us
 <i class="fa-regular fa-image fa-5x"></i>
 
 ---
+### Search
+<i class="fa-solid fa-search fa-5x"></i>
+
+---
 
 ### Write down your answers for later !
