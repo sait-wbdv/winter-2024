@@ -32,6 +32,7 @@ In _decreasing_ order of importance:
 1. Inline `style` attribute
     ```html
     <p style="color: grey;"></p>
+    
     ```
 2. Embedded `<style>` element
     ```css
@@ -43,7 +44,9 @@ In _decreasing_ order of importance:
     ```
 3. External stylesheet
     ```html
-    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="styles.css">    
+
     ```
 
 ---
