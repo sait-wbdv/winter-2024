@@ -16,7 +16,7 @@ The colored and/or animated logo should be added as an inline svg and styled usi
 ### Instructions
 
 1. In Figma, create a simple logo (it can be for anything)
-2. Use at least 3 paths
+2. Use at least 3 paths to create the logo
 3. Export your svg logo as an svg
 4. Optimize the logo in [svgomg](https://jakearchibald.github.io/svgomg/)
 5. Create a git repo and add an html page to it
@@ -30,11 +30,11 @@ The colored and/or animated logo should be added as an inline svg and styled usi
   - design quality
   - 250-400px w/h
   - optimized monochrome version is 1 path
-  - optimized colored version is at least 3 paths
+  - optimized colored version is at least 2 paths
   - follows best practices for web logos and icons
 - Up to 5 points for inline svg
   - css used to add colors to multi pathed logo
-  - animation on at least 1 of the logos
+  - hover or other pseudo state (possibly with transition) on at least 1 of the logos
   - both logos are on the page
   - logos are displayed at appropriate sizes and positioning
 
@@ -42,5 +42,7 @@ The colored and/or animated logo should be added as an inline svg and styled usi
 
 <h2>Submission Instructions</h2>
 
-- In an /assets folder in your github project, add a raw svg of the logo as well as jpg or png of it. Zip this folder and also submit it
 - Get a zip file of your project repo from github and add it to your submission
+- Add a link to your figma design space
+- Add a link to your Github Pages website
+- Add a link to your Github Repository
