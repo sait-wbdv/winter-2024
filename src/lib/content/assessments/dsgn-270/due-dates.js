@@ -22,8 +22,8 @@ export const dsgn270DueDates = [
   },
   {
     slug: "sprint-activity-2",
-    due: "Jan Feb 21, 2024",
-    status: "announced",
+    due: "Jan 31, 2024",
+    status: "published",
   },
   {
     slug: "sprint-activity-3",
