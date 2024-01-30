@@ -4,16 +4,6 @@
 
 ---
 
-## Hero sections
-### Key Takeaways
-- Hero sections are usually displayed on the home page and important internal pages;
-- Smaller page banners are used on all other pages;
-- CSS images are used to allow overlapping text;
-- `height` or `min-height` is usually needed to the size of the hero section;
-- Flex and/or Grid can be used to center content vertically and horizontally;
-
----
-
 ## Centering Hero Content
 ![Example of centred content](/images/css/centred-content.png)
 
@@ -97,3 +87,10 @@ Try adding extra spice to your Hero sections:
 - Enhance a background colour with a [`linear-gradient()`](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) and/or [`radial-gradient()`](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient);
 - Create transparency with [`opacity`](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity);
 
+---
+### Key Takeaways
+- Hero sections are usually displayed on the home page and important internal pages;
+- Smaller page banners are used on all other pages;
+- CSS images are used to allow overlapping text;
+- `height` or `min-height` is usually needed to the size of the hero section;
+- Flex and/or Grid can be used to center content vertically and horizontally;
