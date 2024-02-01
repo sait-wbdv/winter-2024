@@ -1,11 +1,15 @@
 <script>
+  /**
+   * @type {string}
+   */
   export let status;
   export let dueDate = "";
 </script>
 
 {#if status === "published"}
   <section id="achievement" class="achievement">
-    <h2>Today's Achievement</h2>
+    <h2 id="achievement">Today's Achievement</h2>
+
     {#if dueDate}
       <p>Due: <strong>{dueDate}</strong> in Brightspace.</p>
     {/if}
