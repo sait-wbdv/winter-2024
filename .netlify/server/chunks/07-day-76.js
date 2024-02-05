@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "User Testing and Maintainable Designs",
   "excerpt": "This lesson will give you practical experience conducting user tests. We will learn to use design tool features that make adjusting designs easier. The objective is to be able to make designs that can be edited in response to feedback.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _07_day_7 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

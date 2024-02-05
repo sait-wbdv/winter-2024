@@ -2,9 +2,9 @@ import { c as create_ssr_component, v as validate_component } from "./index3.js"
 import { L as LessonPlan } from "./LessonPlan.js";
 import { A as Achievement } from "./Achievement.js";
 const metadata = {
-  "title": "Components Review and Svelte Logic",
+  "title": "Conditionals and Iterative Rendering",
   "excerpt": null,
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _14_day_14 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

@@ -3,96 +3,75 @@ import { H as Homework } from "./Homework.js";
 import { L as LessonPlan } from "./LessonPlan.js";
 import { A as Achievement } from "./Achievement.js";
 const metadata = {
-  "title": "Wireframing and UI Design",
-  "excerpt": "Draft layout concepts on anything from a napkin to Figma, we will practice reducing user interfaces to low fidelity wireframes. By the end of this class you will have the skills to quickly create wireframes for your projects.",
+  "title": "SVGs on the Web",
+  "excerpt": "This class will cover a few advanced features of vector manipulation along with how to export and use vectors on web pages. Here you will learn how to edit svgs with css and make them responsive and performant.",
   "status": "published"
 };
 const { title, excerpt, status } = metadata;
 const _05_day_5 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Homework, "Homework").$$render($$result, { status }, {}, {
     default: () => {
-      return `<h2>Prep Materials</h2>
-<ul><li>Read <a href="https://medium.com/detaux/what-is-ui-ux-wireframe-designerrs-46dac9c8a153" rel="nofollow">Wireframing in UI/UX Design</a></li>
-<li>Watch <a href="https://youtu.be/TIV1y11xz7k?si=BROBmfhYGT0-N5-K" rel="nofollow">User Flow Tutorial</a></li>
-<li>Read <a href="https://www.lucidchart.com/pages/how-to-make-a-wireframe" rel="nofollow">7 Tips for Making Wireframes</a></li>
-<li>Review <a href="https://bootcamp.uxdesign.cc/12-8-4-column-system-for-responsive-grids-df207a58ebc" rel="nofollow">12 - 8 - 4 Column Grids for Responsive Design</a></li></ul>
-<h3 id="tools-for-class"><a aria-hidden="true" tabindex="-1" href="#tools-for-class"><span class="icon icon-link"></span></a>Tools for Class</h3>
-<ul><li>Either pen and paper, tablet and stylus, or phone and stylus/finger</li>
-<li>If you’re using a mobile device for design, find a good app to work with. For Example: <a href="https://concepts.app/en/" rel="nofollow">Concepts App is supported on most platforms</a></li></ul>
-<hr>`;
+      return `<h2>Prep Materials &amp; Background Knowledge</h2>
+<ul><li>Video: (short overview) <a href="https://youtu.be/emFMHH2Bfvo?si=L-DZqTo9IUs8zaKX" rel="nofollow">SVG in 100 Seconds</a></li>
+<li>Video: (part of a longer video) <a href="https://youtu.be/cWh0de8IhX4?si=kfc4Kgh86AJXKdUp&t=1321" rel="nofollow">SVG Cleanup and Optimization</a></li>
+<li>Article: (css-tricks) <a href="https://css-tricks.com/svg-properties-and-css/" rel="nofollow">Style SVGs with CSS</a></li>
+<li>Video: (figma tutorial) <a href="https://youtu.be/8ZaX6qEcUCU?si=5yFBuxyH4c7Fs6Hu" rel="nofollow">Boolean Operators Tutorial</a></li></ul>
+<h3 id="bring-to-class"><a aria-hidden="true" tabindex="-1" href="#bring-to-class"><span class="icon icon-link"></span></a>Bring to class:</h3>
+<ul><li>A mouse</li>
+<li>Something you can draw on (mobile app or pen &amp; paper)</li></ul>`;
     }
   })}
 ${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
-      return `<h2>Sketch a UI in 10 minutes</h2>
-<p>Let’s start today off by reverse engineering a wireframe. Don’t worry if you dont know the term “wireframe” yet. <strong>Just focus on creating outlines for the content on a web page</strong>.first-letter:</p>
-<h3 id="elements-to-use"><a aria-hidden="true" tabindex="-1" href="#elements-to-use"><span class="icon icon-link"></span></a>Elements to Use</h3>
-<ul><li>Images: Squares with X in it</li>
-<li>Icons: Circle or square with an X in it</li>
-<li>Text: squiggles</li>
-<li>Headings: Functional or Semantic (Go with what makes the most sense)</li>
-<li>Cards, buttons, lists: squares, rounded squares, dots &amp; numbers</li></ul>
-<h3 id="tools-to-use"><a aria-hidden="true" tabindex="-1" href="#tools-to-use"><span class="icon icon-link"></span></a>Tools to Use</h3>
-<ul><li>Tablet, phone, or pen and paper.</li></ul>
-<h3 id="steps"><a aria-hidden="true" tabindex="-1" href="#steps"><span class="icon icon-link"></span></a>Steps</h3>
-<ol><li>Pick a website home page</li>
-<li>Visually scan through it, take mental note of it’s <strong>information hierarchy</strong> and the <strong>ui elements</strong></li>
-<li>Using your tool of choice, sketch a wireframe of the entire page</li>
-<li>Compare with member(s) of your scrum team. Give each other constructive feedback<ul><li>Can someone else scan through it and understand what everything is? if not, what changes would help this (keep the scope in mind)</li></ul></li></ol>
-<hr>
-<h2>Wireframes and Web Design</h2>
-<a href="https://docs.google.com/presentation/d/1GKMLXrThbNU5My3HywnR4Jjk_tLnGgYGW1B6Ffg-t6M/edit?usp=sharing"><img src="/images/design/wireframe-lecture-slides.png" alt="A link to the wireframe lecture slide content"></a>
-<h3 id="key-takeaways--final-notes"><a aria-hidden="true" tabindex="-1" href="#key-takeaways--final-notes"><span class="icon icon-link"></span></a>Key Takeaways &amp; Final Notes</h3>
-<ul><li>Wireframes are used to plan, debug, analyze designs</li>
-<li>Wireframes are especially useful for blocking out how a site’s information hierarchy will be visually organized</li>
-<li>Use wireframing to prevent bad UI/UX choices down the road</li>
-<li>Low Fidelity Wireframes contain little to no detail</li>
-<li>Medium Fidelity Wireframes contain some detail depending on the stage/situation of design</li>
-<li>High Fidelity Wireframes/Mockups look close to the finished product</li>
-<li>Prototypes are wireframes/mockups with actual interactive behaviour</li></ul>
-<h3 id="activity-create-another-wireframe"><a aria-hidden="true" tabindex="-1" href="#activity-create-another-wireframe"><span class="icon icon-link"></span></a>Activity: Create Another Wireframe</h3>
-<p>Now that you understand what wireframes are a bit more, let’s repeat our first activity with a different page or site.</p>
-<ul><li><strong>First</strong> check in with your team, have a 5 minute discussion on the following questions (it’s ok if you don’t talk about all of them)<ul><li>What worked well in your first wireframes?</li>
-<li>Knowing what you know now, will you change your approach at all?</li></ul></li>
-<li>Then follow the same steps as the first activity</li></ul>
-<hr>
-<h2>Wireflows: The Processual Wireframe</h2>
-<p>A wireflow is like a flowchart version of a wireframe. It’s focused on capturing the process and <strong>task flow</strong> of particular tasks on a website.</p>
-<p>We won’t be going into too much detail on wireflows, however we are going to outline wireflows based on one of the wireframes that we’ve sketched today.</p>
-<h3 id="how-to-create-a-wireflow"><a aria-hidden="true" tabindex="-1" href="#how-to-create-a-wireflow"><span class="icon icon-link"></span></a>How to create a wireflow</h3>
-<ol><li>Define the user objective (1 sentence statement on what the user would be trying to do)</li>
-<li>Draw the start point and what page the user is on<ul><li>If there are multiple potential start points, you should write this down in a note</li>
-<li>Generally use a square shape for the pages and stages</li></ul></li>
-<li>Add steps based on the steps that exist<ul><li>diamond shapes represent decisions/questions that the user is faced with</li></ul></li>
-<li>Continue documenting the possible options as the UI presents them until you reach the goal</li></ol>
-<p><strong>Look at at the Wireflow in the introduction of this article for an example</strong></p>
-<a href="https://www.nngroup.com/articles/wireflows/"><img src="/images/design/wireflow-article-nngroup.png" alt="QR Code to Wireflow Article" class="w-48"></a>
-<h2>Wireflow Activity</h2>
-<p>Using any of the wireframes that you’ve drafted and sketched today, use figjam to create a wireflow.</p>
-<ol><li>Pick a wireframe, and copy into into the figjam file as your point of reference</li>
-<li>Pick a task (that can be accomplished with the home page as the start point) and outline that title so it’s clear and easy to see</li>
-<li>Step by step, work through everything needed to satisfy the userflow</li>
-<li>Intentionally make wrong decisions, find out all aspects of the flow</li>
-<li>Document other start points that exist (if they do)</li></ol>
-<hr>
-<h2 id="standup">Daily Standup Beginning of Lab</h2>
-<ul><li>In each block of dsgn-270, you’ll have a group of 3-4 with whom you’ll discuss what your working on and how it’s going</li>
-<li>The objective of this is to get comfortable talking about your progress, issues you’re running into, and your workflow</li></ul>
+      return `<h2>Daily Standup</h2>
+<p>In the same groups as last class</p>
 <h3 id="each-person-takes-a-turn-to-answer-the-following-questions"><a aria-hidden="true" tabindex="-1" href="#each-person-takes-a-turn-to-answer-the-following-questions"><span class="icon icon-link"></span></a>Each person takes a turn to answer the following questions:</h3>
 <ol><li>What did you do yesterday?</li>
 <li>What will you do today?</li>
 <li>Anything blocking your progress?</li></ol>
-<hr>`;
+<hr>
+<h2>Boolean Operations</h2>
+<p>These are used to manipulate paths with one another. They are essential for creating high quality designs.</p>
+<a href="https://help.figma.com/hc/en-us/articles/360039957534-Boolean-operations"><img src="/images/design/booleans.png" alt="Boolean operations slides"></a>
+<h3 id="most-useful-booleans"><a aria-hidden="true" tabindex="-1" href="#most-useful-booleans"><span class="icon icon-link"></span></a>Most useful Booleans</h3>
+<ul><li>Union: They will become 1 shape</li>
+<li>Subtract: The top shape cuts off from the bottom shape</li></ul>
+<p><strong>Union is different from grouping. Grouping doesn’t actually change any elements</strong></p>
+<h2>SVG Optimization</h2>
+<a href="https://docs.google.com/presentation/d/1PXRKHVNnxK0XZlxBNbGwWEk9ouJCtmx21QZiFlm8crc/edit?usp=sharing"><img src="/images/design/svg-slides.png" alt="SVG Slides"></a>
+<h3 id="instructor-led-activity-update-the-android-logo-using-booleans"><a aria-hidden="true" tabindex="-1" href="#instructor-led-activity-update-the-android-logo-using-booleans"><span class="icon icon-link"></span></a>Instructor Led Activity: Update the Android logo Using Booleans</h3>
+<ul><li>Let’s Look at our android logo and use subtract and union to reduce the paths</li>
+<li>Use <a href="https://jakearchibald.github.io/svgomg/" rel="nofollow">SVGOMG</a> to optimize and prepare the svg for use in code<ul><li><strong>remove height and width</strong> when you need it to be responsive</li>
+<li><strong>Prefer viewbox</strong></li>
+<li><strong>Prettify output</strong></li></ul></li></ul>
+<h2>Style SVGs with CSS</h2>
+<a href="https://docs.google.com/presentation/d/1zIfstZwArqenWj85LdXJjat5vx7wdgvIucKlzEqyTwc/edit?usp=sharing"><img src="/images/design/svg-css-slides.png" alt="style svg with css tips"></a>
+<p><strong><a href="https://css-tricks.com/lodge/svg/" rel="nofollow">CSS Tricks Essential SVG Resource</a></strong></p>
+<h3 id="key-takeaways"><a aria-hidden="true" tabindex="-1" href="#key-takeaways"><span class="icon icon-link"></span></a>Key Takeaways</h3>
+<ul><li>You have 3 options to load svgs onto a web page</li>
+<li>Pick the option that makes sense for the use case</li>
+<li>Inline SVGs can be edited with css and js</li></ul>
+<hr>
+<h2>Expectations of working with SVGs</h2>
+<p>As a developer, you might not have to work with svgs too much. However when you do, you’ll want to nail these points:</p>
+<ul><li>Always clean up your design files by labelling, grouping, removing unnecessary paths, and running booleans when necessary</li>
+<li>Always optimize your svgs so that the files are small and so they can be used inline without headaches</li>
+<li>Be aware of the size of your frame<ul><li>SVGs are scalable, but big designs create big files</li></ul></li>
+<li>Consider how your logo will look monochrome (1 color &amp; transparent)</li></ul>
+<hr>
+<h2>In Line SVG Demos</h2>
+<ul><li>CSS Hover</li>
+<li>Transitions</li></ul>`;
     }
   })}
 ${validate_component(Achievement, "Achievement").$$render($$result, { status, dueDate: false }, {}, {
     default: () => {
-      return `<h3 id="assignment-2-create-a-website-wireframe"><a aria-hidden="true" tabindex="-1" href="#assignment-2-create-a-website-wireframe"><span class="icon icon-link"></span></a>Assignment 2: <a href="/courses/dsgn-270/assessments/assignment-2">Create a Website Wireframe</a></h3>
-<ul><li><strong>Due Wednesday October 18 2023</strong></li>
-<li><strong>Weight: 20%</strong></li>
-<li>Create set low fidelity wireframes for a 4 page website</li>
-<li>Use functional text in your wireframes to identify primary user flows</li>
-<li>Practice outlining a multipage website layout</li></ul>`;
+      return `<h3 id="graded-activity-design-an-svg-logo"><a aria-hidden="true" tabindex="-1" href="#graded-activity-design-an-svg-logo"><span class="icon icon-link"></span></a>Graded Activity: <a href="/courses/dsgn-270/assessments/sprint-activity-2">Design an SVG Logo</a></h3>
+<ul><li><strong>Due Wednesday January 31 2024</strong></li>
+<li><strong>Weight: 10%</strong></li>
+<li>Create a simple svg logo in figma</li>
+<li>Add your logo to a web page</li>
+<li>Manipulate your logo with css</li></ul>`;
     }
   })}`;
 });

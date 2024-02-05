@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "More Supabase and a DB Security Primer",
   "excerpt": null,
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _04_day_4 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

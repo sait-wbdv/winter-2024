@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Introduction to Javascript",
   "excerpt": "Moving away from Scratch, we will learn about how Javascript fits into the browser triad. this class focuses on syntax basics with small practical examples.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _02_day_2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -19,14 +19,24 @@ const _02_day_2 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
   })}
 ${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
-      return `<h3 id="morning-activity-algorithms-in-everyday-life-15-minutes"><a aria-hidden="true" tabindex="-1" href="#morning-activity-algorithms-in-everyday-life-15-minutes"><span class="icon icon-link"></span></a>Morning Activity: Algorithms in Everyday Life (15 minutes)</h3>
-<p><strong>Focus</strong>: Anything goes! (within a sharable school context)</p>
-<ol><li>Create a flowchart of something that you enjoy doing using the instructions linked below (15 minutes)</li>
-<li>Briefly discuss your findings:<ul><li>What activity did you document? What step(s) did you break down into micro steps?</li>
-<li><strong>Walk each other through your steps</strong></li>
-<li>When broken into micro steps, did you underestimate how complex the activity actually was?</li></ul></li></ol>
-<a href="https://gist.github.com/lilyx13/423ffbe6e8da87497b134985ba90ab15"><h3>Instructions Link</h3>
-  <img src="/images/qr-codes/algorithm-activity.png" alt="activity qr code" class="w-48"></a>
+      return `<h3 id="morning-activity-merge-and-implement-our-intersection-code"><a aria-hidden="true" tabindex="-1" href="#morning-activity-merge-and-implement-our-intersection-code"><span class="icon icon-link"></span></a>Morning Activity: Merge and Implement our Intersection Code!</h3>
+<h4 id="phase-1-talk-it-out-all-hands"><a aria-hidden="true" tabindex="-1" href="#phase-1-talk-it-out-all-hands"><span class="icon icon-link"></span></a>Phase 1: Talk it out (All hands)</h4>
+<ul><li>Outline the overarching goal and parameters</li>
+<li>Review and note each others control flow logic<ul><li>does anything need to change to work together?</li></ul></li>
+<li>Visualize the functions with props</li>
+<li>Each group should note some changes that they can make to their part of the program</li></ul>
+<h4 id="phase-2-code-it-in-teams"><a aria-hidden="true" tabindex="-1" href="#phase-2-code-it-in-teams"><span class="icon icon-link"></span></a>Phase 2: Code it (In teams)</h4>
+<ul><li>Make the changes to your algorithms as per all hands discussion</li>
+<li>Simulate with props to test</li>
+<li>Write the code down (1 algorithm per page) and label each one clearly based on what it does</li>
+<li>Create any other props needed</li>
+<li>Decide on who will <strong>execute</strong> the program commands and who will operate as variables in the program<ul><li>1-2 command executers</li>
+<li>1-2 variable</li></ul></li></ul>
+<h4 id="phase-3-run-the-program-all-hands"><a aria-hidden="true" tabindex="-1" href="#phase-3-run-the-program-all-hands"><span class="icon icon-link"></span></a>Phase 3: Run the Program (All hands)</h4>
+<ul><li>Now we’ll pull it all together!</li>
+<li>The ‘variable’ will play out the commands executed by the ‘functions’ using props</li>
+<li>Then let’s see how many times we crash the program!</li>
+<li>Document causes of crashes and note potential solutions</li></ul>
 <hr>
 <h2>1. Introduction to Javascript</h2>
 <p><a href="/slides/cpnt-262/js-introduction"><img src="/images/slides/cpnt-262/js-intro.png" alt="Introduction to Javascript"></a></p>
@@ -88,12 +98,10 @@ ${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}
   })}
 ${validate_component(Achievement, "Achievement").$$render($$result, { status }, {}, {
     default: () => {
-      return `<h3 id="end-of-day-activity-recreate-morning-algorithm-in-js"><a aria-hidden="true" tabindex="-1" href="#end-of-day-activity-recreate-morning-algorithm-in-js"><span class="icon icon-link"></span></a>End of Day Activity: Recreate Morning Algorithm in JS</h3>
-<ul><li><strong>Focus</strong>: Using comments to outline steps and information</li>
-<li>Suggestion: Create a js file with variables for all the nouns in your morning activity</li></ul>
-<a href="https://gist.github.com/lilyx13/c81f1e72f83586efcd97206b806fd494"><h3>Instructions Link</h3>
-  <img src="/images/qr-codes/algorithm-followup-activity.png" alt="activity qr code" class="w-48"></a>
-<hr>`;
+      return `<h2 id="work-through-the-first-15-30-free-code-camp-exercises"><a aria-hidden="true" tabindex="-1" href="#work-through-the-first-15-30-free-code-camp-exercises"><span class="icon icon-link"></span></a><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" rel="nofollow">Work through the first 15-30 free code camp exercises</a></h2>
+<ul><li>After completing, screenshot the curriculum screen to show which ones you did/how far you got</li>
+<li>Submit screenshots to the dailies dropbox item in Brightspace</li>
+<li>Include any questions that you would like addressed in class regarding any of the problems presented in the exercises<ul><li>I’ll review and try to address the questions tomorrow</li></ul></li></ul>`;
     }
   })}`;
 });

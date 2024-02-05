@@ -2,7 +2,7 @@ import { c as create_ssr_component } from "./index3.js";
 const metadata = {
   "title": "Setting Up Your Workspace",
   "excerpt": "Web development (all software development, actually) requires you to work with a lot of files. In this program, we don't prescribe (i.e. tell you how to do it) how you should organize your files and projects but here we list some tips and best practices.",
-  "date": "2023-09-07",
+  "date": "2024-01-10",
   "status": "published"
 };
 const Setting_up_your_workspace = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -48,13 +48,13 @@ You should keep your assignments separate from all other code. You can put them 
 <h2>Daily in-class code</h2>
 <p>In this program, you will be creating a lot of “throw-away” code each day (experiments, challenges, pair coding). It often makes sense to organize your code by date so it doesn’t get in the way of your longer-term projects:</p>
 <pre class="language-html"><!-- HTML_TAG_START -->${`<code class="language-html">/sait-wbdv/in-class/
-  ├─ 2021-09-11-intro-to-html/
+  ├─ 2024-01-15-intro-to-html/
     ├─ hello-world/
     ├─ my-first-website/
     └─ etc/
-  ├─ 2021-09-12-typography/
-  ├─ 2021-09-13-colour/
-  └─ 2021-09-14-etc-etc/</code>`}<!-- HTML_TAG_END --></pre>
+  ├─ 2024-01-16-typography/
+  ├─ 2024-01-17-colour/
+  └─ 2024-01-18-etc-etc/</code>`}<!-- HTML_TAG_END --></pre>
 <hr>
 <h2>Class/personal/work Projects</h2>
 It&#39;s recommended that you create a dedicated workspace folder for your projects. If you have multiple contexts (i.e. personal vs work) that deal with code, you can make a separate folder for each.

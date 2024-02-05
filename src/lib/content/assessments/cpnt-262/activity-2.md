@@ -3,7 +3,6 @@ title: Graded Activity 2 - Strings and Numbers | Before & After
 excerpt: Learn how to make variables in javascript and render them on an html page
 points: 5
 type: assignment
-status: published
 ---
 
 <h2>Overview</h2>

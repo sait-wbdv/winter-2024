@@ -3,25 +3,13 @@ import { H as Homework } from "./Homework.js";
 import { L as LessonPlan } from "./LessonPlan.js";
 import { A as Achievement } from "./Achievement.js";
 const metadata = {
-  "title": "Dynamic Components and Basic Svelte Logic",
+  "title": "Dynamic Components",
   "excerpt": null,
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _13_day_13 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(Homework, "Homework").$$render($$result, { status }, {}, {
-    default: () => {
-      return `<p><strong>Events</strong></p>
-<ul><li><a href="https://learn.svelte.dev/tutorial/dom-events" rel="nofollow">DOM events</a></li>
-<li><a href="https://learn.svelte.dev/tutorial/event-modifiers" rel="nofollow">Event modifiers</a></li>
-<li><a href="https://learn.svelte.dev/tutorial/dom-event-forwarding" rel="nofollow">DOM event forwarding</a></li></ul>
-<p><strong>Reactivity</strong></p>
-<ul><li><a href="https://learn.svelte.dev/tutorial/reactive-assignments" rel="nofollow">Assignments</a></li>
-<li><a href="https://learn.svelte.dev/tutorial/reactive-declarations" rel="nofollow">Declarations</a></li>
-<li><a href="https://learn.svelte.dev/tutorial/reactive-statements" rel="nofollow">Reactive Statements</a></li>
-<li><a href="https://learn.svelte.dev/tutorial/updating-arrays-and-objects" rel="nofollow">Updating arrays and objects</a></li></ul>`;
-    }
-  })}
+  return `${validate_component(Homework, "Homework").$$render($$result, { status }, {}, {})}
 ${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
       return `<hr>

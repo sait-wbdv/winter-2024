@@ -1,94 +1,97 @@
 import { c as create_ssr_component, v as validate_component } from "./index3.js";
 import { H as Homework } from "./Homework.js";
 import { L as LessonPlan } from "./LessonPlan.js";
+import { A as Achievement } from "./Achievement.js";
 const metadata = {
-  "title": "Vector Design",
-  "excerpt": "A focus on the basics of vector editing using Figma as a tool. We will examine basic vector manipulation tools and best practices for managing designs.",
+  "title": "Wireframing and UI Design",
+  "excerpt": "Draft layout concepts on anything from a napkin to Figma, we will practice reducing user interfaces to low fidelity wireframes. By the end of this class you will have the skills to quickly create wireframes for your projects.",
   "status": "published"
 };
 const { title, excerpt, status } = metadata;
 const _03_day_3 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Homework, "Homework").$$render($$result, { status }, {}, {
     default: () => {
-      return `<h2>Prep Materials &amp; Background Knowledge</h2>
-<ul><li>Video (15 min): <a href="https://youtu.be/ZJSCl6XEdP8?si=P7v200PjULJNDEWC" rel="nofollow">Overview of SVGs</a> by Kevin Powell</li>
-<li>Article: <a href="https://www.adobe.com/ca/creativecloud/file-types/image/comparison/raster-vs-vector.html" rel="nofollow">Raster vs Vector</a> by Adobe</li></ul>
-<h3 id="things-to-bring-to-class"><a aria-hidden="true" tabindex="-1" href="#things-to-bring-to-class"><span class="icon icon-link"></span></a>Things to Bring to Class</h3>
-<ul><li>A mouse (very important)</li>
-<li>Something to draw on (tablet, phone, pen &amp; paper) - if you decide to go digital, find a good drawing app (ie: <a href="https://concepts.app/en/" rel="nofollow">Concepts</a>)</li></ul>
-<h3 id="if-design-is-new-to-you"><a aria-hidden="true" tabindex="-1" href="#if-design-is-new-to-you"><span class="icon icon-link"></span></a>If Design is New to You</h3>
-<ul><li><a href="https://www.youtube.com/watch?v=gnscqweM_NU&list=PLXDU_eVOJTx6zk5MDarIs0asNoZqlRG23" rel="nofollow">Figma Tutorial Series</a></li></ul>`;
+      return `<h2>Prep Materials</h2>
+<ul><li>Read <a href="https://medium.com/detaux/what-is-ui-ux-wireframe-designerrs-46dac9c8a153" rel="nofollow">Wireframing in UI/UX Design</a></li>
+<li>Watch <a href="https://youtu.be/TIV1y11xz7k?si=BROBmfhYGT0-N5-K" rel="nofollow">User Flow Tutorial</a></li>
+<li>Read <a href="https://www.lucidchart.com/pages/how-to-make-a-wireframe" rel="nofollow">7 Tips for Making Wireframes</a></li>
+<li>Review <a href="https://bootcamp.uxdesign.cc/12-8-4-column-system-for-responsive-grids-df207a58ebc" rel="nofollow">12 - 8 - 4 Column Grids for Responsive Design</a></li></ul>
+<h3 id="tools-for-class"><a aria-hidden="true" tabindex="-1" href="#tools-for-class"><span class="icon icon-link"></span></a>Tools for Class</h3>
+<ul><li>Either pen and paper, tablet and stylus, or phone and stylus/finger</li>
+<li>If you’re using a mobile device for design, find a good app to work with. For Example: <a href="https://concepts.app/en/" rel="nofollow">Concepts App is supported on most platforms</a></li></ul>
+<hr>`;
     }
   })}
 ${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
-      return `<h2 id="standup">Daily Standup</h2>
-<p>A standup is a 15 minute team check-in activity from <a href="https://www.organizeagile.com/what-is-scrum/" rel="nofollow">scrum</a>. It’s a meeting that is short enough for everyone to “stand up”. For the rest of DSGN-270, we will take the first 15* minutes of class to do standups.</p>
-<h3 id="teams-standups"><a aria-hidden="true" tabindex="-1" href="#teams-standups"><span class="icon icon-link"></span></a>Teams Standups</h3>
-<ul><li>In each block of dsgn-270, you’ll have a group of 3-4 with whom you’ll discuss what your working on and how it’s going</li>
-<li>The objective of this is to get comfortable talking about your progress, issues you’re running into, and your workflow</li></ul>
-<h3 id="each-person-takes-a-turn-to-answer-the-following-questions"><a aria-hidden="true" tabindex="-1" href="#each-person-takes-a-turn-to-answer-the-following-questions"><span class="icon icon-link"></span></a>Each person takes a turn to answer the following questions:</h3>
-<ol><li>What did you do yesterday?</li>
-<li>What will you do today?</li>
-<li>Anything blocking your progress?</li></ol>
-<h4 id="check-out-this-link-for-information-on-successful-standups"><a aria-hidden="true" tabindex="-1" href="#check-out-this-link-for-information-on-successful-standups"><span class="icon icon-link"></span></a>Check out this link for information on successful standups</h4>
-<a href="https://geekbot.com/blog/daily-standup-meeting/?k_id=dsa-910872033553&adgroup_id=96910465570&campaign_name_ad=10071775578&gclid=CjwKCAjwgZCoBhBnEiwAz35Rwl5kiqR3Kg2iA73l65JLBH1GWTM_ODIe2HPCWeO_Kq2kIKBRyqueHRoCBC0QAvD_BwE#h.c5udhxafpjb0" class="block"><img src="/images/agile/standup-tips.png" alt="qr code to a blogpost on standups" class="w-48"></a>
+      return `<h2>Warm up: Webpage content audit</h2>
+<p>Pick a website that you like, take some time to sketch out the content associated with each section. Note the intention, goals, and routes the user has access to at each section.</p>
+<p>This can be done digitally or by hand, basically it’s a rough map of all the content and the objectives that the content supports.</p>
+<p>Finally, note any particular UI elements that you think do a particularly good or bad job at supporting the user objectives.</p>
+<p><strong>our goal is to establish the information hierarchy</strong></p>
 <hr>
-<h2 id="warmup">Design Warmup</h2>
-<p>Regardless of your level of drawing skills, it is a good idea to do some type of warmup. This class assumes little to no art experience, and most of our design work is focused on UI elements so we will take a basics approach to warming up. <strong>5 minutes or so</strong></p>
-<h3 id="tools"><a aria-hidden="true" tabindex="-1" href="#tools"><span class="icon icon-link"></span></a>Tools</h3>
-<ul><li>Something to draw on:<ul><li>tablet + stylus</li>
-<li>phone + finger/stylus</li>
-<li>paper + pen/pencil</li></ul></li>
-<li><strong>Do not use desktop design software</strong></li></ul>
-<h3 id="tasks"><a aria-hidden="true" tabindex="-1" href="#tasks"><span class="icon icon-link"></span></a>Tasks</h3>
-<ul><li>Draw horizontal and vertical lines (go in multiple directions)</li>
-<li>Draw squares, rectangles, and other polyons</li>
-<li>Draw circles and ovals</li></ul>
-<h2 id="logos-manual">Logo Design By Hand</h2>
-<p>While this isn’t how we will be creating vector logos, we can ground how we understand vector design software like Figma by sketching. The shapes that you draw are vector paths (if using an app like canvas), or at least are like them.</p>
-<h3 id="pick-a-logo-or-icon-to-create"><a aria-hidden="true" tabindex="-1" href="#pick-a-logo-or-icon-to-create"><span class="icon icon-link"></span></a>Pick a logo or icon to create</h3>
-<p><em>you will do this first by hand, and then in figma</em></p>
-<ol><li>Copy an image of the logo into a design app (or have it open on your phone)</li>
-<li>Sketch a grid through the logo that marks out the primary sections</li>
-<li>Reduce the logo to basic shapes (lines, polygons, circles…)<ul><li>trace over the image, or draw a shape version of the logo</li></ul></li>
-<li>Draw the logo<ul><li>either tracing or free hand. Do whatever is more comfortable at your skill level</li></ul></li></ol>
-<h4 id="debrief"><a aria-hidden="true" tabindex="-1" href="#debrief"><span class="icon icon-link"></span></a>Debrief</h4>
-<ul><li>Was the logo more complex or simple than you anticipated?</li>
-<li>Did the grid or basic shape render help map out how to draw the logo?</li></ul>
-<h2>Break</h2>
-<hr>
-<h2 id="rasters-vectors">Rasters and Vectors</h2>
-<a href="https://docs.google.com/presentation/d/1_quygONzrxFQ5FSJq87FAydkUn35_eysPe9zhhSvS0w/edit?usp=sharing"><img src="/images/design/rasters-vectors-slideshow.png" alt="raster vs vectors slideshow"></a>
-<h3 id="key-takeaways"><a aria-hidden="true" tabindex="-1" href="#key-takeaways"><span class="icon icon-link"></span></a>Key Takeaways</h3>
-<ul><li>Rasters are made of of pixels with color values. Their clarity at a given size is determined by their resolution</li>
-<li>Vectors are mathematically calculated paths that can scale to any size</li>
-<li>Rasters are great for images or complex heavily detailed illustrations</li>
-<li>Vectors are great for most illustrations, animated content, logos, icons</li></ul>
-<h2 id="vector-design">Vector Design Basics</h2>
-<a href="https://help.figma.com/hc/en-us/articles/360040450133-Basic-shape-tools-in-Figma-design"><img src="/images/design/figma-docs.png" alt="Screenshot of figma basic tools"></a>
-<h3 id="how-designs-are-organized"><a aria-hidden="true" tabindex="-1" href="#how-designs-are-organized"><span class="icon icon-link"></span></a>How Designs are Organized</h3>
-<ul><li><p><a href="https://help.figma.com/hc/en-us/articles/360041539473-Frames-in-Figma" rel="nofollow">Frames</a> <strong>important now</strong></p></li>
-<li><p><a href="https://help.figma.com/hc/en-us/articles/360039831974-View-layers-and-pages-in-the-left-sidebar" rel="nofollow">Layers</a> <strong>important now</strong></p></li>
-<li><p><a href="https://www.figma.com/blog/introducing-figma-pages/" rel="nofollow">Pages</a> <strong>important later</strong></p></li>
-<li><p><a href="https://help.figma.com/hc/en-us/articles/360040450513-Create-layout-grids-with-grids-columns-and-rows" rel="nofollow">Grids</a> <strong>important later but useful now</strong></p></li></ul>
-<h2>Create the Android Logo</h2>
+<h2>Wireframes and Web Design</h2>
+<a href="https://docs.google.com/presentation/d/1GKMLXrThbNU5My3HywnR4Jjk_tLnGgYGW1B6Ffg-t6M/edit?usp=sharing"><img src="/images/design/wireframe-lecture-slides.png" alt="A link to the wireframe lecture slide content"></a>
+<h3 id="key-takeaways--final-notes"><a aria-hidden="true" tabindex="-1" href="#key-takeaways--final-notes"><span class="icon icon-link"></span></a>Key Takeaways &amp; Final Notes</h3>
+<ul><li>Wireframes are used to plan, debug, analyze designs</li>
+<li>Wireframes are especially useful for blocking out how a site’s information hierarchy will be visually organized</li>
+<li>Use wireframing to prevent bad UI/UX choices down the road</li>
+<li>Low Fidelity Wireframes contain little to no detail</li>
+<li>Medium Fidelity Wireframes contain some detail depending on the stage/situation of design</li>
+<li>High Fidelity Wireframes/Mockups look close to the finished product</li>
+<li>Prototypes are wireframes/mockups with actual interactive behaviour</li></ul>
+<h2>Sketch a few wireframes: 20*min</h2>
+<p>First do a wireframe of the site that you analyzed earlier today. <strong>Then</strong> brainstorm a list of websites that you would be intersted in building (topics, types… whatever jumps out at you).</p>
+<h3 id="elements-to-use"><a aria-hidden="true" tabindex="-1" href="#elements-to-use"><span class="icon icon-link"></span></a>Elements to Use</h3>
+<ul><li>Images: Squares with X in it</li>
+<li>Icons: Circle or square with an X in it</li>
+<li>Text: squiggles</li>
+<li>Headings: Functional or Semantic (Go with what makes the most sense)</li>
+<li>Cards, buttons, lists: squares, rounded squares, dots &amp; numbers</li></ul>
+<h3 id="tools-to-use"><a aria-hidden="true" tabindex="-1" href="#tools-to-use"><span class="icon icon-link"></span></a>Tools to Use</h3>
+<ul><li>Tablet, phone, or pen and paper.</li></ul>
 <h3 id="steps"><a aria-hidden="true" tabindex="-1" href="#steps"><span class="icon icon-link"></span></a>Steps</h3>
-<ol><li>Create the body as a rectangle with rounded corners</li>
-<li>Create an arm and duplicate it 3 more times</li>
-<li>Move one arm to the other side of the body</li>
-<li>Move the legs to the bottom of the body</li>
-<li>Use the <a href="https://help.figma.com/hc/en-us/articles/360039956914-Adjust-alignment-rotation-and-position" rel="nofollow">alignment tools</a> to</li>
-<li>Create a circle that’s the same width as the body</li>
-<li>Make an extra square that’s wider than the circle</li>
-<li>Center the square over the center of the circle and use it to cut the circle in half with <a href="https://help.figma.com/hc/en-us/articles/360039957534-Boolean-operations" rel="nofollow">subtract</a></li>
-<li>Create 2 more circles for the eyes, align them</li>
-<li>Create a line and rotate it 45 degrees</li>
-<li>Align the eyes and antenna</li>
-<li>Name all of the paths and group them logically</li></ol>
-<h2>Lab Time</h2>
-<ul><li><a href="https://bezier.method.ac/" rel="nofollow">Play the Bezier Curve Game</a> to learn the pen tool</li>
-<li>Recreate the logo that you drew by hand at the beginning of class in figma.</li></ul>`;
+<ol><li>Sketch out the webpage that you did a content audit of earlier</li>
+<li>Using your tool of choice, sketch a wireframe of the entire page</li>
+<li>Label shapes so it’s clear what everything represents</li>
+<li>Switch gears and think of a list of sites that you want to build</li></ol>
+<hr>
+<h2>Wireflows: The Processual Wireframe</h2>
+<p>A wireflow is like a flowchart version of a wireframe. It’s focused on capturing the process and <strong>task flow</strong> of particular tasks on a website.</p>
+<p>We won’t be going into too much detail on wireflows, however we are going to outline wireflows based on one of the wireframes that we’ve sketched today.</p>
+<h3 id="how-to-create-a-wireflow"><a aria-hidden="true" tabindex="-1" href="#how-to-create-a-wireflow"><span class="icon icon-link"></span></a>How to create a wireflow</h3>
+<ol><li>Define the user objective (1 sentence statement on what the user would be trying to do)</li>
+<li>Draw the start point and what page the user is on<ul><li>If there are multiple potential start points, you should write this down in a note</li>
+<li>Generally use a square shape for the pages and stages</li></ul></li>
+<li>Add steps based on the steps that exist<ul><li>diamond shapes represent decisions/questions that the user is faced with</li></ul></li>
+<li>Continue documenting the possible options as the UI presents them until you reach the goal</li></ol>
+<p><strong>Look at at the Wireflow in the introduction of this article for an example</strong></p>
+<a href="https://www.nngroup.com/articles/wireflows/"><img src="/images/design/wireflow-article-nngroup.png" alt="QR Code to Wireflow Article" class="w-48"></a>
+<h2>Wireflow Activity</h2>
+<p>Using any of the wireframes that you’ve drafted and sketched today, use figjam to create a wireflow. Alternatively, do a wireflow of a website that you like. Think of this as a follow up to the <strong>links and nodes</strong> mental model exercises from day 2.</p>
+<ol><li>Pick a wireframe, and copy into into the figjam file as your point of reference</li>
+<li>Pick a task (that can be accomplished with the home page as the start point) and outline that title so it’s clear and easy to see</li>
+<li>Step by step, work through everything needed to satisfy the userflow</li>
+<li>Intentionally make wrong decisions, find out all aspects of the flow</li>
+<li>Document other start points that exist (if they do)</li></ol>
+<hr>
+<h2>Activity: Bringing it all together</h2>
+<p>Having done a content audit, a few wireframe sketches, and a wireflow, wireframe for the same content as before but come up with a completely different layout and order.</p>
+<ul><li>ie: if you used a 3 card layout to display a couple of features, what is a different layout that you could use to present roughly the same content (in that case an image, at last 1 action, a title, and a description).</li>
+<li>ie: In your nav bar, try re-organizing the content, maybe put nav items on the left</li></ul>
+<hr>`;
+    }
+  })}
+${validate_component(Achievement, "Achievement").$$render($$result, { status, dueDate: false }, {}, {
+    default: () => {
+      return `<h2>Extra Activity</h2>
+<p>This is intended to help prep for your assignments in cpnt-260. come up with design concepts and layouts for your webdev projects.</p>
+<ul><li>Come up with a webpage idea that you would like to make for fun (don’t be too serious or ambitious just yet)</li>
+<li>Make a quick moodboard of site inspiration (screenshots of pages with UI’s that you want to emulate/draw inspiration from) (max 15 minutes)</li>
+<li>Think about the kind of content that you’d want to show on a page (again don’t think too hard on it: move quick and be intuitive)</li>
+<li>Sketch it out</li>
+<li>Write labels that point out the focus of content at each spot (main heading, product image, intro description…)</li>
+<li>take a photo of your wireframe and send it to brightspace</li></ul>`;
     }
   })}`;
 });

@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Functions | The Verbs of Programming",
   "excerpt": "We will practice wrapping conditional logic and mathematical expressions within functions for increased reusability.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _05_day_5 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

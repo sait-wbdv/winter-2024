@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "String & Array Methods",
   "excerpt": "We will expand our knowledge of built in string and array methods by comparing the two.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _07_day_7 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

@@ -4,7 +4,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Pull Requests and JS Review",
   "excerpt": "This session, we'll cover how to request changes to a 3rd-party repo using a Pull Request.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _07_day_7 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

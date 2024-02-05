@@ -12,11 +12,23 @@ const _06_day_6 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
   return `${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
       return `<h2>Housekeeping</h2>
-<ul><li>Tomorrow: Early Dismissal at 2pm</li></ul>
+<ul><li><p><a href="/courses/cpnt-260/assessments/assignment-1">CPNT 260 Assignment 1</a> marks returned.</p>
+<ul><li>Example Submission:<ul><li><a href="https://github.com/sait-wbdv/f23-spoilers-cpnt260-a1" rel="nofollow">GitHub repo</a></li>
+<li><a href="https://sait-wbdv.github.io/f23-spoilers-cpnt260-a1/" rel="nofollow">GH Pages site</a></li></ul></li></ul></li>
+<li><p><a href="/courses/cpnt-260/assessments/assignment-2">CPNT 260 Assignment 2</a> marks returned.</p>
+<ul><li>Example Submission:<ul><li><a href="https://github.com/sait-wbdv/f23-spoilers-cpnt260-a2" rel="nofollow">GitHub repo</a></li>
+<li><a href="https://sait-wbdv.github.io/f23-spoilers-cpnt260-a2/" rel="nofollow">GH Pages site</a></li></ul></li></ul></li></ul>
+<hr>
+<h2>Daily Standup</h2>
+<p>In the same groups as last class</p>
+<h3 id="each-person-takes-a-turn-to-answer-the-following-questions"><a aria-hidden="true" tabindex="-1" href="#each-person-takes-a-turn-to-answer-the-following-questions"><span class="icon icon-link"></span></a>Each person takes a turn to answer the following questions:</h3>
+<ol><li>What did you do yesterday?</li>
+<li>What will you do today?</li>
+<li>Anything blocking your progress?</li></ol>
 <hr>
 <h2>1. Splitting Styles and Review</h2>
 <h3 id="example-code"><a aria-hidden="true" tabindex="-1" href="#example-code"><span class="icon icon-link"></span></a>Example Code</h3>
-<ul><li><a href="https://github.com/sait-wbdv/dailies-f23/tree/main/2023-09-25-media-flex/00-review-starter" rel="nofollow">Code-splitting Starter</a></li></ul>
+<ul><li><a href="https://github.com/sait-wbdv/dailies-w24/tree/main/2024-01-29-media-flex/00-review-starter" rel="nofollow">Code-splitting Starter</a></li></ul>
 <h3 id="activity-css-separation"><a aria-hidden="true" tabindex="-1" href="#activity-css-separation"><span class="icon icon-link"></span></a>Activity: CSS Separation</h3>
 <ol><li>Take one of your projects with the most CSS.</li>
 <li>Split your stylesheet logically into multiple files, such as:<ul><li><code>reset.css</code></li>
@@ -34,7 +46,7 @@ const _06_day_6 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <ul><li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries" rel="nofollow">Beginner’s guide to media queries</a></li>
 <li>Kevin Powell: <a href="https://www.freecodecamp.org/news/taking-the-right-approach-to-responsive-web-design/" rel="nofollow">How to Take the Right Approach to Responsive Web Design</a><ul><li>Video: <a href="https://www.youtube.com/watch?v=0ohtVzCSHqs" rel="nofollow">Are you writing responsive CSS the wrong way?</a></li></ul></li></ul>
 <h3 id="example-code-1"><a aria-hidden="true" tabindex="-1" href="#example-code-1"><span class="icon icon-link"></span></a>Example Code</h3>
-<ul><li><a href="https://github.com/sait-wbdv/dailies-f23/tree/main/2023-09-25-media-flex/01-media-query-min-width" rel="nofollow"><code>min-width</code> Media Query</a></li></ul>
+<ul><li><a href="https://github.com/sait-wbdv/dailies-w24/tree/main/2024-01-29-media-flex/01-media-query-min-width" rel="nofollow"><code>min-width</code> Media Query</a></li></ul>
 <h3 id="activity-changing-background-color-with-a-media-query"><a aria-hidden="true" tabindex="-1" href="#activity-changing-background-color-with-a-media-query"><span class="icon icon-link"></span></a>Activity: Changing <code>background-color</code> with a media query</h3>
 <p>To get you started on Today’s Achievement:</p>
 <ol><li>Take an example of your own code from previous lessons in this course.</li>
@@ -47,7 +59,7 @@ ${validate_component(Achievement, "Achievement").$$render($$result, { status }, 
       return `<h3 id="min-width-media-query"><a aria-hidden="true" tabindex="-1" href="#min-width-media-query"><span class="icon icon-link"></span></a><code>min-width</code> Media Query</h3>
 <p>Add a mobile-first media query to a project.</p>
 <h4 id="instructions"><a aria-hidden="true" tabindex="-1" href="#instructions"><span class="icon icon-link"></span></a>Instructions</h4>
-<ol><li>Take an example of your own code from previous lessons in this course.<ul><li>You may use <a href="https://github.com/sait-wbdv/dailies-f23/tree/main/2023-09-25-media-flex/03-nested-flex-banner" rel="nofollow">this sample code</a> for partial marks.</li></ul></li>
+<ol><li>Take an example of your own code from previous lessons in this course.<ul><li>You may use <a href="https://github.com/sait-wbdv/dailies-w24/tree/main/2024-01-29-media-flex/03-nested-flex-banner" rel="nofollow">this sample code</a> for partial marks.</li></ul></li>
 <li>Choose some styles within your project that you would like to show only on Desktop screens. For example, on Desktop:<ul><li>Show or hide an element;</li>
 <li>Make the font-size larger;</li>
 <li>Add a flexbox;</li></ul></li>

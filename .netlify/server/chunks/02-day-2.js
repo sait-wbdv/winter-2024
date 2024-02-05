@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Fetching Data",
   "excerpt": null,
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _02_day_2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

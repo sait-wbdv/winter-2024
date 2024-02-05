@@ -1,16 +1,22 @@
 ---
-title: Graded Activity 1 - Program in Scratch
+title: Mini Activity 1 - Program in Scratch
 excerpt: Write a small program in the visual programming language Scratch.
-points: 5
+points: 10
 type: assignment
-status: published
 ---
 
 <h2>Overview</h2>
 
 The goal of this activity is to familiarize with basic programming concepts by using a visual building block style programming language called Scratch. This will be the only Scratch based activity in this program and will serve as a metaphor for learning Javascript.
 
-You are welcome to build any type of project that Scratch allows. Common choices are: - Interactivty story - Game - Animation - Music video
+You are welcome to build any type of project that Scratch allows. Common choices are:
+
+- Interactivty story
+- Game
+- Animation
+- Music video
+
+The other half of the assignment is that you have to break down your app into pseudocode. You have the option of writing it out in pseudocode in a markdown file or creating a flowchart in a figjam file. You have equal points for creating your content as you do documenting it in pseudocode.
 
 <h2>Instructions</h2>
 
@@ -29,25 +35,37 @@ Create a project in scratch as noted above with the following requirements satis
 
 ### Code Quality
 
-- The code works and the output (game/animation/story) is reasonably coherent
-- Use custom blocks with clear descriptive names when sequences get too long (ie: containing multiple steps and actions that aren't actually dependent on one another)
+- Features used work more or less as expected, use pop up messages when necessary
+- Scripts are broken down into smaller elements when possible
+- Pseudocode states what each block is doing clearly and concisely
+- It is clear (at a glance) of what scripts correspond to which pseudocode or flow chart
 
 ---
 
 <h2>Rubric</h2>
 
-### 3 Points: Content
+### 2 Points: Scratch Content
 
 - Required elements are present and logically used
 - Block settings and content have been changed to make sense with the content
 - Storyline is bigger than a simple hello world type example
 
-### 2 Points: Code Quality
+### 2 Points: Scratch Code Quality
 
 - Scripts run when expected
 - If user input is required, it's clear when and how to do so
 - Correct blocks are chosen for the use case
 - Long scripts are broken up into custom blocks with descriptive names
+
+### 2 Points: Pseudocode logic
+
+- pseudocode clearly and succiciently describes what each block is doing. with special attention to the I/O nature of the blocks
+- programming terminology used in class is reflected in pseudocode
+
+### 2 Points: Pseudocode clarity
+
+- Pseudocode and/or flow charts are easy to read and identify
+- Enough context is given and script descriptions are clearly labelled
 
 ---
 
@@ -55,3 +73,4 @@ Create a project in scratch as noted above with the following requirements satis
 
 - Create an account with scratch and share a link to your project in the text submission box
 - Export the project file and attach it to your submission.
+- Also attach markdown files and/or image files of your board

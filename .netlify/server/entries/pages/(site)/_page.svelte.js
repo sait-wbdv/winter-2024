@@ -192,9 +192,10 @@ const Schedule = create_ssr_component(($$result, $$props, $$bindings, slots) => 
               return `${each(week, (day) => {
                 return `${day.type === "lesson" && day.status != "draft" ? `<div class="text-error-700 dark:text-warning-300 mt-1"><time class="font-bold">${escape(dayjs(day.date).format("dddd, MMM D"))}</time></div>
               <a href="${"courses/" + escape(day.code, true) + "/day-" + escape(day.day, true)}" class="hover:bg-primary-800/20 rounded-md block transition duration-150 ease-linear py-2 pl-2"><article class="${escape(day.code, true) + " lesson"}"><p>${escape(day.code.toUpperCase().replace("-", " "))} - Day ${escape(day.day)}</p>
-                  <h3 class="text-primary-700 dark:text-primary-300 h4">${escape(day.title)}</h3></article>
+                  <h3 class="text-primary-700 dark:text-primary-300 h4">${escape(day.title)}
+                  </h3></article>
               </a>` : `${day.status === "draft" ? `<div class="bg-gradient-to-r from-error-300 to-primary-400 bg-clip-text text-transparent mt-1"><time class="font-bold">${escape(dayjs(day.date).format("dddd, MMM D"))}</time></div>
-              <article class="${escape(day.code, true) + " unpublished pl-2"}"><p>${escape(day.code.toUpperCase().replace("-", " "))} - Day ${escape(day.day)}</p>
+              <article class="${escape(day.code, true) + " unpublished pl-2"}"><p></p>
                 <h3 class="text-slate-500 h4">To be Announced</h3>
               </article>` : `<div class="bg-gradient-to-r from-error-300 to-primary-400 bg-clip-text text-transparent mt-1"><time class="font-bold">${escape(dayjs(day.date).format("dddd, MMM D"))}</time></div>
               <article class="holiday pl-2"><h3 class="text-slate-500">${escape(day.label)}</h3>

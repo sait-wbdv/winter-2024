@@ -12,11 +12,8 @@ const _02_day_2 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
   return `${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
       return `<h2>Housekeeping</h2>
-<ul><li>CPNT 260 Assignment Overview<ul><li>Achievements: 10 x 3%</li>
-<li>Assignments: 4 x 10%</li>
-<li>Final Project: 30%</li></ul></li>
-<li><a href="/courses/cpnt-260/assessments/assignment-1">Assignment 1: Text Column</a><ul><li>Weight: 10%</li>
-<li>Due: Friday @ 11:59pm</li></ul></li></ul>
+<ul><li><a href="/courses/cpnt-260/assessments/assignment-1">Assignment 1: Text Column</a><ul><li>Weight: 10%</li>
+<li>Due: Friday January 19th @ 11:59pm</li></ul></li></ul>
 <hr>
 <h2>1. Group Activity: Google Doc Triad</h2>
 <p>In groups of 3 or 4, decide which part of the triad controls the following features commonly found in document editors.</p>
@@ -25,6 +22,10 @@ const _02_day_2 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <h2>2. Review: Visual hierarchy</h2>
 <h3 id="watch-party"><a aria-hidden="true" tabindex="-1" href="#watch-party"><span class="icon icon-link"></span></a>Watch party</h3>
 <ul><li><a href="https://www.youtube.com/watch?v=qZWDJqY27bw" rel="nofollow">Design principles: Visual hierarchy</a></li></ul>
+<h3 id="a-few-example-websites"><a aria-hidden="true" tabindex="-1" href="#a-few-example-websites"><span class="icon icon-link"></span></a>A few example websites</h3>
+<ul><li><a href="https://stripe.com/en-ca" rel="nofollow">Stripe</a></li>
+<li><a href="https://www.newyorker.com/" rel="nofollow">The NewYorker</a></li>
+<li><a href="https://www.epicurious.com/" rel="nofollow">Epicurious</a></li></ul>
 <hr>
 <h2>3. Demo: Wikipedia Markup</h2>
 <p>To follow along (this is your daily achievement for today):</p>
@@ -59,8 +60,8 @@ const _02_day_2 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <li><a href="https://www.youtube.com/watch?v=3dESVj7-XzI" rel="nofollow">Design principles: Space in design</a><ul><li>Typography example @3:48</li></ul></li>
 <li><a href="https://www.youtube.com/watch?v=yom0nogFN3k" rel="nofollow">Design principles: Typography</a></li></ul>
 <h3 id="sample-code"><a aria-hidden="true" tabindex="-1" href="#sample-code"><span class="icon icon-link"></span></a>Sample code</h3>
-<ul><li><a href="https://codepen.io/browsertherapy/pen/wvzZPqK" rel="nofollow">Generic font families</a></li>
-<li><a href="https://codepen.io/browsertherapy/pen/eYNmYQP" rel="nofollow">Web-safe font stacks</a></li></ul>
+<ul><li><a href="https://codepen.io/Ruth-Elodimuor/pen/rNRjxQG" rel="nofollow">Generic font families</a></li>
+<li><a href="https://codepen.io/Ruth-Elodimuor/pen/vYPgLQP" rel="nofollow">Web-safe font stacks</a></li></ul>
 <h3 id="tools"><a aria-hidden="true" tabindex="-1" href="#tools"><span class="icon icon-link"></span></a>Tools</h3>
 <ul><li><a href="https://fonts.google.com/" rel="nofollow">Google Fonts</a></li></ul>
 <hr>`;

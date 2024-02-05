@@ -4,7 +4,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Git Branches",
   "excerpt": "In this session, we'll learn how to make changes to a repo in a branch!",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _05_day_5 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

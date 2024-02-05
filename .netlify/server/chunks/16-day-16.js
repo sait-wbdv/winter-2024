@@ -3,28 +3,13 @@ import { H as Homework } from "./Homework.js";
 import { L as LessonPlan } from "./LessonPlan.js";
 import { A as Achievement } from "./Achievement.js";
 const metadata = {
-  "title": "Skeleton UI, Routing",
+  "title": "NuxtJS Framework",
   "excerpt": null,
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _16_day_16 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(Homework, "Homework").$$render($$result, { status }, {}, {
-    default: () => {
-      return `<h3 id="documentation"><a aria-hidden="true" tabindex="-1" href="#documentation"><span class="icon icon-link"></span></a>Documentation</h3>
-<ul><li>Skim the <a href="https://www.skeleton.dev/" rel="nofollow">SkeletonUI</a> website</li>
-<li>Read <a href="https://kit.svelte.dev/docs/routing" rel="nofollow">Routing</a></li></ul>
-<h3 id="tutorials"><a aria-hidden="true" tabindex="-1" href="#tutorials"><span class="icon icon-link"></span></a>Tutorials</h3>
-<p><strong>Introduction</strong></p>
-<ul><li><a href="https://svelte.dev/tutorial/basics" rel="nofollow">Basics</a></li>
-<li><a href="https://svelte.dev/tutorial/adding-data" rel="nofollow">Adding data</a></li></ul>
-<h3 id="watch-list"><a aria-hidden="true" tabindex="-1" href="#watch-list"><span class="icon icon-link"></span></a>Watch list</h3>
-<p>Source: <a href="https://www.youtube.com/@Codevolution" rel="nofollow">Codevolution</a></p>
-<ul><li><a href="https://www.youtube.com/watch?v=IFZM2CGQ4cU" rel="nofollow">SvelteKit Tutorial - 4 - Routing</a></li>
-<li><a href="https://www.youtube.com/watch?v=1UiDq3RAD8c" rel="nofollow">SvelteKit Tutorial - 5 - Nested Routes</a></li>
-<li><a href="https://www.youtube.com/watch?v=C_ZUTipbXkg" rel="nofollow">SvelteKit Tutorial - 13 - Route Layout</a></li></ul>`;
-    }
-  })}
+  return `${validate_component(Homework, "Homework").$$render($$result, { status }, {}, {})}
 ${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
       return `<h2 id="scrum-meeting">Scrum Session</h2>

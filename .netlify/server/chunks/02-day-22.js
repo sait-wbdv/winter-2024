@@ -11,9 +11,10 @@ const _02_day_2 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
   return `${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
       return `<h2 id="housekeeping"><a aria-hidden="true" tabindex="-1" href="#housekeeping"><span class="icon icon-link"></span></a>Housekeeping</h2>
-<ul><li>Do we change class-time to 8:30am-3:30pm?</li>
-<li><a href="/courses/cpnt-201/assessments/assignment-1">Assignment 1</a> Announced<ul><li>Weight: 20% of CPNT 201 final mark</li>
-<li>Due: Wednesday, Sept 13 @ 11:59pm</li></ul></li></ul>
+<ul><li><p>Recap of web tools and techniques(Git, vscode, file naming conventions and command line)</p></li>
+<li><p><a href="/courses/cpnt-201/assessments/assignment-1">Assignment 1</a> Announced</p>
+<ul><li>Weight: 20% of CPNT 201 final mark</li>
+<li>Due: Wednesday, January 17th @ 11:59pm</li></ul></li></ul>
 <hr>
 <h2>1. Introduction to Git</h2>
 <p><a href="/slides/cpnt-201/git-github"><img src="/images/slides/cpnt-201/git-github.png" alt="Git and Github"></a></p>
@@ -35,7 +36,7 @@ const _02_day_2 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <p>Now that we’ve set up Git, let’s actually use it!</p>
 <h3 id="materials-2"><a aria-hidden="true" tabindex="-1" href="#materials-2"><span class="icon icon-link"></span></a>Materials</h3>
 <ul><li><strong><a href="https://gist.github.com/acidtone/5d45f96bc11fada75038e552f9ba1a5c" rel="nofollow">Project: Publish a webpage with Git and GitHub Pages</a></strong></li>
-<li>Optional(?): <a href="https://gist.github.com/acidtone/dd9ae11a238e9f14ad0b066298f35dc5" rel="nofollow">Set up SSH Keys</a> if you’re having trouble pushing code to GitHub.</li></ul>`;
+<li>Optional(?): <a href="https://gist.github.com/acidtone/dd9ae11a238e9f14ad0b066298f35dc5" rel="nofollow">Set up SSH Keys</a> if you’re having trouble pushing code to GitHub. </li></ul>`;
     }
   })}
 <hr>

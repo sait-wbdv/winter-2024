@@ -1,12 +1,28 @@
 import { c as create_ssr_component } from "./index3.js";
 const metadata = {
   "title": "Command Line Basics",
-  "excerpt": "Most of the command line tools you use as a developer (like [Git](https://gist.github.com/acidtone/5d45f96bc11fada75038e552f9ba1a5c), Node and npm) will **assume that you are in the root directory (i.e. top folder) of your project**. We will cover the three system commands that help up us navigate the file system.",
-  "date": "2023-09-07",
+  "excerpt": "Most of the command line tools you use as a developer (like Git, Node and npm) will **assume that you are in the root directory (i.e. top folder) of your project**. We will cover the main system commands that help up us navigate the file system.",
+  "date": "2024-01-10",
   "status": "published"
 };
 const Command_line_basics = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<p><strong>Notice</strong>: The examples below start with a <code>$</code>. DO NOT include this when typing commands; it’s there to represent the command prompt.</p>
+  return `<h2>Introduction to Command line - Important Concepts</h2>
+<p><strong>Operating System</strong>: supports the core functionality of a computer, peripherals and applications. Examples are Mac OS, Windows, Linux</p>
+<p><strong>Unix and Linux</strong>:</p>
+<ul><li>Unix is a type of OS</li>
+<li>Linux is an evolved GNU free version of Unix and runs on all Macos systems.</li></ul>
+<p><strong>Application</strong>: A program set to perform specific tasks. It usually runs within an operating system.</p>
+<p><strong>Shell</strong>: A user interface for both OS and Applications. There are 2 types:</p>
+<ul><li>GUI – Graphical user interfaces – allows apps to run using peripherals and a designed interface e.g apple macOS and photoshop.</li>
+<li>CLI – Command Line interface – text input/output interface/interloper for an OS or an application</li></ul>
+<p><strong>Terminal</strong>: The terminal is a text interface for executing text-based programs.</p>
+<p><strong>Command Line</strong>: Is the literal line for entering CLI commands used to interact with the OS, apps or smaller script and tools.</p>
+<p><strong>Command line syntax</strong>: each syntax broken down into: </p>
+<ul><li>Commands </li>
+<li>Options</li>
+<li>Parameters</li></ul>
+<hr>
+<p><strong>Note</strong>: The examples below start with a <code>$</code>. DO NOT include this when typing commands; it’s there to represent the command prompt.</p>
 <hr>
 <h2>pwd - Present working directory</h2>
 Use the \`pwd\` command to see where you are when you open the terminal.
@@ -26,6 +42,10 @@ List the contents of your current directory with the ls command:
 <p>You can also combine multiple options with a single flag. To list extra information <em>and</em> also all hidden files:</p>
 <pre class="language-undefined"><!-- HTML_TAG_START -->${`<code class="language-undefined">$ ls -la</code>`}<!-- HTML_TAG_END --></pre>
 <hr>
+<h2>mkdir Creates new directory/folder</h2>
+<pre class="language-undefined"><!-- HTML_TAG_START -->${`<code class="language-undefined">$ mkdir media</code>`}<!-- HTML_TAG_END --></pre>
+<p>mkdir takes in a directory name as an argument, and then creates a new directory in the current working directory. Here we used mkdir to create a new directory named media/.</p>
+<hr>
 <h2>cd - Change directory</h2>
 Use the \`cd\` command to switch to another directory. Assuming you are currently in your home folder, you can move to your downloads folder with:
 <pre class="language-undefined"><!-- HTML_TAG_START -->${`<code class="language-undefined">$ cd Downloads</code>`}<!-- HTML_TAG_END --></pre>
@@ -43,7 +63,10 @@ Use the \`cd\` command to switch to another directory. Assuming you are currentl
 <pre class="language-undefined"><!-- HTML_TAG_START -->${`<code class="language-undefined">$ cd</code>`}<!-- HTML_TAG_END --></pre>
 <h2>Quality of Life Tips</h2>
 <ul><li>The tab key auto-completes file names and directories.</li>
-<li>Use the Up Arrow to browse through the history of last used commands.<ul><li>Pro tip: type your command first and the Up Arrow will filter the history!</li></ul></li></ul>`;
+<li>Use the Up Arrow to browse through the history of last used commands.<ul><li>Pro tip: type your command first and the Up Arrow will filter the history!</li></ul></li></ul>
+<h3 id="extra-reading"><a aria-hidden="true" tabindex="-1" href="#extra-reading"><span class="icon icon-link"></span></a>Extra Reading</h3>
+<ul><li><p><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line" rel="nofollow">https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line</a></p></li>
+<li><p><a href="https://www.codecademy.com/article/command-line-commands" rel="nofollow">https://www.codecademy.com/article/command-line-commands</a></p></li></ul>`;
 });
 export {
   Command_line_basics as default,

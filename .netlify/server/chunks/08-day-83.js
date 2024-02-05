@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Loops | An algorithm's repeat",
   "excerpt": "Loops allow us to automate a repeated task. This class looks at some basic uses for loops.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _08_day_8 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

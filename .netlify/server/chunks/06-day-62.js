@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "TailwindCSS",
   "excerpt": "In this session, we'll look at TailwindCSS, a popular CSS utility library.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _06_day_6 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -13,7 +13,7 @@ const _06_day_6 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
     default: () => {
       return `<h2>Housekeeping</h2>
 <ul><li><a href="/courses/cpnt-201/assessments/assignment-3">Assignment 3 Announced</a><ul><li>Weight: 20%</li>
-<li>Due: Friday October 20 @ 11:59pm</li></ul></li></ul>
+<li>Due: Friday February 16 @ 11:59pm</li></ul></li></ul>
 <hr>
 <h2>Core Tailwind Concepts</h2>
 <h3 id="materials"><a aria-hidden="true" tabindex="-1" href="#materials"><span class="icon icon-link"></span></a>Materials</h3>

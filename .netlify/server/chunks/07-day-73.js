@@ -13,11 +13,15 @@ const _07_day_7 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
     default: () => {
       return `<h2>Housekeeping</h2>
 <ul><li><a href="/courses/cpnt-260/assessments/assignment-3">Assignment 3</a> Announced<ul><li>Weight: 10%</li>
-<li>Due: Friday, September 29 @ 11:59pm</li></ul></li></ul>
+<li>Due: Friday, February 02 @ 11:59pm</li></ul></li>
+<li>Submit topics that you’d like to review or ones that we haven’t covered in this course    <ul><li><a href="https://ideaboardz.com/for/Topics%20to%20review/5183892" rel="nofollow">Suggested Topics to review</a></li></ul></li></ul>
 <hr>
-<h2>Achievement Spoilers</h2>
-<h3 id="sample-code"><a aria-hidden="true" tabindex="-1" href="#sample-code"><span class="icon icon-link"></span></a>Sample Code</h3>
-<ul><li><a href="https://github.com/sait-wbdv/dailies-f23/tree/main/2023-09-25-media-flex/03-nested-flex-banner" rel="nofollow">Nested Banner with Menu Toggle</a></li></ul>
+<h2>Daily Standup</h2>
+<p>In the same groups as last class</p>
+<h3 id="each-person-takes-a-turn-to-answer-the-following-questions"><a aria-hidden="true" tabindex="-1" href="#each-person-takes-a-turn-to-answer-the-following-questions"><span class="icon icon-link"></span></a>Each person takes a turn to answer the following questions:</h3>
+<ol><li>What did you do yesterday?</li>
+<li>What will you do today?</li>
+<li>Anything blocking your progress?</li></ol>
 <hr>
 <h2>2. Hero Sections with Flexbox</h2>
 <p><a href="/slides/cpnt-260/hero-sections"><img src="/images/slides/cpnt-260/hero-sections.png" alt="Heros and banners slides"></a></p>
@@ -32,7 +36,7 @@ const _07_day_7 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <li>Create a full-viewport <code>&lt;header&gt;</code> with a height of <code>100vh</code>;</li>
 <li>Add a CSS background image using the image you selected;</li>
 <li>Add HTML content of your choice to the <code>&lt;header&gt;</code>;</li>
-<li>Using Flexbox (of Grid), position your content over top your background image so that it’s pretty and readable.</li></ol>
+<li>Using Flexbox (or Grid), position your content over top your background image so that it’s pretty and readable.</li></ol>
 <hr>
 <h2>Sticky Footers</h2>
 <h3 id="materials-1"><a aria-hidden="true" tabindex="-1" href="#materials-1"><span class="icon icon-link"></span></a>Materials</h3>
@@ -40,13 +44,12 @@ const _07_day_7 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <hr>`;
     }
   })}
-<hr>
 ${validate_component(Achievement, "Achievement").$$render($$result, { status }, {}, {
     default: () => {
       return `<h3 id="hero-banner-show-and-tell"><a aria-hidden="true" tabindex="-1" href="#hero-banner-show-and-tell"><span class="icon icon-link"></span></a>Hero Banner Show and Tell</h3>
 <p>In groups of two or three, you will try to find an example of a hero section and answer the following questions:</p>
 <ul><li>Is there text over an image? What is the contrast ratio?</li>
-<li>What is the Call to Action? What purpose does the her section have?</li>
+<li>What is the Call to Action? What purpose does the hero section have?</li>
 <li>Is the hero section responsive? How does it change on mobile devices? How many breakpoints can you see?</li></ul>
 <p>You will be presenting your findings in class for your marks:</p>
 <ul><li>5 minute time limit</li>

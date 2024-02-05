@@ -88,7 +88,10 @@
       "src/lib/content/assessments/dsgn-270/assignment-1.md",
       "src/lib/content/assessments/dsgn-270/assignment-2.md",
       "src/lib/content/assessments/dsgn-270/assignment-3.md",
-      "src/lib/content/assessments/dsgn-270/graded-activities.md"
+      "src/lib/content/assessments/dsgn-270/sprint-activity-1.md",
+      "src/lib/content/assessments/dsgn-270/sprint-activity-2.md",
+      "src/lib/content/assessments/dsgn-270/sprint-activity-3.md",
+      "src/lib/content/assessments/dsgn-270/sprint-activity-4.md"
     ],
     "file": "chunks/importAssessments.js"
   },
@@ -135,7 +138,7 @@
       "src/lib/content/courses/cpnt-262/08-day-8.md",
       "src/lib/content/courses/cpnt-262/09-day-9.md",
       "src/lib/content/courses/cpnt-262/10-day-10.md",
-      "src/lib/content/courses/cpnt-262/11-day-11.md",
+      "src/lib/content/courses/cpnt-262/12-day-11.md",
       "src/lib/content/courses/cpnt-262/12-day-12.md",
       "src/lib/content/courses/cpnt-262/13-day-13.md",
       "src/lib/content/courses/cpnt-262/14-day-14.md",
@@ -478,13 +481,37 @@
     "isDynamicEntry": true,
     "src": "src/lib/content/assessments/dsgn-270/assignment-3.md"
   },
-  "src/lib/content/assessments/dsgn-270/graded-activities.md": {
-    "file": "chunks/graded-activities.js",
+  "src/lib/content/assessments/dsgn-270/sprint-activity-1.md": {
+    "file": "chunks/sprint-activity-1.js",
     "imports": [
       "_index3.js"
     ],
     "isDynamicEntry": true,
-    "src": "src/lib/content/assessments/dsgn-270/graded-activities.md"
+    "src": "src/lib/content/assessments/dsgn-270/sprint-activity-1.md"
+  },
+  "src/lib/content/assessments/dsgn-270/sprint-activity-2.md": {
+    "file": "chunks/sprint-activity-2.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/dsgn-270/sprint-activity-2.md"
+  },
+  "src/lib/content/assessments/dsgn-270/sprint-activity-3.md": {
+    "file": "chunks/sprint-activity-3.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/dsgn-270/sprint-activity-3.md"
+  },
+  "src/lib/content/assessments/dsgn-270/sprint-activity-4.md": {
+    "file": "chunks/sprint-activity-4.js",
+    "imports": [
+      "_index3.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/lib/content/assessments/dsgn-270/sprint-activity-4.md"
   },
   "src/lib/content/courses/cpln-240.md": {
     "file": "chunks/cpln-240.js",
@@ -910,8 +937,8 @@
     "isDynamicEntry": true,
     "src": "src/lib/content/courses/cpnt-262/10-day-10.md"
   },
-  "src/lib/content/courses/cpnt-262/11-day-11.md": {
-    "file": "chunks/11-day-11.js",
+  "src/lib/content/courses/cpnt-262/12-day-11.md": {
+    "file": "chunks/12-day-11.js",
     "imports": [
       "_index3.js",
       "_Homework.js",
@@ -919,7 +946,7 @@
       "_Achievement.js"
     ],
     "isDynamicEntry": true,
-    "src": "src/lib/content/courses/cpnt-262/11-day-11.md"
+    "src": "src/lib/content/courses/cpnt-262/12-day-11.md"
   },
   "src/lib/content/courses/cpnt-262/12-day-12.md": {
     "file": "chunks/12-day-12.js",
@@ -1178,7 +1205,7 @@
     "src": "src/lib/content/courses/cpnt-265/10-day-10.md"
   },
   "src/lib/content/courses/cpnt-265/11-day-11.md": {
-    "file": "chunks/11-day-112.js",
+    "file": "chunks/11-day-11.js",
     "imports": [
       "_index3.js",
       "_Homework.js",
@@ -1200,7 +1227,6 @@
     "file": "chunks/01-day-18.js",
     "imports": [
       "_index3.js",
-      "_Homework.js",
       "_LessonPlan.js",
       "_Achievement.js"
     ],
@@ -1222,7 +1248,8 @@
     "imports": [
       "_index3.js",
       "_Homework.js",
-      "_LessonPlan.js"
+      "_LessonPlan.js",
+      "_Achievement.js"
     ],
     "isDynamicEntry": true,
     "src": "src/lib/content/courses/dsgn-270/03-day-3.md"
@@ -1232,8 +1259,7 @@
     "imports": [
       "_index3.js",
       "_Homework.js",
-      "_LessonPlan.js",
-      "_Achievement.js"
+      "_LessonPlan.js"
     ],
     "isDynamicEntry": true,
     "src": "src/lib/content/courses/dsgn-270/04-day-4.md"
@@ -1469,7 +1495,10 @@
       "src/lib/content/assessments/dsgn-270/assignment-1.md",
       "src/lib/content/assessments/dsgn-270/assignment-2.md",
       "src/lib/content/assessments/dsgn-270/assignment-3.md",
-      "src/lib/content/assessments/dsgn-270/graded-activities.md"
+      "src/lib/content/assessments/dsgn-270/sprint-activity-1.md",
+      "src/lib/content/assessments/dsgn-270/sprint-activity-2.md",
+      "src/lib/content/assessments/dsgn-270/sprint-activity-3.md",
+      "src/lib/content/assessments/dsgn-270/sprint-activity-4.md"
     ],
     "file": "entries/pages/(site)/courses/_code_/assessments/_slug_/_page.server.js",
     "imports": [
@@ -1526,7 +1555,7 @@
       "src/lib/content/courses/cpnt-262/08-day-8.md",
       "src/lib/content/courses/cpnt-262/09-day-9.md",
       "src/lib/content/courses/cpnt-262/10-day-10.md",
-      "src/lib/content/courses/cpnt-262/11-day-11.md",
+      "src/lib/content/courses/cpnt-262/12-day-11.md",
       "src/lib/content/courses/cpnt-262/12-day-12.md",
       "src/lib/content/courses/cpnt-262/13-day-13.md",
       "src/lib/content/courses/cpnt-262/14-day-14.md",
