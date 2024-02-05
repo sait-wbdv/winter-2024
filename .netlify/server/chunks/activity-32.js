@@ -1,10 +1,9 @@
 import { c as create_ssr_component } from "./index3.js";
 const metadata = {
-  "title": "Graded Activity 3 - Objects and Arrays",
+  "title": "Mini Activity 3 - Control Flows and Error Handling",
   "excerpt": "Organize data into objects and arrays. Use built in methods to access and manipulate their data.",
-  "points": 5,
-  "type": "assignment",
-  "status": "published"
+  "points": 10,
+  "type": "assignment"
 };
 const Activity_3 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<h2>Overview</h2>

@@ -103,42 +103,37 @@ const cpnt262DueDates = [
   {
     slug: "activity-2",
     due: "Wednesday February 14",
-    status: "published"
+    status: "announced"
   },
   {
     slug: "activity-3",
     due: "Sunday February 18",
-    status: "published"
+    status: "announced"
   },
   {
     slug: "activity-4",
     due: "Monday March 11",
-    status: "published"
+    status: "announced"
   },
   {
     slug: "activity-5",
     due: "Wednesday March 20",
-    status: "published"
-  },
-  {
-    slug: "activity-6",
-    due: "",
-    status: "published"
+    status: "announced"
   },
   {
     slug: "assignment-1",
     due: "Tuesday March 5",
-    status: "published"
+    status: "announced"
   },
   {
     slug: "assignment-2",
     due: "Sunday March 17",
-    status: "published"
+    status: "announced"
   },
   {
     slug: "assignment-3",
     due: "Sunday March 24",
-    status: "published"
+    status: "announced"
   }
 ];
 const cpnt200DueDates = [
@@ -211,7 +206,7 @@ const dueDates = [
     dueDates: cpnt265DueDates
   }
 ];
-const metaContent = Object.entries(/* @__PURE__ */ Object.assign({ "/src/lib/content/assessments/cpnt-200/activity-1.md": () => import("./activity-1.js"), "/src/lib/content/assessments/cpnt-200/activity-2.md": () => import("./activity-2.js"), "/src/lib/content/assessments/cpnt-200/activity-3.md": () => import("./activity-3.js"), "/src/lib/content/assessments/cpnt-200/activity-4.md": () => import("./activity-4.js"), "/src/lib/content/assessments/cpnt-200/final-project.md": () => import("./final-project.js"), "/src/lib/content/assessments/cpnt-201/assignment-1.md": () => import("./assignment-1.js"), "/src/lib/content/assessments/cpnt-201/assignment-2.md": () => import("./assignment-2.js"), "/src/lib/content/assessments/cpnt-201/assignment-3.md": () => import("./assignment-3.js"), "/src/lib/content/assessments/cpnt-201/assignment-4.md": () => import("./assignment-4.js"), "/src/lib/content/assessments/cpnt-260/assignment-1.md": () => import("./assignment-12.js"), "/src/lib/content/assessments/cpnt-260/assignment-2.md": () => import("./assignment-22.js"), "/src/lib/content/assessments/cpnt-260/assignment-3.md": () => import("./assignment-32.js"), "/src/lib/content/assessments/cpnt-260/assignment-4.md": () => import("./assignment-42.js"), "/src/lib/content/assessments/cpnt-260/final-project.md": () => import("./final-project2.js"), "/src/lib/content/assessments/cpnt-262/activity-1.md": () => import("./activity-12.js"), "/src/lib/content/assessments/cpnt-262/activity-2.md": () => import("./activity-22.js"), "/src/lib/content/assessments/cpnt-262/activity-3.md": () => import("./activity-32.js"), "/src/lib/content/assessments/cpnt-262/activity-4.md": () => import("./activity-42.js"), "/src/lib/content/assessments/cpnt-262/activity-5.md": () => import("./activity-5.js"), "/src/lib/content/assessments/cpnt-262/activity-6.md": () => import("./activity-6.js"), "/src/lib/content/assessments/cpnt-262/assignment-1.md": () => import("./assignment-13.js"), "/src/lib/content/assessments/cpnt-262/assignment-2.md": () => import("./assignment-23.js"), "/src/lib/content/assessments/cpnt-262/assignment-3.md": () => import("./assignment-33.js"), "/src/lib/content/assessments/cpnt-265/achievements-1.md": () => import("./achievements-1.js"), "/src/lib/content/assessments/cpnt-265/achievements-2.md": () => import("./achievements-2.js"), "/src/lib/content/assessments/cpnt-265/final-project.md": () => import("./final-project3.js"), "/src/lib/content/assessments/dsgn-270/assignment-1.md": () => import("./assignment-14.js"), "/src/lib/content/assessments/dsgn-270/assignment-2.md": () => import("./assignment-24.js"), "/src/lib/content/assessments/dsgn-270/assignment-3.md": () => import("./assignment-34.js"), "/src/lib/content/assessments/dsgn-270/sprint-activity-1.md": () => import("./sprint-activity-1.js"), "/src/lib/content/assessments/dsgn-270/sprint-activity-2.md": () => import("./sprint-activity-2.js"), "/src/lib/content/assessments/dsgn-270/sprint-activity-3.md": () => import("./sprint-activity-3.js"), "/src/lib/content/assessments/dsgn-270/sprint-activity-4.md": () => import("./sprint-activity-4.js") }));
+const metaContent = Object.entries(/* @__PURE__ */ Object.assign({ "/src/lib/content/assessments/cpnt-200/activity-1.md": () => import("./activity-1.js"), "/src/lib/content/assessments/cpnt-200/activity-2.md": () => import("./activity-2.js"), "/src/lib/content/assessments/cpnt-200/activity-3.md": () => import("./activity-3.js"), "/src/lib/content/assessments/cpnt-200/activity-4.md": () => import("./activity-4.js"), "/src/lib/content/assessments/cpnt-200/final-project.md": () => import("./final-project.js"), "/src/lib/content/assessments/cpnt-201/assignment-1.md": () => import("./assignment-1.js"), "/src/lib/content/assessments/cpnt-201/assignment-2.md": () => import("./assignment-2.js"), "/src/lib/content/assessments/cpnt-201/assignment-3.md": () => import("./assignment-3.js"), "/src/lib/content/assessments/cpnt-201/assignment-4.md": () => import("./assignment-4.js"), "/src/lib/content/assessments/cpnt-260/assignment-1.md": () => import("./assignment-12.js"), "/src/lib/content/assessments/cpnt-260/assignment-2.md": () => import("./assignment-22.js"), "/src/lib/content/assessments/cpnt-260/assignment-3.md": () => import("./assignment-32.js"), "/src/lib/content/assessments/cpnt-260/assignment-4.md": () => import("./assignment-42.js"), "/src/lib/content/assessments/cpnt-260/final-project.md": () => import("./final-project2.js"), "/src/lib/content/assessments/cpnt-262/activity-1.md": () => import("./activity-12.js"), "/src/lib/content/assessments/cpnt-262/activity-2.md": () => import("./activity-22.js"), "/src/lib/content/assessments/cpnt-262/activity-3.md": () => import("./activity-32.js"), "/src/lib/content/assessments/cpnt-262/activity-4.md": () => import("./activity-42.js"), "/src/lib/content/assessments/cpnt-262/activity-5.md": () => import("./activity-5.js"), "/src/lib/content/assessments/cpnt-262/assignment-1.md": () => import("./assignment-13.js"), "/src/lib/content/assessments/cpnt-262/assignment-2.md": () => import("./assignment-23.js"), "/src/lib/content/assessments/cpnt-262/assignment-3.md": () => import("./assignment-33.js"), "/src/lib/content/assessments/cpnt-265/achievements-1.md": () => import("./achievements-1.js"), "/src/lib/content/assessments/cpnt-265/achievements-2.md": () => import("./achievements-2.js"), "/src/lib/content/assessments/cpnt-265/final-project.md": () => import("./final-project3.js"), "/src/lib/content/assessments/dsgn-270/assignment-1.md": () => import("./assignment-14.js"), "/src/lib/content/assessments/dsgn-270/assignment-2.md": () => import("./assignment-24.js"), "/src/lib/content/assessments/dsgn-270/assignment-3.md": () => import("./assignment-34.js"), "/src/lib/content/assessments/dsgn-270/sprint-activity-1.md": () => import("./sprint-activity-1.js"), "/src/lib/content/assessments/dsgn-270/sprint-activity-2.md": () => import("./sprint-activity-2.js"), "/src/lib/content/assessments/dsgn-270/sprint-activity-3.md": () => import("./sprint-activity-3.js"), "/src/lib/content/assessments/dsgn-270/sprint-activity-4.md": () => import("./sprint-activity-4.js") }));
 const assessments = await Promise.all(
   metaContent.map(async ([path, resolver]) => {
     const { metadata } = await resolver();

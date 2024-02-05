@@ -13,8 +13,6 @@ The objective is to render a series of string and number variables on an html pa
 
 _No CSS is necessary for this assignment, however you will be using JS and HTML_
 
-###
-
 <h2>Instructions</h2>
 
 1. Create a new github repo

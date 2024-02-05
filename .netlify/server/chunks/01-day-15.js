@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Think like a programmer",
   "excerpt": "Learn how to programmatically create and problem solve using Scratch as a visual tool. This class introduces basic programming principles.",
-  "status": "announced"
+  "status": "published"
 };
 const { title, excerpt, status } = metadata;
 const _01_day_1 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

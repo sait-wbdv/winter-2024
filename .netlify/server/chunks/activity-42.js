@@ -1,10 +1,9 @@
 import { c as create_ssr_component } from "./index3.js";
 const metadata = {
-  "title": "Graded Activity 4 - Loops and Conditionals",
+  "title": "Mini Activity 4 - Framework Reactivity",
   "excerpt": "Create conditional statements to render data in specific conditions. Use loops to access lists of content.",
-  "points": 5,
-  "type": "assignment",
-  "status": "published"
+  "points": 10,
+  "type": "assignment"
 };
 const Activity_4 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<h2>Overview</h2>

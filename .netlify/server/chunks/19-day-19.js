@@ -3,7 +3,7 @@ import { H as Homework } from "./Homework.js";
 import { L as LessonPlan } from "./LessonPlan.js";
 import { A as Achievement } from "./Achievement.js";
 const metadata = {
-  "title": "Server Side Code",
+  "title": "Full Stack Nuxt App",
   "excerpt": null,
   "status": "announced"
 };

@@ -78,7 +78,6 @@
       "src/lib/content/assessments/cpnt-262/activity-3.md",
       "src/lib/content/assessments/cpnt-262/activity-4.md",
       "src/lib/content/assessments/cpnt-262/activity-5.md",
-      "src/lib/content/assessments/cpnt-262/activity-6.md",
       "src/lib/content/assessments/cpnt-262/assignment-1.md",
       "src/lib/content/assessments/cpnt-262/assignment-2.md",
       "src/lib/content/assessments/cpnt-262/assignment-3.md",
@@ -400,14 +399,6 @@
     ],
     "isDynamicEntry": true,
     "src": "src/lib/content/assessments/cpnt-262/activity-5.md"
-  },
-  "src/lib/content/assessments/cpnt-262/activity-6.md": {
-    "file": "chunks/activity-6.js",
-    "imports": [
-      "_index3.js"
-    ],
-    "isDynamicEntry": true,
-    "src": "src/lib/content/assessments/cpnt-262/activity-6.md"
   },
   "src/lib/content/assessments/cpnt-262/assignment-1.md": {
     "file": "chunks/assignment-13.js",
@@ -1485,7 +1476,6 @@
       "src/lib/content/assessments/cpnt-262/activity-3.md",
       "src/lib/content/assessments/cpnt-262/activity-4.md",
       "src/lib/content/assessments/cpnt-262/activity-5.md",
-      "src/lib/content/assessments/cpnt-262/activity-6.md",
       "src/lib/content/assessments/cpnt-262/assignment-1.md",
       "src/lib/content/assessments/cpnt-262/assignment-2.md",
       "src/lib/content/assessments/cpnt-262/assignment-3.md",

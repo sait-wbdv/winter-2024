@@ -1,10 +1,9 @@
 import { c as create_ssr_component } from "./index3.js";
 const metadata = {
-  "title": "Graded Activity 2 - Strings and Numbers | Before & After",
+  "title": "Mini Activity 2 - Before & After",
   "excerpt": "Learn how to make variables in javascript and render them on an html page",
-  "points": 5,
-  "type": "assignment",
-  "status": "published"
+  "points": 10,
+  "type": "assignment"
 };
 const Activity_2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<h2>Overview</h2>
@@ -52,10 +51,13 @@ const Activity_2 = create_ssr_component(($$result, $$props, $$bindings, slots) =
 <li>Use String.includes() to show if a substring is present in your string;</li></ul>
 <hr>
 <h2>Rubric</h2>
-<h3 id="3-points-applied-content"><a aria-hidden="true" tabindex="-1" href="#3-points-applied-content"><span class="icon icon-link"></span></a>3 Points: Applied Content</h3>
+<h3 id="2-points-number-modifications"><a aria-hidden="true" tabindex="-1" href="#2-points-number-modifications"><span class="icon icon-link"></span></a>2 Points: Number Modifications</h3>
 <ul><li>Code Journal Entry</li>
-<li>At least 3 Number Methods</li>
-<li>At least 3 String Methods</li>
+<li>2 Number Methods</li>
+<li>Values rendered on html page</li></ul>
+<h3 id="2-points-string-modifications"><a aria-hidden="true" tabindex="-1" href="#2-points-string-modifications"><span class="icon icon-link"></span></a>2 Points: String Modifications</h3>
+<ul><li>Code Journal Entry</li>
+<li>2 Number Methods</li>
 <li>Values rendered on html page</li></ul>
 <h3 id="2-points-code-quality"><a aria-hidden="true" tabindex="-1" href="#2-points-code-quality"><span class="icon icon-link"></span></a>2 Points: Code Quality</h3>
 <ul><li>Use of camelCase for JS and kebab-case for HTML</li>
