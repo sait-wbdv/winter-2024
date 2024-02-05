@@ -1,7 +1,7 @@
 ---
-title: Graded Activity 2 - Strings and Numbers | Before & After
+title: Mini Activity 2 - Before & After
 excerpt: Learn how to make variables in javascript and render them on an html page
-points: 5
+points: 10
 type: assignment
 ---
 
@@ -69,11 +69,16 @@ _No CSS is necessary for this assignment, however you will be using JS and HTML_
 
 <h2>Rubric</h2>
 
-### 3 Points: Applied Content
+### 2 Points: Number Modifications
 
 - Code Journal Entry
-- At least 3 Number Methods
-- At least 3 String Methods
+- 2 Number Methods
+- Values rendered on html page
+
+### 2 Points: String Modifications
+
+- Code Journal Entry
+- 2 Number Methods
 - Values rendered on html page
 
 ### 2 Points: Code Quality
