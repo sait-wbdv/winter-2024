@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Dependency Management with NPM",
   "excerpt": "In this session, we will use npm to extend our projects by installing software dependencies.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _08_day_8 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -13,7 +13,7 @@ const _08_day_8 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
     default: () => {
       return `<h2>Housekeeping</h2>
 <ul><li><a href="/courses/cpnt-201/assessments/assignment-4">CPNT 201 Assignment 4</a><ul><li>Weight: 20%</li>
-<li>Due: Monday November 6, 2023</li></ul></li></ul>
+<li>Due: Monday March 11, 2024</li></ul></li></ul>
 <hr>
 <h2>Hello <code>npm</code>
 <h3 id="materials"><a aria-hidden="true" tabindex="-1" href="#materials"><span class="icon icon-link"></span></a>Materials</h3>

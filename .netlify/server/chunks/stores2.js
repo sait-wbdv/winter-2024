@@ -6,7 +6,7 @@ const scheduleByWeek = [
     {
       date: "2024-01-08",
       type: "lesson",
-      label: "dsgn-270"
+      code: "dsgn-270"
     },
     {
       date: "2024-01-09",
@@ -26,7 +26,7 @@ const scheduleByWeek = [
     {
       date: "2024-01-12",
       type: "lesson",
-      code: "cpnt-260"
+      code: "dsgn-270"
     }
   ],
   // Week 2
@@ -110,7 +110,7 @@ const scheduleByWeek = [
     {
       date: "2024-02-02",
       type: "lesson",
-      label: "cpnt-260"
+      code: "cpnt-260"
     }
   ],
   // Week 5
@@ -146,7 +146,7 @@ const scheduleByWeek = [
     {
       date: "2024-02-12",
       type: "lesson",
-      label: "cpnt-262"
+      code: "cpnt-262"
     },
     {
       date: "2024-02-13",
@@ -174,7 +174,7 @@ const scheduleByWeek = [
     {
       date: "2024-02-19",
       type: "holiday",
-      code: "Family Day - No Classes"
+      label: "Family Day - No Classes"
     },
     {
       date: "2024-02-20",
@@ -334,7 +334,7 @@ const scheduleByWeek = [
     {
       date: "2024-03-29",
       type: "holiday",
-      code: "Good Friday - No Classes"
+      label: "Good Friday - No Classes"
     }
   ],
   // Week 13
@@ -413,7 +413,7 @@ const scheduleByWeek = [
     {
       date: "2024-04-18",
       type: "lesson",
-      label: "cpnt-265"
+      code: "cpnt-265"
     },
     {
       date: "2024-04-19",

@@ -11,16 +11,19 @@ const _10_day_10 = create_ssr_component(($$result, $$props, $$bindings, slots) =
   return `${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
       return `<h2>Housekeeping</h2>
-<ul><li><a href="/courses/cpnt-260/assessments/final-project">Final Project</a> Announced<ul><li>Weight: 30%</li>
-<li>Due: Tuesday, October 10 @ 11:59pm</li></ul></li></ul>
-<hr>
-<h2>Assignment 2 Spoilers</h2>
-<ul><li><a href="https://github.com/sait-wbdv/f23-spoilers-cpnt260-a2" rel="nofollow">Single Card repo</a></li>
-<li><a href="https://sait-wbdv.github.io/f23-spoilers-cpnt260-a2/" rel="nofollow">Live site</a></li></ul>
+<ul><li><p><a href="/courses/cpnt-260/assessments/assignment-3">Assignment 3</a></p>
+<ul><li>Weight: 10%</li>
+<li>Due: Today, Friday, February 02 @ 11:59pm</li></ul></li>
+<li><p><a href="/courses/cpnt-260/assessments/assignment-4">Assignment 4</a></p>
+<ul><li>Weight: 10%</li>
+<li>Due: Tuesday February 06, @ 11:59pm</li></ul></li>
+<li><p><a href="/courses/cpnt-260/assessments/final-project">Final Project</a> Announced</p>
+<ul><li>Weight: 30%</li>
+<li>Due: Tuesday, February 13 @ 11:59pm</li></ul></li></ul>
 <hr>
 <h2>Review Day</h2>
 <p>Submit topics that you’d like to review or ones that we haven’t covered in this course.</p>
-<ul><li><a href="http://padlet.com/acidtone/last_day_topics_260" rel="nofollow">Padlet Submissions</a></li></ul>`;
+<ul><li><a href="https://ideaboardz.com/for/Topics%20to%20review/5183892" rel="nofollow">Suggested Topics to review</a></li></ul>`;
     }
   })}
 <hr>

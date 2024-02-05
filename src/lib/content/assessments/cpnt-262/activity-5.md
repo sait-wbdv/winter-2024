@@ -1,5 +1,5 @@
 ---
-title: Assignment 5 - Components and Props
+title: Mini Activity 5 - Server Side Logic
 type: assignment
 points: 10
 ---

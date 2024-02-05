@@ -15,11 +15,15 @@ const _01_day_1 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <ul><li>Due 3pm today: Follow the White Rabbit Achievement<ul><li>Weight: 2.5% of CNT 201</li></ul></li>
 <li>Assignment 1 will be announced tomorrow.</li></ul>
 <hr>
+<h2>Scrum Meeting</h2>
+<ol><li>What did you work on yesterday? (outside of lecture time)</li>
+<li>What are you working on today?</li>
+<li>Are there any blockers? (challenges either with content or external that are stopping you from moving forward)</li></ol>
 <h2>1. Installing all the things</h2>
 <p>Today you will be installing some tools you’ll need for the rest of the program:</p>
-<ol><li>VS Code</li>
-<li>Git (and Git Bash for Windows users)</li>
-<li>Firefox</li></ol>
+<ol><li><strong><a href="https://code.visualstudio.com/" rel="nofollow">VS Code</a></strong></li>
+<li><strong><a href="https://www.atlassian.com/git/tutorials/git-bash" rel="nofollow">Git (and Git Bash for Windows users)</a></strong></li>
+<li><strong><a href="https://www.mozilla.org/en-CA/firefox/new/" rel="nofollow">Firefox</a></strong></li></ol>
 <h3 id="materials"><a aria-hidden="true" tabindex="-1" href="#materials"><span class="icon icon-link"></span></a>Materials</h3>
 <ul><li><strong><a href="/posts/initial-software-setup">Initial Software Setup Guide</a></strong></li></ul>
 <hr>

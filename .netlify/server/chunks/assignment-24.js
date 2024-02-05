@@ -4,11 +4,10 @@ const metadata = {
   "excerpt": "Create a collection of low to medium resolution wireframes for a website. The website will require 4 distinct pages and demonstrate layout, visual hierarchy, and component skeletons.",
   "type": "assignment",
   "points": 20,
-  "status": "published"
+  "status": "announced"
 };
 const Assignment_2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<h2 id="due-date">Due October 18 2023 @ 11:59PM</h2>
-<h2>Scenario</h2>
+  return `<h2>Scenario</h2>
 <p>You have finished the design asset gathering and mood boarding phase for a website, but need to draft the layout so that specific images, text, and links cant be organized.</p>
 <p>While most of the text content and specific images haven’t been chosen, it’s necessary to get a minimal layout established.</p>
 <p>Your objective is to sketch the desktop layouts for 4 pages on a website. You can choose which pages the site contains. If you’re unsure of what to do, create: home page, about page, products/services page, contact page.</p>
@@ -49,7 +48,9 @@ const Assignment_2 = create_ssr_component(($$result, $$props, $$bindings, slots)
 <li>Section titles exist and make it easy to understand what the section is about</li>
 <li>Images and icons use standard and identifiable representation</li></ul>
 <h2 id="submission-instructions">Submission Instructions</h2>
-- Submit a zipped folder of each of your wireframes and along with the notes file in markdown, odt, or docx file format.`;
+<p>Attach a zipped folder that contains the following:</p>
+<ul><li>design brief document</li>
+<li>image files of your wireframes</li></ul>`;
 });
 export {
   Assignment_2 as default,

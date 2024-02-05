@@ -3,7 +3,7 @@ import { L as LessonPlan } from "./LessonPlan.js";
 const metadata = {
   "title": "SQL Test & Final Project",
   "excerpt": null,
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _07_day_7 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

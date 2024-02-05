@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Object Methods",
   "excerpt": "We will introduce the concept of this and built in vs custom object methods. This class requires a basic understanding of functions, methods, and objects.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _09_day_9 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

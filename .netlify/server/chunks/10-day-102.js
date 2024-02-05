@@ -4,7 +4,7 @@ import { L as LessonPlan } from "./LessonPlan.js";
 const metadata = {
   "title": "In Class Hackathon",
   "excerpt": "In a structured format, we will summarize our vanilla javascript knowledge with a hackathon. The format of the hackathon will emulate that of real hackathons. There will be a show and tell at the end of class.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _10_day_10 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

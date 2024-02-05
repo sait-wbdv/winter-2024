@@ -4,7 +4,7 @@ import { L as LessonPlan } from "./LessonPlan.js";
 import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Horizontal Navigation with Flexbox",
-  "excerpt": "In this session, we'll look at how we can apply Flexbox to a list of link to create a horizontal nav.",
+  "excerpt": "In this session, we'll look at how we can apply Flexbox to a list of links to create a horizontal nav.",
   "status": "published"
 };
 const { title, excerpt, status } = metadata;
@@ -12,7 +12,8 @@ const _05_day_5 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
   return `${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
       return `<h2>Housekeeping</h2>
-<ul><li><a href="/courses/cpnt-260/assessments/assignment-2">Assignment 2</a> due date pushed to Wednesday Sept 20 @ 11:59pm</li></ul>
+<ul><li><a href="/courses/cpnt-260/assessments/assignment-2">Assignment 2</a> due Wednesday, January 24th</li>
+<li></li></ul>
 <hr>
 <h2>1. Activity: Dissect a nav menu</h2>
 <h3 id="instructions"><a aria-hidden="true" tabindex="-1" href="#instructions"><span class="icon icon-link"></span></a>Instructions</h3>
@@ -26,21 +27,21 @@ const _05_day_5 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <h3 id="materials"><a aria-hidden="true" tabindex="-1" href="#materials"><span class="icon icon-link"></span></a>Materials</h3>
 <ul><li>Inspiration: <a href="https://acidtone.github.io/code-journal/#jan-29-2023" rel="nofollow">Tony’s nav banner research</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links#styling_links_as_buttons" rel="nofollow">Styling links as buttons</a></li>
-<li>Sample Code<ul><li><a href="https://codepen.io/browsertherapy/pen/XWjwJGL" rel="nofollow">Typical vertical navigation menu</a></li></ul></li></ul>
+<li>Sample Code<ul><li><a href="https://codepen.io/Ruth-Elodimuor/pen/bGZRMYK" rel="nofollow">Typical vertical navigation menu</a></li></ul></li></ul>
 <hr>
 <h2>3. Activity: Make your own vertical nav menu</h2>
 <p>Try to duplicate the nav menu and banner using today’s slides and sample code.</p>
 <ol><li><a href="/slides/cpnt-260/flexbox-nav#/2">Create a list of HTML links</a> using the <code>&lt;nav&gt;</code> and <code>&lt;ul&gt;</code> elements.</li>
 <li>Using CSS, <a href="/slides/cpnt-260/flexbox-nav#/3">remove the default bullets and padding</a> from the <code>&lt;ul&gt;</code>.</li>
 <li><a href="/slides/cpnt-260/flexbox-nav#/4">Make your links clickable</a> by adding padding (and by making your links block-level).</li>
-<li><a href="http://localhost:5173/slides/cpnt-260/flexbox-nav#/5" rel="nofollow">Define your colours</a> according to your selected palette from the earlier activity</li>
-<li><a href="http://localhost:5173/slides/cpnt-260/flexbox-nav#/6" rel="nofollow">Define your fonts and any other styles</a> needed to match your nav bar to your online example.</li></ol>
+<li><a href="/slides/cpnt-260/flexbox-nav#/5">Define your colours</a> according to your selected palette from the earlier activity</li>
+<li><a href="/slides/cpnt-260/flexbox-nav#/6">Define your fonts and any other styles</a> needed to match your nav bar to your online example.</li></ol>
 <hr>
 <h2>4. Demo: Flexbox Basics</h2>
 <h3 id="materials-1"><a aria-hidden="true" tabindex="-1" href="#materials-1"><span class="icon icon-link"></span></a>Materials</h3>
 <ul><li><a href="https://flexboxfroggy.com/" rel="nofollow">Flexbox Froggy</a></li>
 <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" rel="nofollow">Complete Guide to Flexbox</a></li>
-<li>Sample Code<ul><li><a href="https://codepen.io/browsertherapy/pen/YzqdGpR" rel="nofollow">Flexbox Navigation Examples</a></li></ul></li></ul>
+<li>Sample Code<ul><li><a href="https://codepen.io/Ruth-Elodimuor/pen/qBvjYXZ" rel="nofollow">Flexbox Navigation Examples</a></li></ul></li></ul>
 <hr>
 <h2>5. Activity: Horizontal navigation with Flexbox</h2>
 <p>Try to duplicate the nav menu and banner using today’s slides and sample code.</p>

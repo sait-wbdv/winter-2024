@@ -5,19 +5,11 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Events and Reactivity",
   "excerpt": null,
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _15_day_15 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${validate_component(Homework, "Homework").$$render($$result, { status }, {}, {
-    default: () => {
-      return `<ul><li><a href="https://svelte.dev/tutorial/dynamic-attributes" rel="nofollow">Dynamic attributes</a></li>
-<li><a href="https://svelte.dev/tutorial/styling" rel="nofollow">Styling</a></li>
-<li><a href="https://svelte.dev/tutorial/nested-components" rel="nofollow">Nested components</a></li>
-<li>Read <a href="https://kit.svelte.dev/docs/load" rel="nofollow">Loading Data</a></li>
-<li>Extra Reading: <a href="https://eloquentjavascript.net/15_event.html" rel="nofollow">Handling Events</a> -&gt; Ch.15 of Eloquent Javascript</li></ul>`;
-    }
-  })}
+  return `${validate_component(Homework, "Homework").$$render($$result, { status }, {}, {})}
 ${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
       return `<h2>Events Review</h2>

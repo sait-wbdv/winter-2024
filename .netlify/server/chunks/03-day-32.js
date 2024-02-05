@@ -11,10 +11,16 @@ const _03_day_3 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
   return `${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
       return `<h2>Housekeeping</h2>
-<ul><li><a href="/courses/cpnt-260/assessments/assignment-1">CPNT 260 Assignment 1</a> marks returned.<ul><li>Example Submission:<ul><li><a href="https://github.com/sait-wbdv/f23-spoilers-cpnt260-a1" rel="nofollow">GitHub repo</a></li>
-<li><a href="https://sait-wbdv.github.io/f23-spoilers-cpnt260-a1/" rel="nofollow">GH Pages site</a></li></ul></li></ul></li>
+<ul><li><a href="/courses/cpnt-201/assessments/assignment-1">CPNT 201 Assignment 1</a> marks returned.</li>
 <li>Announced: <a href="/courses/cpnt-201/assessments/assignment-2">CPNT 201 Assignment 2</a><ul><li>Weight: 20%</li>
-<li>Due: Friday September 22 @ 11:59pm</li></ul></li></ul>
+<li>Due: Friday January 26 @ 11:59pm</li></ul></li></ul>
+<hr>
+<h2>Daily Standup</h2>
+<p>In the same groups as last class</p>
+<h3 id="each-person-takes-a-turn-to-answer-the-following-questions"><a aria-hidden="true" tabindex="-1" href="#each-person-takes-a-turn-to-answer-the-following-questions"><span class="icon icon-link"></span></a>Each person takes a turn to answer the following questions:</h3>
+<ol><li>What did you do yesterday?</li>
+<li>What will you do today?</li>
+<li>Anything blocking your progress?</li></ol>
 <hr>
 <h2>Activity: Commit Catch and Markdown Review</h2>
 <h3 id="materials"><a aria-hidden="true" tabindex="-1" href="#materials"><span class="icon icon-link"></span></a>Materials</h3>
@@ -34,6 +40,7 @@ const _03_day_3 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <li>Continue until your document contains satisfies the requirements for <a href="/courses/cpnt-201/day-3#todays-achievement">Today’s Achievement</a>.</li></ol>
 <hr>
 <h2>Merge Conflicts</h2>
+<p><a href="/slides/cpnt-201/git-conflict"><img src="/images/slides/cpnt-201/git-conflict.png" alt="Git Conflicts"></a></p>
 <h3 id="activity-creating-a-merge-conflict"><a aria-hidden="true" tabindex="-1" href="#activity-creating-a-merge-conflict"><span class="icon icon-link"></span></a>Activity: Creating a Merge Conflict</h3>
 <p>Using the same partner(s) and repo from the earlier activity, create a merge conflict.</p>
 <h3 id="instructions-1"><a aria-hidden="true" tabindex="-1" href="#instructions-1"><span class="icon icon-link"></span></a>Instructions</h3>

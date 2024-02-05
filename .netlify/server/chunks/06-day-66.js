@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Component Crafting in Figma",
   "excerpt": "We will learn how to make reusable components in Figma. Focusing on medium to high fidelity design, this class covers techniques used to design UI elements that can be replicated across a broader design.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _06_day_6 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

@@ -3,9 +3,9 @@ import { H as Homework } from "./Homework.js";
 import { L as LessonPlan } from "./LessonPlan.js";
 import { A as Achievement } from "./Achievement.js";
 const metadata = {
-  "title": "The Math Object, Arithmetic, Error Handling",
+  "title": "Built in Features of JS",
   "excerpt": "This class introduces the number type and operators that can be used with it.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _03_day_3 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

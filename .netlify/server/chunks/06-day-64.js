@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Forms, Events, and Expressions",
   "excerpt": "This class is all about summarizing and reinforcing the concepts and techniques learned over the first 5 days. We introduce the concept of statements and expressions to frame what we've learned so far.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _06_day_6 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

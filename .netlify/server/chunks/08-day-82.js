@@ -11,7 +11,19 @@ const { title, excerpt, status } = metadata;
 const _08_day_8 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
-      return `<h2>Video Watch party day!</h2>
+      return `<h2>Housekeeping</h2>
+<ul><li><a href="/courses/cpnt-260/assessments/assignment-3">Assignment 3</a> <ul><li>Weight: 10%</li>
+<li>Due: Friday, February 02 @ 11:59pm</li></ul></li>
+<li>Submit topics that you’d like to review or ones that we haven’t covered in this course    <ul><li><a href="https://ideaboardz.com/for/Topics%20to%20review/5183892" rel="nofollow">Suggested Topics to review</a></li></ul></li></ul>
+<hr>
+<h2>Daily Standup</h2>
+<p>In the same groups as last class</p>
+<h3 id="each-person-takes-a-turn-to-answer-the-following-questions"><a aria-hidden="true" tabindex="-1" href="#each-person-takes-a-turn-to-answer-the-following-questions"><span class="icon icon-link"></span></a>Each person takes a turn to answer the following questions:</h3>
+<ol><li>What did you do yesterday?</li>
+<li>What will you do today?</li>
+<li>Anything blocking your progress?</li></ol>
+<hr>
+<h2>Video Watch party day!</h2>
 <h3 id="1-flex-vs-grid"><a aria-hidden="true" tabindex="-1" href="#1-flex-vs-grid"><span class="icon icon-link"></span></a>1. Flex vs Grid</h3>
 <p><a href="https://youtu.be/hs3piaN4b5I" rel="nofollow"><img src="/images/lessons/flex-vs-grid.png" alt="Flexbox vs. CSS Grid — Which is Better?"></a></p>
 <ul><li><a href="https://youtu.be/hs3piaN4b5I" rel="nofollow">Flexbox vs. CSS Grid — Which is Better?</a> by Jenn Simmons</li></ul>
@@ -24,9 +36,9 @@ const _08_day_8 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <hr>
 <h2>Activity: 2-up, 4-up</h2>
 <h3 id="materials"><a aria-hidden="true" tabindex="-1" href="#materials"><span class="icon icon-link"></span></a>Materials</h3>
-<ul><li><a href="https://github.com/sait-wbdv/dailies-f23/tree/main/2023-09-27-gallaries/01-2up-starter" rel="nofollow">Starter Code</a></li>
+<ul><li><a href="https://github.com/sait-wbdv/dailies-w24/tree/main/2024-01-31-gallaries/01-2up-starter" rel="nofollow">Starter Code</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child" rel="nofollow"><code>nth-child</code></a><ul><li>useful for alternating colours in a design</li></ul></li></ul>
-<p>In groups of 2 or 3, build 3 grid layouts:</p>
+<p>In groups of 2 or 3, build 2 grid layouts:</p>
 <ol><li>Make a split-hero section: fill the page with two items with different background colours, side-by-side.</li>
 <li>Refactor your code to be a 2x2 grid.</li></ol>
 <hr>
@@ -35,7 +47,7 @@ const _08_day_8 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 <ul><li><a href="https://gridbyexample.com/video/series-minmax/" rel="nofollow">Introducing <code>minmax()</code></a></li>
 <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" rel="nofollow">Complete Guide to CSS Grid</a></li></ul>
 <h3 id="starter-code"><a aria-hidden="true" tabindex="-1" href="#starter-code"><span class="icon icon-link"></span></a>Starter Code</h3>
-<ul><li><a href="https://github.com/sait-wbdv/dailies-f23/tree/main/2023-09-27-gallaries/00c-gallery-starter" rel="nofollow">Starter code</a></li></ul>
+<ul><li><a href="https://github.com/sait-wbdv/dailies-w24/tree/main/2024-01-31-gallaries/00c-gallery-starter" rel="nofollow">Starter code</a></li></ul>
 <hr>`;
     }
   })}
@@ -45,14 +57,14 @@ ${validate_component(Achievement, "Achievement").$$render($$result, { status }, 
 <p>Using CSS Grid, build ONE of the following:</p>
 <p><strong>An empty Tic-Tac-Toe grid:</strong>
 <img src="/images/css/tic-tac-toe.png" alt="Tic Tac Toe Board"></p>
-<ul><li><a href="https://github.com/sait-wbdv/dailies-f23/tree/main/2023-09-27-gallaries/00a-tic-tac-toe-starter" rel="nofollow">Starter Code</a></li>
+<ul><li><a href="https://github.com/sait-wbdv/dailies-w24/tree/main/2024-01-31-gallaries/00a-tic-tac-toe-starter" rel="nofollow">Starter Code</a></li>
 <li>3x3 grid of squares</li>
 <li>Borders <strong>between</strong> each square</li>
 <li>Optional: Add static, centred “X” and “O” content in some or all of the squares</li></ul>
 <p><strong>OR</strong></p>
 <p><strong>Chess board:</strong>
 <img src="/images/css/chess.png" alt="Chess Board"></p>
-<ul><li><a href="https://github.com/sait-wbdv/dailies-f23/tree/main/2023-09-27-gallaries/00b-chess-board-starter" rel="nofollow">Starter Code</a></li>
+<ul><li><a href="https://github.com/sait-wbdv/dailies-w24/tree/main/2024-01-31-gallaries/00b-chess-board-starter" rel="nofollow">Starter Code</a></li>
 <li>8x8 grid of squares</li>
 <li>Each square alternates colours like a chess board <ul><li>hint: the <code>nth-child(even)</code> selector might come in handy</li></ul></li>
 <li>Optional: Add static, centred “X” and “O” content in some or all of the squares</li></ul>

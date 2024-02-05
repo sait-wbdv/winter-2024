@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Hi Fidelity Design Mockups",
   "excerpt": "For our last day of design, we will learn how to make a hi fidelity mockup of a web page. We will make use of figma components, design systems, frames and grids, image imports, and vector editing.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _08_day_8 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Conditionals | Decision making in Code",
   "excerpt": "Through introducing conditional statements, this class addresses flowcharting and how it maps algorithmic thinking.",
-  "status": "published"
+  "status": "announced"
 };
 const { title, excerpt, status } = metadata;
 const _04_day_4 = create_ssr_component(($$result, $$props, $$bindings, slots) => {

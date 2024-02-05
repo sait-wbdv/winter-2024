@@ -1,9 +1,8 @@
 ---
-title: Graded Activity 4 - Loops and Conditionals
+title: Mini Activity 4 - Framework Reactivity
 excerpt: Create conditional statements to render data in specific conditions. Use loops to access lists of content.
-points: 5
+points: 10
 type: assignment
-status: published
 ---
 
 <h2>Overview</h2>

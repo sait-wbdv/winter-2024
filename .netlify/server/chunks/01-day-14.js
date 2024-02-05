@@ -13,29 +13,39 @@ const _01_day_1 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 ${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
       return `<h2>Housekeeping</h2>
-<ul><li>Marks returned for CPNT 201 Achievements 1 and 2</li></ul>
+<ul><li>Marks returned for CPNT 201 Achievements 1 and 2</li>
+<li>CPNT 260 Assignment Overview<ul><li>Achievements: 10 x 3%</li>
+<li>Assignments: 4 x 10%</li>
+<li>Final Project: 30%</li></ul></li>
+<li><a href="/courses/cpnt-260/assessments/assignment-1">Assignment 1: Text Column</a><ul><li>Weight: 10%</li>
+<li>Due: Friday January 19th @ 11:59pm</li></ul></li></ul>
 <hr>
 <h2>1. Git Review</h2>
 <p>We’ll do a quick review of Git and introduce you to the VS Code Git panel.</p>
 <h3 id="activity-draw-toast-but-with-git"><a aria-hidden="true" tabindex="-1" href="#activity-draw-toast-but-with-git"><span class="icon icon-link"></span></a>Activity: Draw Toast but with Git</h3>
 <p>In groups of 3 or 4, draw out the steps needed to push changes to a GitHub repo.</p>
 <hr>
-<h2>2. Hello Vanilla</h2>
-<p>A simple one page website. Although this one is broken!</p>
+<h2>2. Structure of a website </h2>
+<p><a href="/slides/cpnt-260/web-folders-org"><img src="/images/slides/cpnt-260/website-structure.png" alt="Slides: What structure should a website have?"></a></p>
 <h3 id="materials"><a aria-hidden="true" tabindex="-1" href="#materials"><span class="icon icon-link"></span></a>Materials</h3>
-<ul><li><a href="https://github.com/sait-wbdv/dailies-f23" rel="nofollow">Hello Vanilla Sample Code</a></li></ul>
+<ul><li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files" rel="nofollow">What structure should a website have?</a></li></ul>
 <hr>
-<h2>3. The Triad</h2>
-<p><a href="/slides/cpnt-260/browser-triad"><img src="/images/slides/cpnt-260/browser-triad.png" alt="Slides: The Browser Triad"></a></p>
+<h2>3. Hello Vanilla</h2>
+<p>A simple one page website. Although this one is broken!</p>
 <h3 id="materials-1"><a aria-hidden="true" tabindex="-1" href="#materials-1"><span class="icon icon-link"></span></a>Materials</h3>
-<ul><li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" rel="nofollow">Getting started with HTML</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS" rel="nofollow">What is CSS?</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started" rel="nofollow">Getting started with CSS</a></li></ul>
+<ul><li><a href="https://github.com/sait-wbdv/dailies-w24" rel="nofollow">Hello Vanilla Sample Code</a></li></ul>
 <hr>
 <h2>4. Introduction to HTTP</h2>
 <p><a href="/slides/cpnt-260/http-introduction"><img src="/images/slides/cpnt-260/http-introduction.png" alt="Slides: Introduction to HTTP"></a></p>
 <hr>
-<h2>Better Search Phrases</h2>
+<h2>5. The Triad</h2>
+<p><a href="/slides/cpnt-260/browser-triad"><img src="/images/slides/cpnt-260/browser-triad.png" alt="Slides: The Browser Triad"></a></p>
+<h3 id="materials-2"><a aria-hidden="true" tabindex="-1" href="#materials-2"><span class="icon icon-link"></span></a>Materials</h3>
+<ul><li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started" rel="nofollow">Getting started with HTML</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS" rel="nofollow">What is CSS?</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started" rel="nofollow">Getting started with CSS</a></li></ul>
+<hr>
+<h2>6. Better Search Phrases</h2>
 <p><a href="/slides/cpnt-260/better-search-phrases"><img src="/images/slides/cpnt-260/better-search-phrases.png" alt="Slides: Better Search Phrases"></a></p>
 <hr>`;
     }
@@ -46,7 +56,7 @@ ${validate_component(Achievement, "Achievement").$$render($$result, { status }, 
 <p><strong>Materials</strong></p>
 <ul><li><a href="https://gist.github.com/acidtone/caa20b2520814a94240043c40301024a" rel="nofollow">Pair programming process with Fiona and Semira</a></li></ul>
 <p><strong>Instructions</strong></p>
-<p>Download or clone <a href="https://github.com/sait-wbdv/dailies-f23/tree/main/2023-09-11-triad-intro/hello-vanilla" rel="nofollow">Hello Vanilla</a> into your workspace.</p>
+<p>Download or clone <a href="https://github.com/sait-wbdv/dailies-w24" rel="nofollow">Hello Vanilla</a> into your workspace.</p>
 <ol><li>Identify asset files in the root directory that should be in dedicated folders:<ul><li>CSS files should be in a <code>css</code> directory;</li>
 <li>Javascript files should be in a <code>js</code> directory;</li>
 <li>Images (<code>jpg</code>, <code>png</code>, <code>svg</code>, etc) should be in an <code>images</code> directory.</li></ul></li>
@@ -54,7 +64,11 @@ ${validate_component(Achievement, "Achievement").$$render($$result, { status }, 
 <li>Move each identified file into the appropriate directory.</li>
 <li>Ensure the names of all files and directories conform to accepted naming conventions.</li>
 <li>Fix any links to these files that may have broken when you moved the files. The project should operate just as it did before you moved the files.</li></ol>
-<p><strong><a href="https://gist.github.com/acidtone/bb688eb6e16c861422b865bf0e9abf4a" rel="nofollow">More Challenges!</a></strong></p>`;
+<p><strong><a href="https://gist.github.com/acidtone/bb688eb6e16c861422b865bf0e9abf4a" rel="nofollow">More Challenges!</a></strong></p>
+<p><strong>In today’s daily achievement dropbox, submit the following:</strong></p>
+<ul><li>Download your github repo by selecting the Download ZIP option in github and upload to Brightspace.</li>
+<li>Include the following as a comment in your Brightspace submission:<ul><li>link to GH repo</li>
+<li>If you get to the Medium difficulty level of the challenge, include the link to GH Pages site</li></ul></li></ul>`;
     }
   })}
 <hr>
