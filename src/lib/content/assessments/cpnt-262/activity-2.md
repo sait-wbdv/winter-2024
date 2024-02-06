@@ -21,7 +21,7 @@ _No CSS is necessary for this assignment, however you will be using JS and HTML_
    - client.js
    - README.md
 3. Set up your HTML file and import the `client.js` file in the head tag with a defer attribute added
-4. **Main Task** Code your number and string methods and organize your client.js file with comments
+4. **Main Task** Code your methods as per the content requirements below in the client.js file with comments
 5. Use either `document.querySelector()` or `document.getElementById()` and any appropriate methods to render your javascript variables onto the html page
 6. Use headings in the html file to identify what each value is (these should relate to the comments in your js file)
 7. Deploy to Github Pages
@@ -29,13 +29,13 @@ _No CSS is necessary for this assignment, however you will be using JS and HTML_
 ### Content
 
 - Label and render the "Before" values
-  - there will be 1 string and 1 number
+  - there will be 1 string, 1 number, 1 array, and 1 object
 - Label and render the "After" values
-  - There will be 6 values total in this section
+  - There will be 10 values total in this section
 
 **NOTE: This can be done in many ways, pick a layout that is easy to read and understand**
 
-#### Display or modify your chosen number with three of the following:
+#### Display or modify your chosen number with two of the following:
 
 - Increment or decrement a number using ++/--;
 - Convert a number to a string with Number.toString();
@@ -49,7 +49,7 @@ _No CSS is necessary for this assignment, however you will be using JS and HTML_
 - Check if a “number” is actually a number with Number.isNaN()
 - Check if a number is finite with Number.isFinite()
 
-#### Display or modify your chosen string with three of the following:
+#### Display or modify your chosen string with two of the following:
 
 - Show the number of characters in your string with String.length;
 - Show a sub-string of your string with String.substr() or String.substring();
@@ -63,23 +63,54 @@ _No CSS is necessary for this assignment, however you will be using JS and HTML_
 - Use String.endsWith() to show if your string starts with a word of your choice;
 - Use String.includes() to show if a substring is present in your string;
 
+### Display and/or modify your array with 2 of the following methods
+
+- Add to an array using the `.push()` or `.unshift() method
+- Remove from an array using the `.pop()` or `.shift()` method
+- Merge two arrays together with `.concat()`
+- Return a portion of an array with `.slice()` or `.splice()`
+- Return only specific elements of an array with `.filter()` or `.find()`
+- Verify if elements exist in an array with `.includes()`, .`every()`, or `.some()`
+
+### Display and/or modify your object with 2 of the following methods
+
+- Create and log an array of the values of your object with `Object.values()`
+- Create and log an array of all the keys of your object with `Object.keys()`
+- Create a nested array from your object by using `Object.entries()`
+- Reduce an object's editability with `Object.freeze()` or `Object.seal()`
+- Create a new object with the `new Object()` syntax
+- remove a key-value pair from an object with the `delete` keyword
+
 ---
 
 <h2>Rubric</h2>
 
 ### 2 Points: Number Modifications
 
-- Code Journal Entry
-- 2 Number Methods
+- 1 initial number
+- 2 number methods
 - Values rendered on html page
 
 ### 2 Points: String Modifications
 
-- Code Journal Entry
-- 2 Number Methods
+- 1 initial string
+- 2 string methods
 - Values rendered on html page
 
-### 2 Points: Code Quality
+### 2 Points: Array Modifications
+
+- 1 initial array
+- 2 array methods
+- Values rendered on html page
+
+### 2 Points: Object Modifications
+
+- 1 initial object
+- 2 object methods
+- Values rendered on html page
+- if you are demonstrating freeze or similar methods, you will need to demonstrate the effect of the method
+
+### Code Quality Requirements
 
 - Use of camelCase for JS and kebab-case for HTML
 - `const` vs `let` example

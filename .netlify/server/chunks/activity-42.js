@@ -11,14 +11,6 @@ const Activity_4 = create_ssr_component(($$result, $$props, $$bindings, slots) =
 <h2>Instructions</h2>
 <ul><li>Use at least 1 loop and 1 conditional while solving 2 of these challenges<ul><li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration" rel="nofollow">Use loops highlighted here</a></li>
 <li>Use if/else or ternary operators for conditionals<ul><li>else should be used as necessary</li></ul></li></ul></li></ul>
-<h3 id="challenges"><a aria-hidden="true" tabindex="-1" href="#challenges"><span class="icon icon-link"></span></a>Challenges</h3>
-<ul><li>Create an unstyled set of cards on an html page by rendering an array of objects (visual)</li>
-<li>Reverse a String</li>
-<li>Find the longest word in a string</li>
-<li>Remove all falsey values from an array (must include <code>false</code>, and <code>0</code>)</li>
-<li>Title Case a sentence (all words get capitalized for their first letter)</li>
-<li>Render a set of objects based on the truthiness of one of the key-value pairs (visual &amp; logical)</li>
-<li>Draw 2 shapes with characters (leet code like challenges)<ul><li>ie: star pyramid, star hollow square</li></ul></li></ul>
 <h2>Rubric</h2>
 <h3 id="3-points-code-content"><a aria-hidden="true" tabindex="-1" href="#3-points-code-content"><span class="icon icon-link"></span></a>3 Points (Code Content)</h3>
 <ul><li>Use of a conditional in one solution</li>

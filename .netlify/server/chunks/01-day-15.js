@@ -81,6 +81,7 @@ ${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}
 <li>describe control flow logic</li>
 <li>explain rules, their conditions, and outcomes</li></ul></li>
 <li>Note that we will be following up with this tomorrow where the different parts of the program will be put together</li></ul>
+<hr>
 <h2 id="brief-introduction-to-scratch"><a aria-hidden="true" tabindex="-1" href="#brief-introduction-to-scratch"><span class="icon icon-link"></span></a>Brief Introduction to Scratch</h2>
 <p>Scratch is a visual programming language. While mostly used to teach kids to code, it serves as a brilliant way to familiarize with the fundamental elements of programming. We will do one small assignment using scratch, the objective of this assignment is to build with programming concepts like: <strong>variables</strong>, <strong>conditional logic</strong>, <strong>iterative logic</strong> (aka: loops), and <strong>functions</strong></p>
 <ul><li><a href="https://scratch.mit.edu/" rel="nofollow">Scratch Website</a>: signup/login and create from here</li>

@@ -16,17 +16,6 @@ For this activity, we are focusing on using loops and conditionals to solve basi
   - Use if/else or ternary operators for conditionals
     - else should be used as necessary
 
-### Challenges
-
-- Create an unstyled set of cards on an html page by rendering an array of objects (visual)
-- Reverse a String
-- Find the longest word in a string
-- Remove all falsey values from an array (must include `false`, and `0`)
-- Title Case a sentence (all words get capitalized for their first letter)
-- Render a set of objects based on the truthiness of one of the key-value pairs (visual & logical)
-- Draw 2 shapes with characters (leet code like challenges)
-  - ie: star pyramid, star hollow square
-
 <h2>Rubric</h2>
 
 ### 3 Points (Code Content)

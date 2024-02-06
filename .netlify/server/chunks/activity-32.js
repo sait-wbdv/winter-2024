@@ -2,48 +2,53 @@ import { c as create_ssr_component } from "./index3.js";
 const metadata = {
   "title": "Mini Activity 3 - Control Flows and Error Handling",
   "excerpt": "Organize data into objects and arrays. Use built in methods to access and manipulate their data.",
-  "points": 10,
+  "points": 5,
   "type": "assignment"
 };
 const Activity_3 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<h2>Overview</h2>
-<p>In this activity, we will develop our understanding of how to use objects and arrays effectively. You will need to create an array and an object and render content from them by using their respective methods.</p>
+<p>Here you will practice setting up both control flows and error handling. This assignment is meant to help you develop your algorithm skills for creating interactive web elements.</p>
 <h2>Instructions</h2>
 <ol><li>Create a new github repo</li>
 <li>Inside it there should be 3 files:<ul><li>index.html</li>
 <li>client.js</li>
 <li>README.md</li></ul></li>
-<li>Set up your HTML file and import the <code>client.js</code> file in the head tag with a defer attribute added</li>
-<li>Create an array and a few objects</li>
-<li>use array and object methods to extract specific information to render</li>
-<li>render variables onto your html page</li>
-<li>In your comments, note a practical use case for the code that you’ve used (what you’ve done doesn’t need to necessarily be a full version)</li></ol>
-<h3 id="display-andor-modify-your-array-with-3-of-the-following-methods"><a aria-hidden="true" tabindex="-1" href="#display-andor-modify-your-array-with-3-of-the-following-methods"><span class="icon icon-link"></span></a>Display and/or modify your array with 3 of the following methods</h3>
-<ul><li>Add to an array using the <code>.push()</code> or \`.unshift() method</li>
-<li>Remove from an array using the <code>.pop()</code> or <code>.shift()</code> method</li>
-<li>Merge two arrays together with <code>.concat()</code></li>
-<li>Return a portion of an array with <code>.slice()</code> or <code>.splice()</code></li>
-<li>Return only specific elements of an array with <code>.filter()</code> or <code>.find()</code></li>
-<li>Verify if elements exist in an array with <code>.includes()</code>, .<code>every()</code>, or <code>.some()</code></li></ul>
-<h3 id="display-andor-modify-your-object-with-3-of-the-following-methods"><a aria-hidden="true" tabindex="-1" href="#display-andor-modify-your-object-with-3-of-the-following-methods"><span class="icon icon-link"></span></a>Display and/or modify your object with 3 of the following methods</h3>
-<ul><li>Create and log an array of the values of your object with <code>Object.values()</code></li>
-<li>Create and log an array of all the keys of your object with <code>Object.keys()</code></li>
-<li>Create a nested array from your object by using <code>Object.entries()</code></li>
-<li>Reduce an object’s editability with <code>Object.freeze()</code> or <code>Object.seal()</code></li>
-<li>Create a new object with the <code>new Object()</code> syntax</li>
-<li>remove a key-value pair from an object with the <code>delete</code> keyword</li></ul>
+<li>Set up your HTML file and import the <code>client.js</code> file in the head tag with a type=“module” attribute added</li>
+<li>Complete two of the following challenges and render their output to your html page<ul><li>some are harder than others, they will all require that you combine the programming concepts and JS language features together to achieve the desired outcomes.</li></ul></li>
+<li>In the readme, document problems that you ran into while creating this and how you approached solving them</li></ol>
+<h3 id="challenges"><a aria-hidden="true" tabindex="-1" href="#challenges"><span class="icon icon-link"></span></a>Challenges</h3>
+<ul><li>Render a set of cards onto an html page by using javascript’s template literals, an array of objects, and functions</li>
+<li>Reverse a String</li>
+<li>Find the longest word in a string</li>
+<li>Remove all falsey values from an array (must include <code>false</code>, and <code>0</code>)</li>
+<li>Title Case a sentence (all words get capitalized for their first letter)</li>
+<li>Render a set of objects based on the truthiness of one of the key-value pairs (visual &amp; logical)</li>
+<li>Draw 2 shapes with characters (leet code like challenges)<ul><li>ie: star pyramid, star hollow square</li></ul></li></ul>
 <hr>
 <h2>Rubric</h2>
-<h3 id="3-points-content-application"><a aria-hidden="true" tabindex="-1" href="#3-points-content-application"><span class="icon icon-link"></span></a>3 Points: Content Application</h3>
-<ul><li>A note on potential practical use cases for each render</li>
-<li>3 Array Methods</li>
-<li>2 Object Methods</li>
-<li>README journal entry</li></ul>
-<h3 id="2-points-code-quality"><a aria-hidden="true" tabindex="-1" href="#2-points-code-quality"><span class="icon icon-link"></span></a>2 Points: Code Quality</h3>
-<ul><li>Uses camelCase correctly</li>
-<li>Spacing and Indentation</li>
-<li>Code Commenting</li>
-<li>Code works</li></ul>
+<p>This assignment is graded out of 10 points total but is worth 5% of your total grade</p>
+<h3 id="2-points-1st-challenge"><a aria-hidden="true" tabindex="-1" href="#2-points-1st-challenge"><span class="icon icon-link"></span></a>2 Points: 1st challenge</h3>
+<ul><li>solution works</li>
+<li>if solution doesn’t work, partial marks for well documented pseudocode showing how you’ve tried to make it work and a hypothesis of why it’s not working currently</li>
+<li>content is rendered to an html page</li>
+<li>solution is not a c/p from chatgpt or stack overflow</li>
+<li>use of syntax ideas learned in this course or from course materials</li></ul>
+<h3 id="2-points-2nd-challenge"><a aria-hidden="true" tabindex="-1" href="#2-points-2nd-challenge"><span class="icon icon-link"></span></a>2 Points: 2nd challenge</h3>
+<ul><li>solution works</li>
+<li>if solution doesn’t work, partial marks for well documented pseudocode showing how you’ve tried to make it work and a hypothesis of why it’s not working currently</li>
+<li>content is rendered to an html page</li>
+<li>solution is not a c/p from chatgpt or stack overflow</li>
+<li>use of syntax ideas learned in this course or from course materials</li></ul>
+<h3 id="2-points-code-quality"><a aria-hidden="true" tabindex="-1" href="#2-points-code-quality"><span class="icon icon-link"></span></a>2 Points: Code quality</h3>
+<ul><li>js is in strict mode</li>
+<li>modern syntax patterns used</li>
+<li>camelCase syntax in js</li>
+<li>whitespace used consistently and purposefully</li></ul>
+<h3 id="2-points-notes-pseudocode-documentation"><a aria-hidden="true" tabindex="-1" href="#2-points-notes-pseudocode-documentation"><span class="icon icon-link"></span></a>2 Points: Notes, pseudocode, documentation</h3>
+<ul><li>code comments</li>
+<li>notes in the readme</li>
+<li>flow charts and/or pseudocode</li>
+<li>writing is clear and direct and relevant to the code it describes</li></ul>
 <h2>Submission Instructions</h2>
 <ol><li>As a comment in D2L: share links to make it easy for the instructor to quickly evaluate your work:<ul><li>GH repos, Pages, Projects (Beta), etc.</li>
 <li>Codepens, Figma, FigJam, etc.</li></ul></li>

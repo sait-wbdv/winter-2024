@@ -19,14 +19,11 @@ const _03_day_3 = create_ssr_component(($$result, $$props, $$bindings, slots) =>
   })}
 ${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}, {
     default: () => {
-      return `<h3 id="morning-activity-algorithms-in-everyday-life-15-minutes"><a aria-hidden="true" tabindex="-1" href="#morning-activity-algorithms-in-everyday-life-15-minutes"><span class="icon icon-link"></span></a>Morning Activity: Algorithms in Everyday Life (15 minutes)</h3>
-<p><strong>Focus</strong>: Anything that involves math calculations at some point (rough mental math is valid)</p>
-<ol><li>Create a flowchart of something that you enjoy doing using the instructions linked below (15 minutes)</li>
-<li>Briefly discuss your findings:<ul><li>What activity did you document? What step(s) did you break down into micro steps?</li>
-<li><strong>Walk each other through your steps</strong></li>
-<li>When broken into micro steps, did you underestimate how complex the activity actually was?</li></ul></li></ol>
-<a href="https://gist.github.com/lilyx13/423ffbe6e8da87497b134985ba90ab15"><h3>Instructions Link</h3>
-  <img src="/images/qr-codes/algorithm-activity.png" alt="activity qr code" class="w-48"></a>
+      return `<h2>Morning Standup</h2>
+- Key takeaway from yesterdays class?
+- what did you work on yesterday?
+- what are you doing today?
+- do you have any blocks?
 <hr>
 <h2>1. Handling Errors</h2>
 <p><a href="/slides/cpnt-262/js-errors"><img src="/images/slides/cpnt-262/js-errors.png" alt="Slides - handling errors"></a></p>
@@ -81,14 +78,8 @@ ${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}
   })}
 ${validate_component(Achievement, "Achievement").$$render($$result, { status }, {}, {
     default: () => {
-      return `<h3 id="end-of-day-activity-recreate-morning-algorithm-in-js"><a aria-hidden="true" tabindex="-1" href="#end-of-day-activity-recreate-morning-algorithm-in-js"><span class="icon icon-link"></span></a>End of Day Activity: Recreate Morning Algorithm in JS</h3>
-<ul><li><strong>Focus</strong>: Using features from the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math" rel="nofollow">Math</a> object to perform calculations.</li>
-<li>Suggestion: Create a JS file with numerical variables and perform some basic math with them in other variables.</li></ul>
-<a href="https://gist.github.com/lilyx13/c81f1e72f83586efcd97206b806fd494"><h3>Instructions Link</h3>
-  <img src="/images/qr-codes/algorithm-followup-activity.png" alt="activity qr code" class="w-48"></a>
-<hr>
-<h2><a href="/courses/cpnt-262/assessments/activity-2">Graded Activity 2: Strings and Numbers</a></h2>
-<ul><li><strong>Due:</strong>: October 8th</li>
+      return `<h2><a href="/courses/cpnt-262/assessments/activity-2">Mini Activity 2: Before and After</a></h2>
+<ul><li><strong>Due:</strong>: February 14</li>
 <li><strong>Weight</strong>: 10%</li>
 <li><strong>Objective</strong>: Lean how to work with javascript variables</li></ul>`;
     }

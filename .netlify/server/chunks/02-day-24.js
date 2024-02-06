@@ -5,7 +5,7 @@ import { A as Achievement } from "./Achievement.js";
 const metadata = {
   "title": "Introduction to Javascript",
   "excerpt": "Moving away from Scratch, we will learn about how Javascript fits into the browser triad. this class focuses on syntax basics with small practical examples.",
-  "status": "announced"
+  "status": "published"
 };
 const { title, excerpt, status } = metadata;
 const _02_day_2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -30,13 +30,22 @@ ${validate_component(LessonPlan, "LessonPlan").$$render($$result, { status }, {}
 <li>Simulate with props to test</li>
 <li>Write the code down (1 algorithm per page) and label each one clearly based on what it does</li>
 <li>Create any other props needed</li>
-<li>Decide on who will <strong>execute</strong> the program commands and who will operate as variables in the program<ul><li>1-2 command executers</li>
-<li>1-2 variable</li></ul></li></ul>
+<li>Decide on who will <strong>execute</strong> the program commands and who will operate as variables in the program<ul><li>1 command executor (declares the action)</li>
+<li>1-2 variables (does the action)</li>
+<li>1 logger (takes notes)</li></ul></li></ul>
 <h4 id="phase-3-run-the-program-all-hands"><a aria-hidden="true" tabindex="-1" href="#phase-3-run-the-program-all-hands"><span class="icon icon-link"></span></a>Phase 3: Run the Program (All hands)</h4>
 <ul><li>Now we’ll pull it all together!</li>
 <li>The ‘variable’ will play out the commands executed by the ‘functions’ using props</li>
 <li>Then let’s see how many times we crash the program!</li>
 <li>Document causes of crashes and note potential solutions</li></ul>
+<h4 id="phase-4-bugfix-and-optimize-in-teams--all-hands"><a aria-hidden="true" tabindex="-1" href="#phase-4-bugfix-and-optimize-in-teams--all-hands"><span class="icon icon-link"></span></a>Phase 4: Bugfix and Optimize (In teams &amp; all hands)</h4>
+<ul><li>(all hands) debrief on what worked and what needed to change</li>
+<li>(in teams) modify code to fix bugs noted by logger and in the all hands</li>
+<li>write alterted scripts out as declarative statements with logic</li></ul>
+<h4 id="phase-5-test-all-hands"><a aria-hidden="true" tabindex="-1" href="#phase-5-test-all-hands"><span class="icon icon-link"></span></a>Phase 5: Test (all hands)</h4>
+<ul><li>We’ll finish up by running the program again</li>
+<li>Logger will note changes in outcomes and overall behavior</li>
+<li>Debrief on how the bugfixes worked</li></ul>
 <hr>
 <h2>1. Introduction to Javascript</h2>
 <p><a href="/slides/cpnt-262/js-introduction"><img src="/images/slides/cpnt-262/js-intro.png" alt="Introduction to Javascript"></a></p>
