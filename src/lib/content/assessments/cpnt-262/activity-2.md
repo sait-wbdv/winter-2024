@@ -31,7 +31,7 @@ _No CSS is necessary for this assignment, however you will be using JS and HTML_
 - Label and render the "Before" values
   - there will be 1 string, 1 number, 1 array, and 1 object
 - Label and render the "After" values
-  - There will be 10 values total in this section
+  - There will be 8 values total in this section
 
 **NOTE: This can be done in many ways, pick a layout that is easy to read and understand**
 
