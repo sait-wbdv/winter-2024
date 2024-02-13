@@ -3,7 +3,7 @@ title: Assignment 2 - Website Wireframes
 excerpt: Create a collection of low to medium resolution wireframes for a website. The website will require 4 distinct pages and demonstrate layout, visual hierarchy, and component skeletons.
 type: assignment
 points: 20
-status: announced
+status: published
 ---
 
 <h2>Scenario</h2>
@@ -72,7 +72,9 @@ Your content should include:
 
 <h2 id="submission-instructions">Submission Instructions</h2>
 
+- In the text field, add a link to your figma file
+
 Attach a zipped folder that contains the following:
 
 - design brief document
-- image files of your wireframes
+- image files of your wireframes (make sure that they are labelled and centered for easy understanding)

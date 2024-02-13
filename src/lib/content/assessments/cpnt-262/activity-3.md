@@ -17,7 +17,7 @@ Here you will practice setting up both control flows and error handling. This as
    - client.js
    - README.md
 3. Set up your HTML file and import the `client.js` file in the head tag with a type="module" attribute added
-4. Complete two of the following challenges and render their output to your html page
+4. Complete one of the following challenges and render their output to your html page
    - some are harder than others, they will all require that you combine the programming concepts and JS language features together to achieve the desired outcomes.
 5. In the readme, document problems that you ran into while creating this and how you approached solving them
    - list any prompts used with an AI chatbot and key takeaway points in your own words
@@ -49,6 +49,10 @@ This assignment is graded out of 10 points total but is worth 5% of your total g
 - content is rendered to an html page
 - solution is not a c/p from chatgpt or stack overflow
 - use of syntax ideas learned in this course or from course materials
+
+### 2 Points: Error Handling
+- use an if check to make a function fail early
+- log error information with `console.error('custom error message')`
 
 ### 2 Points: Code quality
 

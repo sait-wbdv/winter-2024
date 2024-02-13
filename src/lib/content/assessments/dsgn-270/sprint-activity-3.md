@@ -3,7 +3,7 @@ title: Sprint Activity 3 - Card Component Design
 excerpt:
 points: 10
 type: assignment
-status: announced
+status: published
 ---
 
 In Figma, create a reusable card component and use it to render content for 3 different cards on a medium resolution mockup.
@@ -37,4 +37,5 @@ In Figma, create a reusable card component and use it to render content for 3 di
 - Export an image of your base component (naming should be something like "original-card.png")
 - Also export a desktop sized frame that shows your component applied 3 times with unique content in each card (follow similar naming conventions but include the frame size in the title: "card-layout-1290_1080.png")
 - Attach the two files to your submission
-- In the text box, add a link to your design space
+- **In the text box, add a link to your design space**
+
