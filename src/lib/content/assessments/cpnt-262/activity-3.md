@@ -20,17 +20,21 @@ Here you will practice setting up both control flows and error handling. This as
 4. Complete two of the following challenges and render their output to your html page
    - some are harder than others, they will all require that you combine the programming concepts and JS language features together to achieve the desired outcomes.
 5. In the readme, document problems that you ran into while creating this and how you approached solving them
+   - list any prompts used with an AI chatbot and key takeaway points in your own words
+   - list search queries and links to where you got the information
+6. In readme, also document a self reflection:
+   - what approaches to building this were effective? and what was ineffective?
+   - describe what you learned about solving coding problems while doing this?
 
 ### Challenges
 
-- Render a set of cards onto an html page by using javascript's template literals, an array of objects, and functions
-- Reverse a String
-- Find the longest word in a string
-- Remove all falsey values from an array (must include `false`, and `0`)
-- Title Case a sentence (all words get capitalized for their first letter)
-- Render a set of objects based on the truthiness of one of the key-value pairs (visual & logical)
-- Draw 2 shapes with characters (leet code like challenges)
-  - ie: star pyramid, star hollow square
+- Render a gallery from an array of objects (products, team, characters...)
+- Make a button that will format user input text (ie: capitalization, remove trailing whitespace)
+- Animate a loading message
+- Profile confirmation (verify that the two input strings are the same)
+- Character count tool
+- Make a togglable accordion
+
 
 ---
 
@@ -38,15 +42,7 @@ Here you will practice setting up both control flows and error handling. This as
 
 This assignment is graded out of 10 points total but is worth 5% of your total grade
 
-### 2 Points: 1st challenge
-
-- solution works
-- if solution doesn't work, partial marks for well documented pseudocode showing how you've tried to make it work and a hypothesis of why it's not working currently
-- content is rendered to an html page
-- solution is not a c/p from chatgpt or stack overflow
-- use of syntax ideas learned in this course or from course materials
-
-### 2 Points: 2nd challenge
+### 2 Points: Your Solution
 
 - solution works
 - if solution doesn't work, partial marks for well documented pseudocode showing how you've tried to make it work and a hypothesis of why it's not working currently
@@ -59,14 +55,19 @@ This assignment is graded out of 10 points total but is worth 5% of your total g
 - js is in strict mode
 - modern syntax patterns used
 - camelCase syntax in js
-- whitespace used consistently and purposefully
+- whitespace and indentation 
 
 ### 2 Points: Notes, pseudocode, documentation
 
-- code comments
-- notes in the readme
 - flow charts and/or pseudocode
-- writing is clear and direct and relevant to the code it describes
+- search history and key takeaways from the links documented
+- ai prompt queries (c/p) and the most useful 1-3 pieces of information
+
+### 2 Points: Self Evaluation
+
+- Evaluation of your process
+- What you learned about solving coding problems
+
 
 <h2>Submission Instructions</h2>
 
