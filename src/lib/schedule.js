@@ -192,7 +192,7 @@ export const scheduleByWeek = [
     {
       date: "2024-02-23",
       type: "lesson",
-      code: "cpnt-264",
+      code: "cpnt-262",
     },
   ],
   // Week 8
@@ -200,12 +200,12 @@ export const scheduleByWeek = [
     {
       date: "2024-02-26",
       type: "lesson",
-      code: "cpnt-262",
+      code: "cpnt-264",
     },
     {
       date: "2024-02-27",
       type: "lesson",
-      code: "cpnt-262",
+      code: "",
     },
     {
       date: "2024-02-28",
@@ -215,7 +215,7 @@ export const scheduleByWeek = [
     {
       date: "2024-02-29",
       type: "lesson",
-      code: "dsgn-270",
+      code: "cpnt-201",
     },
     {
       date: "2024-03-01",
@@ -228,7 +228,7 @@ export const scheduleByWeek = [
     {
       date: "2024-03-04",
       type: "lesson",
-      code: "cpnt-201",
+      code: "cpnt-262",
     },
     {
       date: "2024-03-05",
@@ -276,7 +276,7 @@ export const scheduleByWeek = [
     {
       date: "2024-03-15",
       type: "lesson",
-      code: "cpnt-262",
+      code: "",
     },
   ],
   // Week 11
@@ -284,17 +284,17 @@ export const scheduleByWeek = [
     {
       date: "2024-03-18",
       type: "lesson",
-      label: "cpnt-262",
+      label: "",
     },
     {
       date: "2024-03-19",
       type: "lesson",
-      code: "cpnt-262",
+      code: "",
     },
     {
       date: "2024-03-20",
       type: "lesson",
-      code: "cpnt-262",
+      code: "",
     },
     {
       date: "2024-03-21",
