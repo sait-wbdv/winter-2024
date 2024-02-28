@@ -12,8 +12,8 @@ export const dsgn270DueDates = [
   },
   {
     slug: "assignment-3",
-    due: "March 7, 2024",
-    status: "announced",
+    due: "March 10, 2024",
+    status: "published",
   },
   {
     slug: "sprint-activity-1",
@@ -33,6 +33,6 @@ export const dsgn270DueDates = [
   {
     slug: "sprint-activity-4",
     due: "Mar 15, 2024",
-    status: "announced",
+    status: "published",
   },
 ];
