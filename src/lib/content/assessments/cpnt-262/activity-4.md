@@ -18,13 +18,13 @@ For this activity, we are focusing on using loops and conditionals to solve basi
 
 <h2>Rubric</h2>
 
-### 3 Points (Code Content)
+### 5 Points: 
 
 - Use of a conditional in one solution
 - Use of a loop in one solution
 - Content is rendered on a page
 
-### 2 Points (Code )
+### 5 Points
 
 Proper use of casing
 
