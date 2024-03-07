@@ -18,7 +18,7 @@ export const cpnt262DueDates = [
   {
     slug: "activity-4",
     due: "Monday March 11",
-    status: "announced",
+    status: "published",
   },
   {
     slug: "activity-5",

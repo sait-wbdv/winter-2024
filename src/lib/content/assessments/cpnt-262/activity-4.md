@@ -7,29 +7,43 @@ type: assignment
 
 <h2>Overview</h2>
 
-For this activity, we are focusing on using loops and conditionals to solve basic algorithmic puzzles. Some of them are easier than others, and they can be solved in many ways. For this activity, please make sure to use loops and conditionals in your solutions.
+This assignment is intended to help you develop your understanding about how js frameworks make data reactive and improve the developer's experience (DE).
+
+You'll be creating a new Vue project that has just a single page `App.vue` as well as 2 components of your choosing. Then from there it's up to you to decide how you want to implement the following reactivity features:
+
+- Data binding
+  - v-bind attribute (at least 1)
+  - double moustache variable rendering (at least 1)
+- Conditional Example
+  - v-if/else or v-show
+- Props and Slots
+  - at least 1 prop per component
+  - use of 1 slot in 1 of the components
+- Events
+  - 2 usages of v-on for event handling
+  - can be buttons but doesn't have to be
+- reactivity
+  - use of `ref()` or `reactive()`
 
 <h2>Instructions</h2>
 
-- Use at least 1 loop and 1 conditional while solving 2 of these challenges
-  - [Use loops highlighted here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
-  - Use if/else or ternary operators for conditionals
-    - else should be used as necessary
+1. create a new vue app and push it to github
+2. pick use cases for the above listed language features
+3. build your ideas between the App.vue file and the 2 components
+
+Note: Styling and design are not important for this assignment. It's purely for practicing and demonstrating usage of vue directives.
 
 <h2>Rubric</h2>
 
-### 5 Points: 
+### 5 Points: Language features
 
-- Use of a conditional in one solution
-- Use of a loop in one solution
-- Content is rendered on a page
+- 1 point per language feature (list of 5 above)
 
-### 5 Points
+### 5 Points: Code Quality
 
-Proper use of casing
-
-- Proper use of whitespace and intendation
-- Your algorithmic process is outlined in comments
+- vue project has been properly scaffolded
+- usage of modern vue 3 syntax
+- code comments
 
 <h2>Submission Instructions</h2>
 
