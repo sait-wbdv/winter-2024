@@ -1,42 +1,44 @@
 ---
-title: Final Project - Multi-page Website with Gallery (In Pairs)
+title: Final Project - Multi-page Website with Gallery
 type: assignment
-points: 25
+points: 40
 ---
 
-In this assignment, you will deploy a multi-page SvelteKit website based on a topic of your partner and your choice. Site images and text should reflect the intention of the site (no lorem ipsum).
+In this assignment, you will work in teams to create a multipage Nuxt website that uses features like: dynamic routes, server routes, layout templates, lazy loading, and error pages.
+
+This is a cumulative assignment where you'll be drawing on all of the skills that you have gained over this course so far. The end project should serve as a site that you and your teammates can use in your portfolios of work.
+
+### Content Requirements
+
+1. **Layouts:** each member of the team needs to make a layout for the site. These layouts will wrap around page content. Examples for good candidates are: default, blog post, contact page, profile pages... They should feel like they belong in take same website but don't need to be 100% cohesive.
+2. **Landing pages:** There should be 4 static landing pages. ie: home page, about page, gallery page, services page. These are pagest that don't generate dynamically based on the content passed. Depending on your topic, these can be quite different from the example suggested.
+3. **Dynamic pages:** blog posts, image gallery individual images, products, team profiles. Anything where pages are generated from a collection of variables.
+4. **Server routes**: Create either your own or use a public api for server routes. These can be used to feed data to generate dynamic pages, but they could also be used for gallery content and more.
+5. **Gallery**: There needs to be some sort of gallery. This is a great place to experiment with grid type layouts.
+6. **Components**: Your site needs to be broken down into reusable components. This should take advantage of vue's [style guide](https://vuejs.org/style-guide/). Components need to make use of props, slots, and emits whenever necessary.
+7. **Third Party Libraries**: Take advantage of 2 Third Party Libraries from [Nuxt's Modules](https://nuxt.com/modules). These cover a wide arrange of features from design, ui components, to security, forms, animations, and utility libraries. Choose your 2 as they fit your needs and interests.
+8. **Deployment**: The site needs to be deployed to [Vercel](https://vercel.com)
+9. **Group Charter**: Your team will need to establish guidelines on how you are to work together. This will be outlined in the [Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis) that's built into the repo. Include things like:
+   - who is responsible for what
+   - how do you approach branching and PRs
+   - when does your team meet regularly
+   - how do you handle meeting minute tasks and meeting facilitation
+   - what are your expectations for meeting deadlines
+   - what are your communication expectations
+10. **Project Organization**: This includes things like having a kanban board, conducting daily standup meetings and weekly planning meetings. your documentation of these needs to be transparent, so involving taking meeting minutes. For this project, use the [Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis) that's built into your repo
+11. **Partner Score**: You'll be grading one another out of 5 for teamwork. Each of you will recieve a score based the input from your colleagues **if you do not post a grade for another, you will lose marks**
 
 ---
 
 ## Marking Rubric
 
-Each of the following will be **worth 5 points for a total of 25 points**:
+Aspects of the site like design are bundled into their pages. It is expected that javascript logic such as conditionals, array methods, error handling etc will be used throughout the site.
 
-### 1. Imported gallery data
+### 1. Landing Pages 5
 
-Create a `/src/lib/data.js` file (name should be more descriptive to your content) that exports (using the `export` keyword) an **array** of at least 9 **objects** that contain information for an image-based gallery.
+### 2. Dynamic Pages 5
 
-Each object should contain enough detailed information about your items to provide summary information in your gallery and detailed information on your item pages.
-
-### 2. Gallery list entry page
-
-Create a dynamic gallery page that is driven from an `{#each}` loop of the imported data above. Each gallery card should contain:
-
-- the title as a heading;
-- the description inside a paragraph or figcaption;
-- a locally hosted (in `/static`) thumbnail image that:
-  - has a proper `alt` attribute, and
-  - links to an appropriately sized image (less than 500px).
-
-The entire card should be clickable and link to a more detailed item page (see below).
-
-Additionally, the gallery page should:
-
-- contain a custom page title using `<svelte:head>`;
-- contain all page-level CSS specific to the route;
-- display its cards using an imported `Card.svelte` component with defined props.
-
-### 3. Dynamic gallery item route
+### 3. Gallery Page 5
 
 Using route parameters, create a dynamic route that will display the details of each gallery item above. Each page should:
 
@@ -47,20 +49,17 @@ Using route parameters, create a dynamic route that will display the details of 
 
 Additionally, each item page should contain:
 
-- a custom page title based on the imported data using `<svelte:head>`;
-- all page-level CSS specific to the route.
+### 4. Third-party libraries 5
 
-### 4. Third-party library
+Create a proof-of-concept example on your site using _TWO_ third-party libraries not covered in class
 
-Create a proof-of-concept example on your site using _ONE_ third-party library not covered in class such as:
+### 5 Server Routes 5
 
-- A date library such as [DayJS](https://day.js.org/).
-- A charting library such as [`svelte-chartjs`](https://www.npmjs.com/package/svelte-chartjs).
-- Write your content in markdown with [`mdsvex`](https://mdsvex.com/) (this is the library that powers the SAIT WBDV website).
+### 6. Code Quality 5
 
-You can find more in [Curated list of awesome Svelte resources](https://project-awesome.org/TheComputerM/awesome-svelte) but your mileage may vary.
+### 7. Javascript Logic 5
 
-### 5. Partner Score
+### 5. Partner Score 5
 
 - Give your partner a score out of 5. Take into count the following:
   - Communicates effectively
@@ -98,7 +97,7 @@ Points will be deducted for failing to fulfill the following:
   - Course title;
   - Assignment name;
   - Author name;
-  - A link to the Netlify site;
+  - A link to the live site;
   - **(new)** Search research notes:
     - for 1-3 things that you needed to look up, document and optimize your search
     - [Use this document as a guide](https://gist.github.com/lilyx13/4a2f49d1cdb29cfc624ef22c6ccedafe)
