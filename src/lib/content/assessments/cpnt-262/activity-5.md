@@ -4,13 +4,13 @@ type: assignment
 points: 10
 ---
 
-In this assignment, you will create a SvelteKit route that displays a single, clickable card on the page which:
+For this assignment, you will create a node server and use it to server 2 html pages (you can use pages from a past 260 assignment) and a json file.
 
-1. imports an object containing card data from an external file;
-2. imports a `<Card>` component from an external file;
-3. displays the card data by declaring `<Card>` props.
+This will not be deployed and will only be tested on localhost. The page and json file content doesn't need more than a section or two and a dataset of 10 k/v pairs & at least 1 array.
 
-The card can contain information based on a topic of your choice.
+We will also be using ESM syntax, so make sure you've set up your project to use import syntax instead of cjs require syntax.
+
+Marks for this assignment will be allocated for clear and modular code with effective error handling.
 
 ---
 
@@ -18,67 +18,49 @@ The card can contain information based on a topic of your choice.
 
 Each of the following will be **worth 2 points for a total of 10 points**:
 
-### Page route
+### NPM Package setup
 
-Create a route in a SvelteKit project that contains a valid `+page.svelte` file which:
+- properly set up npm package
+- esm modules turned on
+- script to run the server added
 
-- is displayed with header navigation and a footer using a root `+layout.svelte` page;
-- imports card data from an external file (see below);
-- displays the imported card information using an imported `<Card />` component (see below).
+### Server basic setup
 
-### Card component
+- proper use of .createServer
+- proper use of .listen
 
-Create a `/src/lib/components/Card.svelte` file that accepts the above card data as a prop and displays:
+### Server Routes
 
-- the title a heading;
-- the description inside a paragraph or figcaption;
-- a locally hosted image with a proper `alt` attribute.
+- 2 html pages
+- 1 json file
+- a fallback 404 page with a link back to the home page
 
-The entire card should be clickable and link to the external website url provided.
+### Error Handling
 
-### Card data
+- use of try catch blocks
+- throw errors
 
-Create a `/src/lib/data.js` file that exports (using the `export` keyword) an object that contains information for your card, including:
+### JSON File Syntax
 
-- title;
-- description;
-- image `src` information needed to link to an image file in `/static/images`;
-- external website url to link to.
-
-### Prop declaration
-
-In `+page.svelte`, display the card by passing the imported card data to the `<Card />` component as a prop so that:
-
-- no `undefined` fields are displayed on the card;
-- if card data is `undefined`, the card does not display.
-
-### Multiple Cards
-
-2 points are available if you display multiple cards on the page by:
-
-- importing an array of objects in `/src/lib/data.js` instead of one object;
-- displaying each card using an `{#each}` loop.
+- proper use of "" and ,
+- data is labelled effectively
+- data is not arbitrary
 
 ---
 
 **Points will be deducted for**:
 
-- violations of accessibility, usability and SvelteKit best practices;
-- a page that is incomplete or of low fidelity;
-- projects that aren't deployed (3 point deduction);
-- syntax errors,
-- logic errors,
+- not using error handling
 - not following the guidelines in [Javascript Basics](https://sait-wbdv.github.io/slides/w23/cpnt-262/js-introduction.html), starting at [Slide 9](https://sait-wbdv.github.io/slides/w23/cpnt-262/js-introduction.html#/9).
 
 ---
 
 ## Submission Instructions
 
-- Push this assignment to a GitHub repo named `cpnt262-a7` and deploy to Vercel or similar platform;
+- Push this assignment to a GitHub repo named `cpnt262-a5`
 - ZIP all files required for the site to operate and submit to Brightspace;
 - Include the following as a comment in your Brightspace submission:
   - GH repo
-  - Live deploy link
 
 ### Submission requirements
 
