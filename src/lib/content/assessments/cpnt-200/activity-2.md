@@ -1,60 +1,72 @@
 ---
-title: Assignment 2 - Import Data into Supabase
+title: Assignment 3 - Content Management Dashboard Setup
 type: assignment
-points: 10
+points: 25
 ---
 
-**Objectives**
+- Connect Directus Headless CMS to Supabase
+- Fetch blog data in Sveltekit
 
-- Import a csv into supabase
-- Set row level secruity
-- Query the data using Postman
+## Steps
 
-## Tasks
+- Follow the [official guide](https://supabase.com/partners/integrations/directus) to connect directus to supabase
+- In Directus, set up a schema for a blog post
+  - it should include these fields:
+    - Title
+    - Author
+    - Tags
+    - Rich text or markdown content for body
+    - Summary
+    - Date
+- Create one blog post
+  - content can be 100% lorem ipsum style
+  - use all the fields
+- Set up a sveltekit app
+  - we will only use the main page (no new routes)
+  - styling is not necessary beyond making sure the content is recognizable
+- Set up the API Endpoint in Sveltekit
+- Fetch your blog post
+- Render the blog information onto the index page
+- Deploy to netlify
 
-- Create a new poject in Supabase
-- Import one of these google docs files into the database:
-  - [The Office](https://docs.google.com/spreadsheets/d/1ARDRrwVdeGgTMx5f0sLcnV6MliOf9UqYjWOEMLKOm4M)
-  - [RPG Players](https://docs.google.com/spreadsheets/d/1fl8swPUfXc1rwv73wra7XqiZBGnHOmuQovDoJ1FtMF8/edit?usp=sharing)
-- Set up row level security so everything is only READ
-- Make 4 queries of the API end point with Postman
-  - Document your queries and the output with a screenshot
-  - label your images for easy search and according to web standards (ie: no spaces or capitalization, kebab-case or snake_case)
-    - labels should reflect the queries and be systematically named
-- Cread a readme that links all of your images in a list. List text should describe the objective of the query (the query should be visible in the image)
-- Add the api endpoint to the readme (I will use this to verify your queries)
+### Resources
 
-## Rubric 10 Points Total
+- [Netlify and Sveltekit Server Routes](https://docs.netlify.com/integrations/frameworks/sveltekit/)
 
-### 2 Points: Successful data import
+## Marking Rubric
 
-- Data has been correctly imported into the database
-- Data is also made accessable via an endpoint
+### 5 Points: Directus Configuration
 
-### 2 Points: Row Level Security Configuration
+- Directus has been scaffolded locally
+- posts collection added
+- Access permissions are configured correctly
+- Directus install has been set up in git and pushed to github
 
-- RLS principles are followed
-- Rows set to read
+### 5 Points Supabase + Sveltekit Configuration
 
-### 2 Points: Queries SQL syntax usage
+- All 3 platforms are connected to one another
+- Platforms are all set up according to up to date instructions
+- Supabase feeds the frontend data that has been created in Directus
 
-- SQL syntax has been correctly used
-- SQL recommended practices are followed
+### 5 Points: Blog post schema and sample content
 
-### Images Naming Conventions
+- Correct fields chosen for the blog post content
+- Sample post has been created
+- Schema is accessable
+- Data is secure on supabase side (Read only API used for Sveltekit)
 
-- image files are named consistently
-- make an indexable, query related, or solution related naming convention
-- use snake_case or kebab-case
+### 5 Points: Blog post fetch and render
 
-### 2 Points: README Content
-
-- links to images open image files or show images in markdown
-- Endpoint exists and is correct
+- Read only api endpoint used with sveltekit and netlify (see link in resources)
+- Sample Data (lorem ipsum) is fetched in the svelte server route
+- Sample data (lorem ipsum) is rendered on page
+- Doesn't need to look good, just needs to be readable
 
 ## Submission Instructions
 
-- Submit a zipped folder with any resources
-  - csvfile
-  - a readme with queries included
-  - Screen shots of your admin panel
+- Submit a link to your deployed website
+- **IMPORTANT**: in your zipped folder (but not in your repo) submit images of:
+  - your Directus setup running locally
+  - Your collections settings screen
+  - The post Data schema
+- Also submit a read only link to your supabase endpoint and the api key (this should be in the text submission so that I can test the endpoint in postman)
