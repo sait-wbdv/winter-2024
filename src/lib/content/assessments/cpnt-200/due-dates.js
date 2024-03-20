@@ -7,12 +7,12 @@ export const cpnt200DueDates = [
   },
   {
     slug: "activity-2",
-    due: "Tuesday March 26",
-    status: "announced",
+    due: "Friday March 29",
+    status: "published",
   },
   {
     slug: "final-project",
-    due: "Tuesday April 2",
+    due: "Friday April 5",
     status: "announced",
   },
 ];

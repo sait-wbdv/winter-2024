@@ -1,72 +1,57 @@
 ---
-title: Assignment 3 - Content Management Dashboard Setup
+title: Assignment 2 - Content Management Dashboard
 type: assignment
 points: 25
 ---
 
-- Connect Directus Headless CMS to Supabase
-- Fetch blog data in Sveltekit
+- Connect Directus Headless CMS to Supabase [Instructions](https://gist.github.com/ashx3s/3ce0466cc19cbcb2ce600275cd8e8300)
+- Create collection schemas
+- Configure Read only RLS
+- provide an endpoint and key for fetch test
 
 ## Steps
 
-- Follow the [official guide](https://supabase.com/partners/integrations/directus) to connect directus to supabase
-- In Directus, set up a schema for a blog post
-  - it should include these fields:
-    - Title
-    - Author
-    - Tags
-    - Rich text or markdown content for body
-    - Summary
-    - Date
-- Create one blog post
-  - content can be 100% lorem ipsum style
-  - use all the fields
-- Set up a sveltekit app
-  - we will only use the main page (no new routes)
-  - styling is not necessary beyond making sure the content is recognizable
-- Set up the API Endpoint in Sveltekit
-- Fetch your blog post
-- Render the blog information onto the index page
-- Deploy to netlify
-
-### Resources
-
-- [Netlify and Sveltekit Server Routes](https://docs.netlify.com/integrations/frameworks/sveltekit/)
+- Deploy directus with supabase as a database to render using a docker container
+  - make sure the database is seeded
+  - add RLS policies to directus tables so they cannot be queried from the api endpoint
+-
 
 ## Marking Rubric
 
 ### 5 Points: Directus Configuration
 
-- Directus has been scaffolded locally
-- posts collection added
-- Access permissions are configured correctly
-- Directus install has been set up in git and pushed to github
+- Directus is deployed to render using the perscribed method
+- Directus has seeded the supabase db
+- Admin user role set up in the env variables
 
-### 5 Points Supabase + Sveltekit Configuration
+### 5 Points Data Model Setup
 
-- All 3 platforms are connected to one another
-- Platforms are all set up according to up to date instructions
-- Supabase feeds the frontend data that has been created in Directus
+- Two different collection types. ie: a blog and a product.
+- collections each have at least 3 custom fields
+- collections use appropriate optional fields for their content types
 
-### 5 Points: Blog post schema and sample content
+### 5 Points: RLS Policies
 
-- Correct fields chosen for the blog post content
-- Sample post has been created
-- Schema is accessable
-- Data is secure on supabase side (Read only API used for Sveltekit)
+- Directus tables are set with no access from the api side
+- both of your collections are set to read only
 
-### 5 Points: Blog post fetch and render
+### 5 Points: Collection Field Naming
 
-- Read only api endpoint used with sveltekit and netlify (see link in resources)
-- Sample Data (lorem ipsum) is fetched in the svelte server route
-- Sample data (lorem ipsum) is rendered on page
-- Doesn't need to look good, just needs to be readable
+- Your collections fields should be named appropriately
+  - clear
+  - concise
+  - has a description for use cases
+
+### 5 Points: Data Entry
+
+- Data has been entered to create 5 records in each of your tables
+- Data isn't jibberish (no keyboard spamming)
+- Data is useful placeholder
 
 ## Submission Instructions
 
-- Submit a link to your deployed website
-- **IMPORTANT**: in your zipped folder (but not in your repo) submit images of:
-  - your Directus setup running locally
-  - Your collections settings screen
-  - The post Data schema
-- Also submit a read only link to your supabase endpoint and the api key (this should be in the text submission so that I can test the endpoint in postman)
+- Add your instructor's sait email to both supabase and directus
+- Screenshot your data models
+- Screenshot the policies screen in supabase
+- Screenshot environment variable screen (astrixes for values)
+- Add the anon key and api url endpoint to your submission
