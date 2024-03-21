@@ -14,7 +14,11 @@ points: 25
 - Deploy directus with supabase as a database to render using a docker container
   - make sure the database is seeded
   - add RLS policies to directus tables so they cannot be queried from the api endpoint
--
+- Create 2 collections of your choice (see below for the field requirements)
+- Generate items of your collections
+- add rls policies to make your collections read only
+- Create 2 endpoint queries that use filters and 2 that get all the content in each table
+  - ie: return top 2 out of 5 items or return posts of a certain topic
 
 ## Marking Rubric
 
@@ -35,12 +39,11 @@ points: 25
 - Directus tables are set with no access from the api side
 - both of your collections are set to read only
 
-### 5 Points: Collection Field Naming
+### 5 Points: Query Endpoints
 
-- Your collections fields should be named appropriately
-  - clear
-  - concise
-  - has a description for use cases
+- Create 2 everything queries
+- Create 2 filtered queries
+- These queries are added to your submission so they can be verified
 
 ### 5 Points: Data Entry
 
