@@ -13,6 +13,6 @@ export const cpnt200DueDates = [
   {
     slug: "final-project",
     due: "Friday April 5",
-    status: "announced",
+    status: "published",
   },
 ];
