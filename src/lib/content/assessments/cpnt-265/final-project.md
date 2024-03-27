@@ -1,7 +1,7 @@
 ---
 title: Final Project Presentation
 type: assignment
-points: 30
+points: 40
 ---
 
 ## Format
@@ -14,9 +14,9 @@ points: 30
 
 ## Marking Rubric
 
-Your presentation will be marked. Each of the following will be **worth 10 points** for a total of 30 points.
+Your presentation will be marked. All sections will be worth a total of 40points.
 
-### Stage Presence
+### Stage Presence - 10 points
 
 - Dress: Business casual or better
 - Speak clearly
@@ -32,7 +32,7 @@ Your presentation will be marked. Each of the following will be **worth 10 point
   - Sound effects
   - Theme song(s)
 
-### Content
+### Content - 20points
 
 - Technically based:
   - Includes technology covered in class
@@ -48,8 +48,17 @@ Your presentation will be marked. Each of the following will be **worth 10 point
   - Instructions or step-by-steps
   - Posting links in the chat
 
-### Time limit
 
-- Individual: 4-6 minutes for full marks
-- Group: 9-11 minutes for full marks
-- Extra mark deduction if Ash has to stop you
+
+### Time limit - 10points
+
+- Individual: 4-6 minutes for full marks.
+- Group: 9-11 minutes for full marks.
+- Extra mark deduction if moderator has to stop you.
+
+### Submission instructions
+
+- Submit repo links to GitHub
+- Submit links to deployed pages
+- Submit links to figma or any other wireframes that was used in the project
+- Submit links to project board
