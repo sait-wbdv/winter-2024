@@ -66,6 +66,7 @@ In pairs, you'll be setting up a website's backend using supabase + directus, co
 - Add rls policy for authenticated users to have read access to a collection that non-authenticated users don't
 - Create a protected route that can only be seen by authenticated users [article](https://masteringnuxt.com/blog/protecting-server-routes)
 - Generate some placeholder content to demonstrate this working correctly
+- inauthenticated access should throw an error page with the ability for the user to get back home via a link
 
 ### 5 points: Peer Evaluation
 
