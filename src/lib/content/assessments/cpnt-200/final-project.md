@@ -61,13 +61,11 @@ In pairs, you'll be setting up a website's backend using supabase + directus, co
 - User email is shown in the top bar when they are signed in
 - sign out notification on correct signout
 
-### 10 Points: User created content for authenticated users
+### 10 Points: Customized read access
 
-- Add rls policy for authenticated users to have write access
-- Add some way for a user to create something
-  - ie: create their own content (can be trite examples)
-  - ie: like a post
-  - ie: add a comment to a post
+- Add rls policy for authenticated users to have read access to a collection that non-authenticated users don't
+- Create a protected route that can only be seen by authenticated users [article](https://masteringnuxt.com/blog/protecting-server-routes)
+- Generate some placeholder content to demonstrate this working correctly
 
 ### 5 points: Peer Evaluation
 
