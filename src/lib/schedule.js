@@ -339,8 +339,8 @@ export const scheduleByWeek = [
   [
     {
       date: "2024-04-01",
-      type: "lesson",
-      code: "cpnt-265",
+      type: "holiday",
+      label: "Easter Monday - No Classes",
     },
     {
       date: "2024-04-02",
