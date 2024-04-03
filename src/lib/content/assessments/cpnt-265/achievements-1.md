@@ -4,7 +4,7 @@ type: achievements
 points: 30
 ---
 
-## Course Achievements -  ***40 points***
+### Course Achievements -  ***40 points***
 
 ### Present User stories, designs and wireframes
 
@@ -31,7 +31,9 @@ In today's daily achievement dropbox, submit the following links:
   - Must have a well defined Definition of Done in the title or description.
 
 - 4. **Writing Quality and Presentatio: _5 points_**  
-  - User story is well written with zero grammatical or spelling errors.         
+  - User story is well written with zero grammatical or spelling errors. 
+
+ - See:[CPNT-201 Day 4 Achievement](/courses/cpnt-201/day-4) as an example of previous project board work.       
 
 
 ### Part 2 - Wireframe and Design - Total 20 points
