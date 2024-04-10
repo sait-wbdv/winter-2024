@@ -25,18 +25,11 @@ Present the work you've done so far in your projects.
    - Take a screenshot of your project board and submit in Brightspace.
 	 - Submit a link to project board in Brightspace.
 
-**ER Diagram: _5 points_**
-   - Complete an Entity Relationship diagram of a database you used in your project. It should:
-     - Show proper naming conventions
-     - Define all tables, columns and data types
-     - Define all primary and foreign keys
-   - Submit a link in Brightspace to the diagram.
-
 **Pull Requests: _5 points_**
    - Share at least 3 pull requests linked to different features in your app.
 	 - Submit a link to the PRs in Brightspace.
 
-**Project App Presentation: _10 points_**
+**Project App Presentation: _15 points_**
    - Present your codebase.
    - Describe the entry point of your application and how the components arfe nested for both the backend and the front end
    - Describe the API(either internally created API or external API used) and how it is implemented in your app.
