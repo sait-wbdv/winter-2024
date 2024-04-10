@@ -6,7 +6,7 @@ export const cpnt265DueDates = [
   },
   {
     slug: "achievements-2",
-    due: "April 10, 2024",
+    due: "April 11, 2024: 3pm",
     status: "published",
   },
   {
